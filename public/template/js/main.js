@@ -29,11 +29,9 @@
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > $('.nav-bar').height() + 30) {
             $('.nav-bar').addClass('active');
-            $('.nav-top').addClass('active');
 
         } else {
             $('.nav-bar').removeClass('active');
-            $('.nav-top').removeClass('active');
         }
     });
 
