@@ -9,6 +9,7 @@
 
     @include('layouts.styles')
 </head>
+
 <body>
 
     <!-- :: Loading -->
@@ -30,6 +31,17 @@
 
     @include('layouts.footer')
 
+<!-- AOS CDN and Initialization -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 80, // default is 120. Lower = animate earlier
+    duration: 700, // animation duration
+    once: true     // only animate once
+  });
+</script>
+
+    
     @include('layouts.scripts')
 </body>
 </html>

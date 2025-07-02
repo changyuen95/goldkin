@@ -67,7 +67,7 @@
     </div>
 </section>
 
-<section class="about-us py-100" id="about-us-section">
+<section class="about-us py-100" id="about-us-section" style="background-size:cover;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -93,24 +93,29 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 d-flex align-items-center justify-content-between">
-                <div class="text-box">
-                    <div class="sec-title">
+                <div class="text-box" data-aos="fade-left" data-aos-delay="100">
+                    <div class="sec-title" data-aos="fade-left" data-aos-delay="200">
                         <h2>Welcome to best senoir care center</h2>
                         <h3>we help our clients to achieve their industry</h3>
                         <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <ul>
+                    <p data-aos="fade-left" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    <ul data-aos="fade-left" data-aos-delay="400">
                         <li>The Best Industrial Business</li>
                         <li>We Are Professional Contractor</li>
                         <li>We are hear to help industry</li>
                         <li>we use qulity industry materials</li>
                         <li>We Are Professional Contractor</li>
                     </ul>
-                    <div class="any-question">Call to any Question : <a href="tel:01212843661">0121-2843-661</a> or <a href="tel:01068710594">0106-8710-594</a></div>
+                    <div class="any-question" data-aos="fade-left" data-aos-delay="500">
+                        Call to any Question : <a href="tel:01212843661">0121-2843-661</a> or <a href="tel:01068710594">0106-8710-594</a>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
@@ -122,10 +127,10 @@
             <div class="row">
                 <div class="col-lg-4">
                     <h2>Services We Offer</h2>
-                    <h3>High quality services of Multiple Industries</h3>
+                    <h3 data-aos="fade-right" data-aos-delay="100">High quality services of Multiple Industries</h3>
                 </div>
                 <div class="col-lg-5 col-md-8 d-flex align-items-center">
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <p data-aos="fade-left" data-aos-delay="100">Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                 </div>
                 <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
                     <a class="btn-1 btn-3" href="/petrox/01_services">All Services</a>
@@ -138,7 +143,7 @@
                     <span></span>
                     <i class="flaticon-mechanism"></i>
                     <h4>Constraction <br>of Engineering</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -146,8 +151,8 @@
                 <div class="services-item">
                     <span></span>
                     <i class="flaticon-tank"></i>
-                    <h4>Goldken</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <h4 style="padding-bottom:30px">Goldken</h4>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -156,7 +161,7 @@
                     <span></span>
                     <i class="flaticon-chemical"></i>
                     <h4>Basic &amp; <br>Industrial Chemicals</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -165,7 +170,7 @@
                     <span style="top: 111.375px; left: -2.5px;"></span>
                     <i class="flaticon-machine"></i>
                     <h4>Mechanical <br>Engineering</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -174,7 +179,7 @@
                     <span style="top: 106.375px; left: -15.5px;"></span>
                     <i class="flaticon-robot-arm"></i>
                     <h4>Bridge <br>Constraction</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -183,7 +188,7 @@
                     <span></span>
                     <i class="flaticon-manufacturing-plant"></i>
                     <h4>Automotive <br>Manufacturing</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.</p>
+                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -191,62 +196,17 @@
     </div>
 </section>
 
-<section class="provide">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="text-box">
-                    <div class="sec-title">
-                        <h3>Petrox provide the best service for sustainable progress</h3>
-                        <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 col-md-12 col-lg-6 d-flex align-items-center justify-content-between">
-                            <ul class="provide-features">
-                                <li><h4>Great Support</h4></li>
-                                <li><h4>Unique Technology</h4></li>
-                                <li><h4>Awesome Team</h4></li>
-                                <li><h4>smart Work</h4></li>
-                                <li><h4>quality materials</h4></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-md-12 col-lg-6 d-flex align-items-center justify-content-between">
-                            <div class="provide-features-box">
-                                <i class="flaticon-gear"></i>
-                                <h5>we are providing the best industrial services</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        {{-- <img class="img-fluid profile-provide" src="template/images/logo/logo.png" alt="Profile Provide"> --}}
-                        {{-- <img class="img-fluid sign-provide" src="assets/images/provide/01_sign.png" alt="Sign Provide"> --}}
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="img-box">
-                    <div class="video-box">
-                        <span>Watch Our Presentation!</span>
-                        <a href="https://youtu.be/TKnufs85hXk" class="pulse" data-lity="">
-                            <i class="fas fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="work py-100-70">
+<section class="work py-100-70" style="background-image: url({{ asset('template/images/repeat-bg.jpg') }});background-size:cover;">
     <div class="container">
         <div class="sec-title">
             <div class="row">
                 <div class="col-lg-4">
                     <h2>we work with global Industries!</h2>
-                    <h3>Goldken completed some project for our foreign clients</h3>
+                    <h3 data-aos="fade-right" data-aos-delay="100">Goldken completed some project for our foreign clients</h3>
                 </div>
                 <div class="col-lg-5 col-md-8 d-flex align-items-center">
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <p data-aos="fade-left" data-aos-delay="100">Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
                 </div>
                 <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
                     <a class="btn-1 btn-3" href="/petrox/01_work">All Works</a>
@@ -366,7 +326,7 @@
 
 <section class="expert">
     <div class="bg-section">
-        <div class="overlay"></div>
+        <div class="overlay2"></div>
     </div>
     <div class="container">
         <div class="row">
