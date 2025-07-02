@@ -1776,10 +1776,10 @@ p {
     font-weight: 700;
     line-height: 1;
     display: inline-block;
-    color: white;
+    color: #e7641f;
     position: relative;
     z-index: 1;
-    background-color: #e7641f;
+    background-color: white;
     padding: 10px 20px;
     border-radius: 3px;
     transition: all 0.3s ease;
