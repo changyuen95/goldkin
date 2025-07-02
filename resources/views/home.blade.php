@@ -20,14 +20,7 @@
                                 <a class="btn-1 btn-2" href="#">Our Services</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 d-flex align-items-center justify-content-end">
-                            <div class="Petrox-info">
-                                <img class="img-fluid" src="{{ asset('template/images/logo/logo.png') }}" alt="Header Logo">
-                                <h4>Goldken Industry</h4>
-                                <p>Bigger, Better, Faster And Stronger Projects Than Ever</p>
-                                <a href="#">More About Us</a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
