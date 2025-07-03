@@ -7,6 +7,6 @@
 <link rel="stylesheet" href="{{ asset('template/css/owl.theme.default.min.css') }}">
 <link rel="stylesheet" href="{{ asset('template/css/lity.min.css') }}">
 <link rel="stylesheet" href="{{ asset('template/css/nice-select.css') }}">
-<link rel="stylesheet" href="{{ asset('template/css/style.css') }}?v=1.0.1">
+<link rel="stylesheet" href="{{ asset('template/css/style.css') }}?v=1.0.2">
 <link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}">
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
