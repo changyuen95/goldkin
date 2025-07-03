@@ -60,7 +60,7 @@
     </div>
 </section>
 
-<section class="about-us py-100" id="about-us-section" style="background-size:cover;background-image: url({{ asset('template/images/event-bg.jpg') }})">
+<section class="about-us py-100" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -190,7 +190,7 @@
 </section>
 
 
-<section class="work py-100-70" style="background-image: url({{ asset('template/images/repeat-bg.jpg') }});background-size:cover;">
+<section class="work py-100-70 work-home-2">
     <div class="container">
         <div class="sec-title">
             <div class="row">

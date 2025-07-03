@@ -4116,3 +4116,9 @@ p {
 .delay-3 { animation-delay: 0.5s; }
 .delay-4 { animation-delay: 0.7s; }
 .delay-5 { animation-delay: 0.9s; }
+
+
+.work-home-2{
+    background-image: url(../images/repeat-bg.jpg);
+    background-size:cover;
+}

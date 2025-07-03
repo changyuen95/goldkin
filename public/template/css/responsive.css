@@ -20,6 +20,17 @@
     .provide .text-box{
         padding: 100px 40px
     }
+
+    .work-home-2{
+        background-image: url(../images/repeat-bg.jpg);
+        background-size:auto;
+    }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
 }
 
 /* :: Medium devices */
