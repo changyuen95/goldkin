@@ -26,11 +26,7 @@
         background-size:auto;
     }
 
-    [data-aos] {
-        opacity: 1 !important;
-        transform: none !important;
-        visibility: visible !important;
-      }
+
 }
 
 /* :: Medium devices */
@@ -75,7 +71,7 @@
     }
     .nav-bar .logo .open-nav-bar:hover span,
     .nav-bar .logo .open-nav-bar.active span{
-        background-color: #E11D07;
+        background-color: #e7641f;
     }
     .nav-bar .logo .open-nav-bar span:nth-of-type(2){
         margin: 5px 0;
