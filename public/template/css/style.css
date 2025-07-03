@@ -1721,7 +1721,7 @@ p {
     transform: translate(-50%, -50%);
     border-radius: 5px;
     opacity: 1;
-    background-color: #e7641f;
+    background-color: gainsboro;
 }
 .services .services-item:hover span,
 .work .item-work:hover span{
