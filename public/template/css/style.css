@@ -60,7 +60,7 @@
 /* :: Body */
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
     color: #0D1B2A;
 }
@@ -101,9 +101,9 @@ h6 {
 }
 p {
     color: #1b212c;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 25px;
 }
 
@@ -175,7 +175,7 @@ p {
     position: relative;
     text-align: center;
     z-index: 1;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     min-width: 180px;
     height: 60px;
@@ -722,7 +722,7 @@ p {
 }
 .nav-bar .nav-bar-link ul li a{
     color: #FFF;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     padding: 30px 0;
     margin: 0 20px 0 0px;
@@ -789,7 +789,7 @@ p {
 }
 .nav-bar .nav-bar-link > ul ul li a{
     color: #9B9B9B;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 40px;
     border-bottom: 1px solid rgb(155 155 155 / 30%);
     padding: 0;
@@ -883,7 +883,7 @@ p {
 .nav-bar .info-nav .info-nav-contact .contact-nav a{
     color: #F1F1F1;
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -939,7 +939,7 @@ p {
     padding-right: 25px;
 }
 .nav-bar .info-nav .item.cart .cart-popup .item .item-content div{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 4px;
     color: #0D1B2A;
@@ -992,7 +992,7 @@ p {
     min-width: 110px;
     height: 40px;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 2px;
 }
 .nav-bar .info-nav .item.cart .cart-popup .button-cart a:first-of-type{
@@ -1025,7 +1025,7 @@ p {
 }
 .navs-home-2 .nav-top .nav-top-box ul li a.icon{
     color: #FFF;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     margin-left: 15px;
 }
@@ -1153,7 +1153,7 @@ p {
 }
 .menu-box .inner-menu .website-info p{
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 16px;
 }
 .menu-box .inner-menu .contact-info h4,
 .menu-box .inner-menu .follow-us h4{
@@ -1178,7 +1178,7 @@ p {
     padding-left: 40px;
 }
 .menu-box .inner-menu .contact-info .contact-box .box p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
     line-height: 2;
@@ -1195,7 +1195,7 @@ p {
     line-height: 40px;
     width: 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 3px;
     margin-right: 12px;
 }
@@ -1498,7 +1498,7 @@ p {
     float: left;
     padding-right: 10px;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 12px;
     text-transform: capitalize;
@@ -1682,7 +1682,7 @@ p {
     font-family: 'Teko', sans-serif;
 }
 .skills .skill-box .skill-line{
-    height: 14px;
+    height: 16px;
     width: 100%;
     background-color: #F1F1F1;
     border-radius: 2px;
@@ -2190,7 +2190,7 @@ p {
     padding: 30px;
 }
 .item-work .hover-box .text-box .tags a{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1;
     font-weight: 500;
     margin-bottom: 10px;
@@ -2329,7 +2329,7 @@ p {
     -webkit-box-shadow: 0px 0px 10px 0px rgb(200 157 102 / 0.5);
             box-shadow: 0px 0px 10px 0px rgb(200 157 102 / 0.5);
     background-color: #e7641f;
-    font-size: 14px;
+    font-size: 16px;
     color: #FFF;
     text-transform: capitalize;
     width: 44px;
@@ -2365,7 +2365,7 @@ p {
     color: #e7641f;
     margin: 10px 0 0 0;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* :: Team Home 2 */
@@ -2524,7 +2524,7 @@ p {
     margin-bottom: 10px;
 }
 .quote .quote-info .info-top .item p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 0;
     line-height: 1.5;
@@ -2702,7 +2702,7 @@ p {
     padding: 0;
     border-top: 1px solid #F9F9F9;
     padding-top: 18px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     border-radius: 0;
 }
@@ -2819,7 +2819,7 @@ p {
     display: block;
     line-height: 15px;
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
@@ -2993,7 +2993,7 @@ p {
     display: block;
     line-height: 15px;
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
     color: #F1F1F1;
@@ -3077,7 +3077,7 @@ p {
     display: block;
 }
 .blog-item .text-box .link{
-    font-size: 14px;
+    font-size: 16px;
     color: #0D1B2A;
     display: inline-block;
     text-transform: capitalize;
@@ -3104,7 +3104,7 @@ p {
     padding-top: 100px;
 }
 .footer-home-2{
-    padding-top: calc(100px + 90px);
+    /* padding-top: calc(100px + 90px); */
 }
 .footer .logo,
 .footer .links,
@@ -3129,7 +3129,7 @@ p {
     display: inline-block;
     position: relative;
     color: #F4F4F4;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 32px;
 }
 .footer .links li:hover a{
@@ -3673,7 +3673,7 @@ p {
 .widget .widget-body .instagram ul li a{
     background-color: #e7641f;
     color: #FFF;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 58px;
     cursor: pointer;
     text-align: center;
@@ -3719,7 +3719,7 @@ p {
     border-bottom: none;
 }
 .widget .categories ul li a{
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px 0;
     display: block;
     line-height: 15px;
@@ -3806,7 +3806,7 @@ p {
     text-align: center;
     color: #0D1B2A;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     width: 44px;
     height: 44px;
     line-height: 42px;
@@ -3876,7 +3876,7 @@ p {
     margin: 15px 0;
 }
 .item-careers a{
-    font-size: 14px;
+    font-size: 16px;
     color: #e7641f;
     display: inline-block;
     text-transform: capitalize;
@@ -3956,7 +3956,7 @@ p {
 }
 .shop-page .text-box-details .item-review span{
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     color: #A5A5A5;
 }
 .shop-page .text-box-details .item-review span i.active{
@@ -3969,7 +3969,7 @@ p {
     margin: 0 5px;
 }
 .shop-page .text-box-details .item-review span a{
-    font-size: 14px;
+    font-size: 16px;
     color: #A5A5A5;
 }
 .shop-page .text-box-details .item-review span a:hover{
@@ -4013,7 +4013,7 @@ p {
     position: relative;
     text-align: center;
     z-index: 1;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     min-width: 180px;
     height: 60px;

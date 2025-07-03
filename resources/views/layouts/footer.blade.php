@@ -9,6 +9,17 @@
                     <a href="01_about.html" class="btn-1">More About Us</a>
                 </div>
             </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+               
+                <ul class="icon">
+                    <li><a><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a><i class="fab fa-twitter"></i></a></li>
+                    <li><a><i class="fab fa-instagram"></i></a></li>
+                    <li><a><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+
             <div class="col-sm-6 col-md-6 col-lg-2">
                 <div class="footer-title">
                     <h4>Company</h4>
@@ -35,15 +46,7 @@
                     <li><a href="404_error.html">Error Page</a></li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-               
-                <ul class="icon">
-                    <li><a><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a><i class="fab fa-twitter"></i></a></li>
-                    <li><a><i class="fab fa-instagram"></i></a></li>
-                    <li><a><i class="fab fa-dribbble"></i></a></li>
-                </ul>
-            </div>
+           
         </div>
     </div>
 </footer>
