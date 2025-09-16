@@ -4122,3 +4122,176 @@ p {
     background-image: url(../images/repeat-bg.jpg);
     background-size:cover;
 }
+
+/* Ensure equal height cards */
+.item-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect - shadow lift */
+.item-work:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    transform: translateY(-4px);
+}
+
+/* Image box with zoom effect */
+.item-work .img-box {
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.item-work .img-box img {
+    transition: transform 0.4s ease;
+    width: 100%;
+    height: auto;
+}
+
+.item-work:hover .img-box img {
+    transform: scale(1.08);
+}
+
+/* Text section - force equal spacing */
+.item-work .text-box {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Title & description styling */
+.item-work .tags a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #222;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.item-work h4 a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #555;
+    text-decoration: none;
+}
+
+/* Button styling */
+.btn-1.btn-3 {
+    background-color: #f15a24;
+    border: none;
+    /* padding: 12px 25px; */
+    font-weight: 600;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-1.btn-3:hover {
+    background-color: #d94b1c;
+}
+
+.services-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.services-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.12);
+}
+
+.services-item i {
+    font-size: 40px;
+    color: #f36f21; /* theme orange */
+    margin-bottom: 20px;
+    display: block;
+}
+
+.services-item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services-item p {
+    font-size: 15px;
+    color: #555;
+}
+
+.enquiry-section {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.enquiry-section .sec-title h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.enquiry-section .quote-item input,
+.enquiry-section .quote-item select,
+.enquiry-section .quote-item textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.enquiry-section .quote-item input:focus,
+.enquiry-section .quote-item select:focus,
+.enquiry-section .quote-item textarea:focus {
+    border-color: #f36f21;
+    outline: none;
+}
+
+.enquiry-section .btn-1.btn-3 {
+    background: #f36f21;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.enquiry-section .btn-1.btn-3:hover {
+    background: #d45510;
+}
+
+.report-list, .benefits-list {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.report-list li,
+.benefits-list li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.final-note {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333;
+}

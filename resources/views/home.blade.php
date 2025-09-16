@@ -63,23 +63,25 @@
 <section class="about-us py-100" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
         <div class="row">
+            
+            <!-- Left side: Images -->
             <div class="col-lg-6">
                 <div class="row img-box">
                     <div class="col">
                         <div class="one">
                             <div class="about-img">
-                                <img class="img-fluid" src="assets/images/photo/20200703_152158.jpg" alt="01 About">
+                                <img class="img-fluid" src="assets/images/photo/20200703_152158.jpg" alt="Goldken Factory">
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="two">
                             <div class="about-img">
-                                <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="02 About">
+                                <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="Goldken Workshop">
                                 <div class="experience-about">
                                     <i class="flaticon-globe"></i>
-                                    <div class="counter">40</div>
-                                    <h5>years of experience</h5>
+                                    <div class="counter">32</div>
+                                    <h5>Years of Expertise</h5>
                                 </div>
                             </div>
                         </div>
@@ -87,25 +89,42 @@
                 </div>
             </div>
 
+            <!-- Right side: Text content -->
             <div class="col-lg-6 d-flex align-items-center justify-content-between">
                 <div class="text-box" data-aos="fade-right" data-aos-delay="100">
+
                     <div class="sec-title" data-aos="fade-right" data-aos-delay="200">
-                        <h2>Welcome to best senoir care center</h2>
-                        <h3>we help our clients to achieve their industry</h3>
-                        <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                        <h2>Your Trusted Industrial Knife Partner</h2>
+                        <h3>Precision Sharpening. Trusted Quality. Since 1993.</h3>
+                        <p>
+                            Founded in 1993, <strong>Goldken Sdn Bhd</strong> has grown into a leading specialist in 
+                            <strong>industrial knives</strong> and <strong>precision regrinding services</strong>. 
+                            With advanced global machinery and skilled technicians, we deliver 
+                            cleaner cuts, reduced waste, and longer tool life across multiple industries. 
+                        </p>
                     </div>
-                    <p data-aos="fade-right" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tmpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    <p data-aos="fade-right" data-aos-delay="300">
+                        We serve diverse sectors including <em>paper & printing, plastics, recycling, semiconductor, 
+                        metal, wood processing,</em> and more — providing sharpening solutions that keep 
+                        production lines efficient and reliable.
+                    </p>
 
                     <ul data-aos="fade-right" data-aos-delay="400">
-                        <li>The Best Industrial Business</li>
-                        <li>We Are Professional Contractor</li>
-                        <li>We are hear to help industry</li>
-                        <li>we use qulity industry materials</li>
-                        <li>We Are Professional Contractor</li>
+                        <li>OEM-level sharpness and superior cutting performance</li>
+                        <li>Surface finishes: Standard, Super, and Mirror</li>
+                        <li>Advanced grinding capability up to 4.5m length and 400mm OD</li>
+                        <li>Technical consultation and blade life optimization</li>
+                        <li>Commitment to safety with free scrap knife disposal service</li>
                     </ul>
+
                     <div class="any-question" data-aos="fade-right" data-aos-delay="500">
-                        Call to any Question : <a href="tel:01212843661">0121-2843-661</a> or <a href="tel:01068710594">0106-8710-594</a>
+                        Whatsapp us today: 
+                        <a href="tel:01212843661">0121-2843-661</a> or 
+                        <a href="tel:01068710594">0106-8710-594</a>
                     </div>
+                    <a href="{{ url('about-us') }}" class="btn btn-primary mt-3">Learn More About Us</a>
+
                 </div>
             </div>
             
@@ -114,16 +133,113 @@
 </section>
 
 
-<section class="services py-100-70">
+
+<section class="industries py-100-70 work-home-2">
+    <div class="container">
+        <div data-aos="fade" data-aos-delay="100" class="sec-title text-center mb-5">
+            <h2>Industries We Serve</h2>
+            <h3>Trusted Solutions Across Multiple Sectors</h3>
+            <p>For over 32 years, <strong>Goldken Sdn Bhd</strong> has delivered industrial knives and precision regrinding solutions tailored to the unique needs of multiple industries — ensuring performance, efficiency, and durability.</p>
+            <div class="align-items-center justify-content-end button-sec">
+                <a class="btn-1 btn-3" style="margin-top:10px" href="/products">All Products</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Non-Woven -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200714_164329.jpg" class="card-img-top" alt="Non-Woven">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Non-Woven</h5>
+                        <p class="card-text">Knives for hygiene, medical, filtration, and automotive non-woven fabric production.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paper & Printing -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200721_151742.jpg" class="card-img-top" alt="Paper & Printing">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Paper & Printing</h5>
+                        <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plastics & Rubber -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200721_152904.jpg" class="card-img-top" alt="Plastics & Rubber">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Plastics & Rubber</h5>
+                        <p class="card-text">Granulator and slitting blades engineered for plastics and rubber processing plants.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling & Waste -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200714_163704.jpg" class="card-img-top" alt="Recycling & Waste">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Recycling & Waste</h5>
+                        <p class="card-text">Heavy-duty shredder, crusher, and chopper knives for waste management and recycling.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Semiconductor -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200714_163045.jpg" class="card-img-top" alt="Semiconductor">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Semiconductor</h5>
+                        <p class="card-text">Precision knives for wafer cutting, film slitting, and high-tech semiconductor processes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Steel & Metal -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200714_163725.jpg" class="card-img-top" alt="Steel & Metal">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Steel & Metal</h5>
+                        <p class="card-text">Slitter and shear blades designed for durability in metal processing and fabrication.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wood Processing -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="assets/images/photo/20200721_152904.jpg" class="card-img-top" alt="Wood Processing">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Wood Processing</h5>
+                        <p class="card-text">Planer, chipper, veneer, and saw blades for efficient wood cutting and finishing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services py-100-70 ">
     <div class="container">
         <div class="sec-title">
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Services We Offer</h2>
-                    <h3 data-aos="fade" data-aos-delay="100">High quality services of Multiple Industries</h3>
+                    <h2>Our Capabilities</h2>
+                    <h3 data-aos="fade" data-aos-delay="100">High-Precision Sharpening & Regrinding Solutions</h3>
                 </div>
                 <div class="col-lg-5 col-md-8 d-flex align-items-center">
-                    <p data-aos="fade" data-aos-delay="100">Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <p data-aos="fade" data-aos-delay="100">
+                        At <strong>Goldken Sdn Bhd</strong>, we combine advanced machinery with skilled expertise 
+                        to deliver sharpening solutions that maximize performance, efficiency, and durability 
+                        across industries.
+                    </p>
                 </div>
                 <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
                     <a class="btn-1 btn-3" href="/petrox/01_services">All Services</a>
@@ -188,9 +304,88 @@
         </div>
     </div>
 </section>
+<section class="services py-100-70" id="capabilities">
+    <div class="container">
+        <div class="sec-title">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Our Capabilities</h2>
+                    <h3 data-aos="fade" data-aos-delay="100">
+                        High-Precision Sharpening & Regrinding Solutions
+                    </h3>
+                </div>
+                <div class="col-lg-5 col-md-8 d-flex align-items-center">
+                    <p data-aos="fade" data-aos-delay="100">
+                        At <strong>Goldken Sdn Bhd</strong>, we combine advanced machinery with skilled expertise 
+                        to deliver sharpening solutions that maximize performance, efficiency, and durability 
+                        across industries.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
+                    <a class="btn-1 btn-3" href="/capabilities">All Capabilities</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="row">
+            <!-- OEM Sharpness -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-cutting-machine"></i>
+                    <h4>OEM-Level Sharpness</h4>
+                    <p>Superior cutting performance ensuring cleaner cuts and longer tool life.</p>
+                </div>
+            </div>
 
-<section class="work py-100-70 work-home-2">
+            <!-- Advanced Grinding -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-grinder"></i>
+                    <h4>Advanced Grinding</h4>
+                    <p>Capability up to <strong>4.5m length</strong> and <strong>400mm OD</strong> with precision accuracy.</p>
+                </div>
+            </div>
+
+            <!-- Surface Finishes -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-polish"></i>
+                    <h4>Surface Finishes</h4>
+                    <p>Options include Standard-Finish, Super-Finish, and Mirror-Finish to suit your needs.</p>
+                </div>
+            </div>
+
+            <!-- Blade Life Optimization -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-consulting"></i>
+                    <h4>Blade Life Optimization</h4>
+                    <p>Expert consultation and technical support to extend blade performance.</p>
+                </div>
+            </div>
+
+            <!-- Safety Commitment -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-recycling"></i>
+                    <h4>Safety Commitment</h4>
+                    <p>Free scrap knife disposal service, ensuring safe and eco-friendly handling.</p>
+                </div>
+            </div>
+
+            <!-- Custom Solutions -->
+            <div class="col-md-6 col-lg-4">
+                <div class="services-item">
+                    <i class="flaticon-innovation"></i>
+                    <h4>Custom Solutions</h4>
+                    <p>Tailored sharpening services designed for specific industries and production needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- <section class="work py-100-70 work-home-2">
     <div class="container">
         <div class="sec-title">
             <div class="row">
@@ -299,7 +494,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 {{-- <section class="contact py-100">
     <div class="overlay"></div>
@@ -317,18 +512,17 @@
 </section> --}}
 
 
-<section class="expert">
+<section class="expert" style="margin-bottom: 70px;">
     <div class="bg-section">
         <div class="overlay2"></div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+             <div class="col-md-8">
                 <div class="sec-title">
-                    <h2>professional work &amp; an agile services</h2>
-                    <h3>Expert workers are giving best services to build your dream industry and manufacturing</h3>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
-                    <a class="btn-1" href="/petrox/01_single-services">Download our brochure</a>
+                    <h2>Professional Work & Agile Services</h2>
+                    <h3>Expert Workers Delivering Precision Sharpening & Industrial Solutions</h3>
+                    <p>At <strong>Goldken Sdn Bhd</strong>, we specialize in industrial knives and precision regrinding services, delivering cleaner cuts, reduced waste, and longer tool life. Our solutions support diverse industries including paper, plastics, recycling, metal, wood, and semiconductor sectors.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-between">
@@ -336,129 +530,130 @@
                     
                     
                     
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1324px, 0px, 0px); transition: 1.5s; width: 2317px;"><div class="owl-item cloned" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-worker"></i>
-                        <div class="content-box">
-                            <span class="counter">7,003</span>
-                            <div class="name-content">Qualified Employees And Workers <br>With Us</div>
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1324px, 0px, 0px); transition: 1.5s; width: 2317px;">
+                  
+                    <div class="owl-item cloned" style="width: 316px; margin-right: 15px;">
+                            <div class="statistic-item">
+                                <i class="flaticon-worker"></i>
+                                <div class="content-box">
+                                    <span class="counter">32</span>
+                                    <div class="name-content">Years of Industry Expertise</div>
+                                </div>
+                            </div>
                         </div>
-                    </div></div><div class="owl-item cloned" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-globe"></i>
-                        <div class="content-box">
-                            <span class="counter">40</span>
-                            <div class="name-content">Years Of Experience In The Factory <br>and Manufacturing</div>
+
+                        <div class="owl-item" style="width: 316px; margin-right: 15px;">
+                            <div class="statistic-item">
+                                <i class="flaticon-globe"></i>
+                                <div class="content-box">
+                                    <span class="counter">7</span>
+                                    <div class="name-content">Industries Served Globally</div>
+                                </div>
+                            </div>
                         </div>
-                    </div></div><div class="owl-item" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-worker-1"></i>
-                        <div class="content-box">
-                            <span class="counter">7,112</span>
-                            <div class="name-content">Projects And Residentials Completed <br>in 2021</div>
+
+                        <div class="owl-item" style="width: 316px; margin-right: 15px;">
+                            <div class="statistic-item">
+                                <i class="flaticon-worker-1"></i>
+                                <div class="content-box">
+                                    <span class="counter">4.5</span>
+                                    <div class="name-content">Meter Max Grinding Length Capacity</div>
+                                </div>
+                            </div>
                         </div>
-                    </div></div><div class="owl-item" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-worker"></i>
-                        <div class="content-box">
-                            <span class="counter">7,003</span>
-                            <div class="name-content">Qualified Employees And Workers <br>With Us</div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-globe"></i>
-                        <div class="content-box">
-                            <span class="counter">40</span>
-                            <div class="name-content">Years Of Experience In The Factory <br>and Manufacturing</div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-worker-1"></i>
-                        <div class="content-box">
-                            <span class="counter">7,112</span>
-                            <div class="name-content">Projects And Residentials Completed <br>in 2021</div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 316px; margin-right: 15px;"><div class="statistic-item">
-                        <i class="flaticon-worker"></i>
-                        <div class="content-box">
-                            <span class="counter">7,003</span>
-                            <div class="name-content">Qualified Employees And Workers <br>With Us</div>
-                        </div>
-                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                    <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
             </div>
         </div>
+      
     </div>
-    
-    <!-- :: Quote -->
+
+    <!-- :: Enquiry Form -->
     <div class="quote">
         <div class="container">
+            
             <div class="quote-box">
+                
                 <div class="row">
+                    <!-- Contact Info -->
                     <div class="col-lg-4">
                         <div class="quote-info d-flex align-items-start flex-column">
                             <div class="info-top mb-auto">
                                 <div class="item">
                                     <h5>Our Location</h5>
-                                    <p>Brooklyn,<br>New York 11226 US.</p>
+                                    <p>Selangor, Malaysia</p>
                                 </div>
                                 <div class="item">
                                     <h5>Quick Contact</h5>
-                                    <p>Goldken@AR-Coder.com,<br>AR-Coder@Goldken.com</p>
+                                    <p>info@goldken.com<br>sales@goldken.com</p>
                                 </div>
                             </div>
                             <div class="info-down">
                                 <i class="flaticon-call"></i>
-                                <h5>+(002) 0121-2843-661</h5>
+                                <h5>+60 12-128-43661<br>+60 106-8710-594</h5>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Enquiry Form -->
                     <div class="col-lg-8">
                         <div class="text-box">
                             <div class="sec-title">
-                                <h3>Get Every Updates!</h3>
-                                <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                                <h3>Send Us an Enquiry</h3>
+                                <p>Have a question or need a quotation? Fill in the form below and our team will respond promptly.</p>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="quote-item">
-                                        <input type="text" name="name" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="quote-item">
-                                        <input type="email" name="email" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="quote-item">
-                                        <input type="text" name="subject" placeholder="Enter Your Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="quote-item">
-                                        <select style="display: none;">
-                                            <option value="0">Select your industry</option>
-                                            <option value="1">Constraction Of Engineering</option>
-                                            <option value="2">Petroxeum &amp; Gas Energy</option>
-                                            <option value="3">Basic &amp; Industrial Chemicals</option>
-                                            <option value="4">Mechanical Engineering</option>
-                                            <option value="5">Bridge Constraction</option>
-                                            <option value="6">Automotive Manufacturing</option>
-                                        </select><div class="nice-select" tabindex="0"><span class="current">Select your industry</span><ul class="list"><li data-value="0" class="option selected">Select your industry</li><li data-value="1" class="option">Constraction Of Engineering</li><li data-value="2" class="option">Petroxeum &amp; Gas Energy</li><li data-value="3" class="option">Basic &amp; Industrial Chemicals</li><li data-value="4" class="option">Mechanical Engineering</li><li data-value="5" class="option">Bridge Constraction</li><li data-value="6" class="option">Automotive Manufacturing</li></ul></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="quote-item">
+                            <form action="/enquiry/submit" method="POST">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-md-6">
                                         <div class="quote-item">
-                                            <textarea placeholder="Leave Your Message Here....."></textarea>
+                                            <input type="text" name="name" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="quote-item">
+                                            <input type="email" name="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="quote-item">
+                                            <input type="text" name="subject" placeholder="Subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="quote-item">
+                                            <select name="industry" required>
+                                                <option value="">Select your industry</option>
+                                                <option value="nonwoven">Non-Woven</option>
+                                                <option value="paper-printing">Paper & Printing</option>
+                                                <option value="plastics-rubber">Plastics & Rubber</option>
+                                                <option value="recycling-waste">Recycling & Waste</option>
+                                                <option value="semiconductor">Semiconductor</option>
+                                                <option value="steel-metal">Steel & Metal</option>
+                                                <option value="wood-processing">Wood Processing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="quote-item">
+                                            <textarea name="message" placeholder="Leave Your Message Here..." required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="quote-item">
+                                            <button type="submit" class="btn-1 btn-3">Send Enquiry</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="quote-item">
-                                        <a class="btn-1 btn-3">Contact Us!</a>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
+                    <!-- End Enquiry Form -->
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 @endsection
+
