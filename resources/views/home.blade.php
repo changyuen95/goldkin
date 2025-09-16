@@ -251,8 +251,8 @@
                 <div class="services-item">
                     <span></span>
                     <i class="flaticon-mechanism"></i>
-                    <h4>Constraction <br>of Engineering</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <h4>OEM-LEVEL <br>Sharpness</h4>
+                    <p>Superior cutting performance ensuring cleaner cuts and longer tool life.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -260,8 +260,8 @@
                 <div class="services-item">
                     <span></span>
                     <i class="flaticon-tank"></i>
-                    <h4 style="padding-bottom:30px">Goldken</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <h4>Advanced <br>Grinding</h4>
+                    <p>Capability up to 4.5m length and 400mm OD with precision accuracy.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -270,7 +270,7 @@
                     <span></span>
                     <i class="flaticon-chemical"></i>
                     <h4>Basic &amp; <br>Industrial Chemicals</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <p>Options include Standard-Finish, Super-Finish, and Mirror-Finish to suit your needs.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -278,8 +278,8 @@
                 <div class="services-item">
                     <span style="top: 111.375px; left: -2.5px;"></span>
                     <i class="flaticon-machine"></i>
-                    <h4>Mechanical <br>Engineering</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <h4>Blade Life <br>Optimization</h4>
+                    <p>Expert consultation and technical support to extend blade performance.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -287,8 +287,8 @@
                 <div class="services-item">
                     <span style="top: 106.375px; left: -15.5px;"></span>
                     <i class="flaticon-robot-arm"></i>
-                    <h4>Bridge <br>Constraction</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <h4>Safety <br>Commitment</h4>
+                    <p>Free scrap knife disposal service, ensuring safe and eco-friendly handling.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -296,95 +296,14 @@
                 <div class="services-item">
                     <span></span>
                     <i class="flaticon-manufacturing-plant"></i>
-                    <h4>Automotive <br>Manufacturing</h4>
-                    <p>Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
+                    <h4>Custom <br>Solutions</h4>
+                    <p>Tailored sharpening services designed for specific industries and production needs.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="services py-100-70" id="capabilities">
-    <div class="container">
-        <div class="sec-title">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2>Our Capabilities</h2>
-                    <h3 data-aos="fade" data-aos-delay="100">
-                        High-Precision Sharpening & Regrinding Solutions
-                    </h3>
-                </div>
-                <div class="col-lg-5 col-md-8 d-flex align-items-center">
-                    <p data-aos="fade" data-aos-delay="100">
-                        At <strong>Goldken Sdn Bhd</strong>, we combine advanced machinery with skilled expertise 
-                        to deliver sharpening solutions that maximize performance, efficiency, and durability 
-                        across industries.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
-                    <a class="btn-1 btn-3" href="/capabilities">All Capabilities</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <!-- OEM Sharpness -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-cutting-machine"></i>
-                    <h4>OEM-Level Sharpness</h4>
-                    <p>Superior cutting performance ensuring cleaner cuts and longer tool life.</p>
-                </div>
-            </div>
-
-            <!-- Advanced Grinding -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-grinder"></i>
-                    <h4>Advanced Grinding</h4>
-                    <p>Capability up to <strong>4.5m length</strong> and <strong>400mm OD</strong> with precision accuracy.</p>
-                </div>
-            </div>
-
-            <!-- Surface Finishes -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-polish"></i>
-                    <h4>Surface Finishes</h4>
-                    <p>Options include Standard-Finish, Super-Finish, and Mirror-Finish to suit your needs.</p>
-                </div>
-            </div>
-
-            <!-- Blade Life Optimization -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-consulting"></i>
-                    <h4>Blade Life Optimization</h4>
-                    <p>Expert consultation and technical support to extend blade performance.</p>
-                </div>
-            </div>
-
-            <!-- Safety Commitment -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-recycling"></i>
-                    <h4>Safety Commitment</h4>
-                    <p>Free scrap knife disposal service, ensuring safe and eco-friendly handling.</p>
-                </div>
-            </div>
-
-            <!-- Custom Solutions -->
-            <div class="col-md-6 col-lg-4">
-                <div class="services-item">
-                    <i class="flaticon-innovation"></i>
-                    <h4>Custom Solutions</h4>
-                    <p>Tailored sharpening services designed for specific industries and production needs.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 {{-- <section class="work py-100-70 work-home-2">
     <div class="container">
         <div class="sec-title">
