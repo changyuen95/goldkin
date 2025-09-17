@@ -73,9 +73,9 @@
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#svc-qc">Quality Control & Reporting <i class="fas fa-angle-right"></i></a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#svc-safety">Safety & Handling <i class="fas fa-angle-right"></i></a>
-              </li>
+              </li> --}}
             </ul>
 
             {{-- Industry-specific --}}
@@ -103,55 +103,178 @@
         <div class="col-lg-8">
           <div class="tab-content" id="serviceTabsContent">
 
-            {{-- ========== CORE: Industrial Knife Regrinding ========== --}}
             <div class="tab-pane fade show active" id="svc-regrinding">
-              <h3>Industrial Knife Regrinding</h3>
-              <p>OEM-level sharpness and superior cutting performance. We restore your blades to
-                or beyond OEM spec to deliver cleaner cuts, reduced waste and longer tool life.</p>
+  <h3 class="mb-3">Industrial Knife Regrinding Services</h3>
 
-              <div class="row">
-                <div class="col-md-6">
-                  <h5>Capabilities</h5>
-                  <ul class="list-unstyled">
-                    <li>Max grinding length up to <strong>4.5m</strong></li>
-                    <li>Circular OD up to <strong>400mm</strong></li>
-                    <li>Surface finishes: <strong>Standard</strong>, <strong>Super</strong>, <strong>Mirror</strong></li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <h5>Benefits</h5>
-                  <ul class="list-unstyled">
-                    <li>Cleaner edges, fewer burrs</li>
-                    <li>Less material waste and rework</li>
-                    <li>Extended tool and machine life</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+  <p class="lead mb-3"><strong>Restoring performance. Extending lifespan. Enhancing productivity.</strong></p>
+
+  <p>
+    At <strong>Goldken Sdn Bhd</strong>, our core specialization lies in the
+    <strong>precision regrinding of industrial knives</strong>. Serving a diverse range of sectors, we understand
+    that every blade plays a critical role in your production line — and even the smallest imperfections can impact
+    output quality and efficiency.
+  </p>
+
+  <p>
+    With advanced grinding technology, skilled technicians, and strict quality assurance, we deliver regrinding
+    services that restore your blades to <strong>OEM-level sharpness</strong> or better, helping you achieve
+    <strong>cleaner cuts, reduced waste, and longer tool life</strong>.
+  </p>
+
+  <p class="mb-2">
+    At <strong>Goldken Sdn Bhd</strong>, our grinding stations are equipped with advanced precision machinery,
+    allowing us to offer three levels of surface finish for your industrial knives — <strong>Standard Finish</strong>,
+    <strong> Super Finish</strong>, and <strong>Mirror Finish</strong> — based on your specific production requirements.
+  </p>
+
+  <ul class="mb-4">
+    <li class="mb-2">
+      <strong>Standard Finish</strong> – Ideal for general applications where consistent sharpness and durability are required.
+    </li>
+    <li class="mb-2">
+      <strong>Super Finish</strong> – Provides a smoother cutting surface for reduced friction and improved material flow,
+      extending blade life in high-speed operations.
+    </li>
+    <li class="mb-2">
+      <strong>Mirror Finish</strong> – Achieves the highest level of smoothness and reflectivity, minimizing resistance
+      and material adhesion, making it ideal for sensitive or high-precision cutting tasks.
+    </li>
+  </ul>
+
+  <p>
+    For <strong>Tungsten Carbide Tipped (TCT)</strong> knives, we can achieve a world-class surface finish of
+    <strong>0.05 RA</strong>, ensuring exceptional sharpness, reduced cutting force, and optimal performance even in the
+    most demanding industrial applications. This precision finish not only enhances cut quality but also helps maintain
+    dimensional accuracy, extend service intervals, and lower your overall operational costs.
+  </p>
+
+  <p class="mb-4">
+    With our expertise and technology, Goldken ensures every knife leaving our facility meets the exacting standards of
+    <strong>sharpness</strong>, <strong>smoothness</strong>, and <strong>durability</strong> that your industry demands.
+  </p>
+
+  <!-- Surface finish diagrams (placeholders; replace src paths with your images) -->
+  <div class="row g-3">
+    <div class="col-md-4">
+      <figure class="text-center mb-0">
+        <img class="img-fluid rounded shadow-sm" src="{{ asset('assets/images/STD Finish.png') }}" alt="Ra 0.5 Standard">
+        <figcaption class="small mt-2">Ra 0.5 Standard</figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="text-center mb-0">
+        <img class="img-fluid rounded shadow-sm" src="{{ asset('assets/images/Super Finish.png') }}" alt="Ra 0.2 Super">
+        <figcaption class="small mt-2">Ra 0.2 Super</figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure class="text-center mb-0">
+        <img class="img-fluid rounded shadow-sm" src="{{ asset('assets/images/Mirror Finish.png') }}" alt="Ra 0.05 Mirror">
+        <figcaption class="small mt-2">Ra 0.05 Mirror</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
 
             {{-- ========== CORE: Technical Support ========== --}}
-            <div class="tab-pane fade" id="svc-support">
-              <h3>Technical Support</h3>
-              <p>Beyond sharpening — we partner with your team on application advice, tool-life
-                optimization, troubleshooting and production efficiency. Remote and on-site options.</p>
-              <ul class="list-unstyled">
-                <li>Knife application consultation</li>
-                <li>Root-cause analysis of cutting issues</li>
-                <li>Maintenance and blade-life programs</li>
-              </ul>
-            </div>
+           <div class="tab-pane fade" id="svc-support">
+  <h3 class="mb-2">Technical Support</h3>
+  <p class="text-muted mb-3"><em>Expertise that goes beyond sharpening</em></p>
+
+  <p>
+    At <strong>Goldken Sdn Bhd</strong>, we believe in building long-term relationships with our clients—not just
+    through quality craftsmanship, but through <strong>knowledge-sharing</strong> and dedicated
+    <strong>technical support</strong>. Whether you're experiencing blade wear issues, production inconsistencies,
+    or simply looking to improve tool life, our team is here to assist with
+    <strong>practical, on-site, and remote guidance</strong>.
+  </p>
+
+  <p>
+    Our support goes beyond the grinding bench. We work closely with our clients to understand their operations,
+    analyze cutting issues, and recommend <strong>tailored solutions</strong> that enhance productivity and minimize downtime.
+  </p>
+
+  <h5 class="mt-4">What We Offer</h5>
+
+  <h6 class="mt-3">Knife Application Consultation</h6>
+  <ul>
+    <li>Recommending the most suitable knife materials based on application</li>
+    <li>Advising on finish levels (Standard, Super, Mirror) depending on substrate and cutting speed</li>
+    <li>Guidance on knife compatibility with specific machines and brands</li>
+  </ul>
+
+  <h6 class="mt-3">Tool Life Optimization</h6>
+  <ul>
+    <li>Analyzing wear patterns and usage cycles</li>
+    <li>Recommending optimal regrinding intervals</li>
+    <li>Educating operators on handling, storage, and maintenance to extend blade life</li>
+  </ul>
+
+  <h6 class="mt-3">Troubleshooting &amp; Root Cause Analysis</h6>
+  <ul>
+    <li>Identifying causes of chipping, burrs, uneven cuts, or premature dullness</li>
+    <li>On-site inspections or photo-based diagnosis to speed up resolution</li>
+    <li>Suggestions to reduce strain on knives and prevent recurring issues</li>
+  </ul>
+
+  <h6 class="mt-3">Production Efficiency Support</h6>
+  <ul class="mb-4">
+    <li>Evaluating the interaction between knives, machine setup, and material feed</li>
+    <li>Helping optimize cutting quality to reduce waste, rejects, and machine wear</li>
+  </ul>
+
+  <h5 class="mt-2">Why Our Support Stands Out</h5>
+  <ul>
+    <li>Experienced technicians with industry-specific knowledge</li>
+    <li>Fast response and accessible communication</li>
+    <li>Personalized advice based on real production challenges</li>
+    <li>Support that aligns with your operational goals — not just our service offerings</li>
+  </ul>
+</div>
+
 
             {{-- ========== CORE: Quality Control & Reporting ========== --}}
             <div class="tab-pane fade" id="svc-qc">
-              <h3>Quality Control & Reporting</h3>
-              <p>Incoming inspection → in-process monitoring → final inspection. Optional
-                inspection reports (before/after condition, tolerance checks, measured specs vs. OEM/customer requirements) for full traceability.</p>
-              <ul class="list-unstyled">
-                <li>Supports regulated industries (e.g., food, pharmaceutical, semiconductor)</li>
-                <li>Consistency across sharpening batches</li>
-                <li>Promotes operational accountability and planning</li>
-              </ul>
-            </div>
+  <h3 class="mb-2">Quality Control &amp; Reporting <small class="text-muted"></small></h3>
+  <p class="text-muted"><em>Precision you can see. Confidence you can measure.</em></p>
+
+  <p>
+    At <strong>Goldken Sdn Bhd</strong>, we don’t just sharpen blades — we deliver
+    <strong>measurable performance</strong> and <strong>quality assurance</strong>. Every knife that enters our facility
+    undergoes a meticulous <strong>quality control (QC)</strong> process to ensure that it meets or exceeds performance
+    expectations before it reaches your production line.
+  </p>
+  <p>
+    By integrating <strong>inspection protocols</strong> and <strong>detailed reporting</strong>, we give our customers full
+    visibility into the condition, quality, and usability of their blades — enabling better decision-making and total
+    confidence in every tool we return.
+  </p>
+
+  <h5 class="mt-4">Our Quality Control Process</h5>
+  <p>Our multi-stage QC workflow includes:</p>
+
+  <h6 class="mt-3">1. Incoming Inspection</h6>
+  <ul>
+    <li>Visual and dimensional checks</li>
+    <li>Identification of chips, cracks, or excessive wear</li>
+    <li>Evaluation of blade condition before grinding</li>
+  </ul>
+
+  <h6 class="mt-3">2. In-Process Monitoring</h6>
+  <ul>
+    <li>Continuous checks during grinding for angle consistency and edge straightness</li>
+    <li>Equipment calibration to maintain sharpening accuracy</li>
+  </ul>
+
+  <h6 class="mt-3">3. Final Inspection</h6>
+  <ul class="mb-2">
+    <li>Verification of edge geometry and sharpness</li>
+    <li>Measurement of key dimensions (length, width, bevel angle)</li>
+    <li>Surface finish evaluation (Standard, Super, or Mirror Finish)</li>
+  </ul>
+</div>
+
 
             {{-- ========== CORE: Safety & Handling ========== --}}
             <div class="tab-pane fade" id="svc-safety">

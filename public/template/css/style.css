@@ -4295,3 +4295,17 @@ p {
     font-size: 15px;
     color: #333;
 }
+
+.products-image{
+    height:280px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #f36f21;
+}
+
+@media (max-width: 767px) {
+   .company-history::before {
+    opacity: 0 !important;
+   }
+}

@@ -122,7 +122,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/20200721_151324.jpg') }}" class="img-fluid rounded shadow" alt="Technology & Craftsmanship">
+          <img src="https://itbrief.com.au/uploads/story/2023/03/21/GettyImages-1408596915.webp" class="img-fluid rounded shadow" alt="Technology & Craftsmanship">
         </div>
       </div>
       <div class="col-lg-6">
@@ -191,7 +191,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/20200714_163725.jpg') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Industrien/sonstige-Industrien.jpg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
@@ -213,7 +213,7 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/20200703_152238.jpg') }}" class="img-fluid rounded shadow" alt="Industries We Serve">
+          <img src="{{ "https://www.tkmgroup.com/hubfs/%5Bv20%5D/Produkte/Mix_Schneidmesser_verbundstoffe.png"}}" class="img-fluid rounded shadow" alt="Industries We Serve">
         </div>
       </div>
       <div class="col-lg-6">

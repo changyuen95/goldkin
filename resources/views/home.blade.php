@@ -141,7 +141,7 @@
             <h3>Trusted Solutions Across Multiple Sectors</h3>
             <p>For over 32 years, <strong>Goldken Sdn Bhd</strong> has delivered industrial knives and precision regrinding solutions tailored to the unique needs of multiple industries — ensuring performance, efficiency, and durability.</p>
             <div class="align-items-center justify-content-end button-sec">
-                <a class="btn-1 btn-3" style="margin-top:10px" href="/products">All Products</a>
+                <a class="btn-1 btn-3" style="margin-top:10px" href="/services">View All Products</a>
             </div>
         </div>
 
@@ -149,7 +149,7 @@
             <!-- Non-Woven -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200714_164329.jpg" class="card-img-top" alt="Non-Woven">
+                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Main%20Header%20Fotos/Non-Woven-Slider_webp.webp" class="card-img-top products-image" alt="Non-Woven">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Non-Woven</h5>
                         <p class="card-text">Knives for hygiene, medical, filtration, and automotive non-woven fabric production.</p>
@@ -160,7 +160,7 @@
             <!-- Paper & Printing -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200721_151742.jpg" class="card-img-top" alt="Paper & Printing">
+                    <img src="https://www.tkmgroup.com/hubfs/images/contact/Paper.jpg" class="card-img-top products-image" alt="Paper & Printing">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Paper & Printing</h5>
                         <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
@@ -171,7 +171,7 @@
             <!-- Plastics & Rubber -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200721_152904.jpg" class="card-img-top" alt="Plastics & Rubber">
+                    <img src="https://pcsman.com/wp-content/uploads/2016/06/SUCKERS-MIX.jpg" class="card-img-top products-image" alt="Plastics & Rubber">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Plastics & Rubber</h5>
                         <p class="card-text">Granulator and slitting blades engineered for plastics and rubber processing plants.</p>
@@ -182,7 +182,7 @@
             <!-- Recycling & Waste -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200714_163704.jpg" class="card-img-top" alt="Recycling & Waste">
+                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/allgemein/KGR_webp.webp" class="card-img-top products-image" alt="Recycling & Waste">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Recycling & Waste</h5>
                         <p class="card-text">Heavy-duty shredder, crusher, and chopper knives for waste management and recycling.</p>
@@ -193,7 +193,7 @@
             <!-- Semiconductor -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200714_163045.jpg" class="card-img-top" alt="Semiconductor">
+                    <img src="https://electronicsemiconductor.com/wp-content/uploads/2018/01/what-is-semiconductor-electronics-semicon-devices-meaning-means.png" class="card-img-top products-image" alt="Semiconductor">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Semiconductor</h5>
                         <p class="card-text">Precision knives for wafer cutting, film slitting, and high-tech semiconductor processes.</p>
@@ -204,7 +204,7 @@
             <!-- Steel & Metal -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200714_163725.jpg" class="card-img-top" alt="Steel & Metal">
+                    <img src="https://www.tkmgroup.com/hubfs/Stahlcoil_web.png" class="card-img-top products-image" alt="Steel & Metal">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Steel & Metal</h5>
                         <p class="card-text">Slitter and shear blades designed for durability in metal processing and fabrication.</p>
@@ -215,7 +215,7 @@
             <!-- Wood Processing -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="assets/images/photo/20200721_152904.jpg" class="card-img-top" alt="Wood Processing">
+                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/allgemein/Holz.gif" class="card-img-top products-image" alt="Wood Processing">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Wood Processing</h5>
                         <p class="card-text">Planer, chipper, veneer, and saw blades for efficient wood cutting and finishing.</p>

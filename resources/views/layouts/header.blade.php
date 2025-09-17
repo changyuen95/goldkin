@@ -32,11 +32,9 @@
                 </div>
                 <div class="nav-bar-link" id="open-nav-bar-menu">
                     <ul class="level-1">
-                        <li ><a href="{{ url('/') }}" class="color-active">Home</a></li>
-                        <li ><a href="{{ url('/about-us') }}">About Us</a></li>
-                        <li ><a href="{{ url('/services') }}">Services</a></li>
-                        <li ><a href="#">Blog</a></li>
-                        <li ><a href="#">Pages</a></li>
+                        <li ><a href="{{ url('/') }}" class="{{ (Request::is('/')) ? 'color-active' : '' }}">Home</a></li>
+                        <li ><a href="{{ url('/about-us') }}" class="{{ (Request::is('about-us')) ? 'color-active' : '' }}">About Us</a></li>
+                        <li ><a href="{{ url('/services') }}" class="{{ (Request::is('services')) ? 'color-active' : '' }}">Services & Products</a></li>
                         <li ><a href="#">Contact</a></li>
                     </ul>
                     
