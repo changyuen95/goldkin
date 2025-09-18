@@ -2592,7 +2592,7 @@ p {
 
 /* :: FAQs & Quote */
 .faq-quote{
-    background-image: url(../images/contact/01_contact.jpg);
+    background-image: url('https://gazolin.netlify.app/petrox/assets/images/contact/01_contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

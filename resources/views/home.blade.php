@@ -17,7 +17,7 @@
                                 <div class="headline-top">Quality & Integrity Service Agency</div>
                                 <h1 data-aos="fade-right" data-aos-delay="200" class="handline">Your industrial knife partner, solution to your cutting needs</h1>
                                 <p class="about-website">Your industrial knife partner, solution to your cutting needs</p>
-                                <a class="btn-1 btn-2" href="#">Our Services</a>
+                                <a class="btn-1 btn-2" href="/services">Our Services</a>
                             </div>
                         </div>
                         

@@ -2624,7 +2624,7 @@ p {
 
 /* :: FAQs & Quote */
 .faq-quote{
-    background-image: url(../images/contact/01_contact.jpg);
+    background-image: url('https://gazolin.netlify.app/petrox/assets/images/contact/01_contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3291,6 +3291,8 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+     min-height: 100svh;
+  min-height: 100vh;
 }
 .breadcrumb-header-2{
     padding-top: calc(131px + 120px);

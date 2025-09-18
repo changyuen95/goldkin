@@ -198,21 +198,21 @@
   <h5 class="mt-4">What We Offer</h5>
 
   <h6 class="mt-3">Knife Application Consultation</h6>
-  <ul>
+  <ul style="list-style: disc">
     <li>Recommending the most suitable knife materials based on application</li>
     <li>Advising on finish levels (Standard, Super, Mirror) depending on substrate and cutting speed</li>
     <li>Guidance on knife compatibility with specific machines and brands</li>
   </ul>
 
   <h6 class="mt-3">Tool Life Optimization</h6>
-  <ul>
+  <ul style="list-style: disc">
     <li>Analyzing wear patterns and usage cycles</li>
     <li>Recommending optimal regrinding intervals</li>
     <li>Educating operators on handling, storage, and maintenance to extend blade life</li>
   </ul>
 
   <h6 class="mt-3">Troubleshooting &amp; Root Cause Analysis</h6>
-  <ul>
+  <ul style="list-style: disc">
     <li>Identifying causes of chipping, burrs, uneven cuts, or premature dullness</li>
     <li>On-site inspections or photo-based diagnosis to speed up resolution</li>
     <li>Suggestions to reduce strain on knives and prevent recurring issues</li>
@@ -225,7 +225,7 @@
   </ul>
 
   <h5 class="mt-2">Why Our Support Stands Out</h5>
-  <ul>
+  <ul style="list-style: disc">
     <li>Experienced technicians with industry-specific knowledge</li>
     <li>Fast response and accessible communication</li>
     <li>Personalized advice based on real production challenges</li>
@@ -255,14 +255,14 @@
   <p>Our multi-stage QC workflow includes:</p>
 
   <h6 class="mt-3">1. Incoming Inspection</h6>
-  <ul>
+  <ul style="list-style: disc">
     <li>Visual and dimensional checks</li>
     <li>Identification of chips, cracks, or excessive wear</li>
     <li>Evaluation of blade condition before grinding</li>
   </ul>
 
   <h6 class="mt-3">2. In-Process Monitoring</h6>
-  <ul>
+  <ul style="list-style: disc">
     <li>Continuous checks during grinding for angle consistency and edge straightness</li>
     <li>Equipment calibration to maintain sharpening accuracy</li>
   </ul>
@@ -298,7 +298,7 @@
                 the web is critical to product fit and filtration performance.</p>
 
               <h5>Key Industry Challenges</h5>
-              <ul>
+              <ul style="list-style: disc">
                 <li>Fiber pull-out or edge fraying caused by dull or damaged blades</li>
                 <li>Material distortion or wrinkling during cutting</li>
                 <li>Static buildup affecting fabric feed and cut accuracy</li>
@@ -306,8 +306,8 @@
                 <li>Irregular cuts that compromise product fit, sealing, or performance</li>
               </ul>
 
-              <h5>Goldken’s Precision Grinding Services for Non-Woven Tools</h5>
-              <ul>
+              <h5 style="margin-top:15px">Goldken’s Precision Grinding Services for Non-Woven Tools</h5>
+              <ul style="list-style: disc">
                 <li>Optimized bevel angles for soft/technical webs</li>
                 <li>Uniform edge sharpness to prevent snagging and melting</li>
                 <li>Fine finishing (incl. mirror) to reduce friction and residue</li>
