@@ -35,7 +35,7 @@
                         <li ><a href="{{ url('/') }}" class="{{ (Request::is('/')) ? 'color-active' : '' }}">Home</a></li>
                         <li ><a href="{{ url('/about-us') }}" class="{{ (Request::is('about-us')) ? 'color-active' : '' }}">About Us</a></li>
                         <li ><a href="{{ url('/services') }}" class="{{ (Request::is('services')) ? 'color-active' : '' }}">Services & Products</a></li>
-                        <li ><a href="#">Contact</a></li>
+                        <li ><a href="{{ url('/contact') }}">Contact</a></li>
                     </ul>
                     
                 </div>
