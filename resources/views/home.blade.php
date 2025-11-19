@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Home')
+@section('title', 'Goldken Sdn Bhd - Home')
 
 @section('content')
 
@@ -42,7 +42,7 @@
             </div>
             <div class="features-item">
                 <i class="flaticon-statistics"></i>
-                <h4>Transparent<br>Pricing</h4>
+                <h4>Premium<br>Quality</h4>
             </div>
             <div class="features-item">
                 <i class="flaticon-monitor"></i>
@@ -50,7 +50,7 @@
             </div>
             <div class="features-item">
                 <i class="flaticon-management"></i>
-                <h4>Accurate<br>Testing</h4>
+                <h4>Accurate<br>Measuring</h4>
             </div>
             <div class="features-item">
                 <i class="flaticon-eco"></i>
@@ -120,8 +120,9 @@
 
                     <div class="any-question" data-aos="fade-right" data-aos-delay="500">
                         Whatsapp us today: 
-                        <a href="tel:01212843661">0121-2843-661</a> or 
-                        <a href="tel:01068710594">0106-8710-594</a>
+                        <a href="tel:0162052950">+(6016) 205 2950</a> or 
+                        <a href="tel:0166612366">+(6016) 661 2366</a>
+    
                     </div>
                     <a href="{{ url('about-us') }}" class="btn btn-primary mt-3">Learn More About Us</a>
 
@@ -160,7 +161,7 @@
             <!-- Paper & Printing -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/images/contact/Paper.jpg" class="card-img-top products-image" alt="Paper & Printing">
+                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Industrien/Papierindustrie_Karoussel.jpg" class="card-img-top products-image" alt="Paper & Printing">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Paper & Printing</h5>
                         <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
@@ -171,7 +172,7 @@
             <!-- Plastics & Rubber -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://pcsman.com/wp-content/uploads/2016/06/SUCKERS-MIX.jpg" class="card-img-top products-image" alt="Plastics & Rubber">
+                    <img src="https://pcsman.com/wp-content/uploads/2016/05/MG_0583.jpg" class="card-img-top products-image" alt="Plastics & Rubber">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Plastics & Rubber</h5>
                         <p class="card-text">Granulator and slitting blades engineered for plastics and rubber processing plants.</p>
@@ -269,8 +270,8 @@
                 <div class="services-item">
                     <span></span>
                     <i class="flaticon-chemical"></i>
-                    <h4>Basic &amp; <br>Industrial Chemicals</h4>
-                    <p>Options include Standard-Finish, Super-Finish, and Mirror-Finish to suit your needs.</p>
+                    <h4>Scrap Knife <br>Disposal Service</h4>
+                    <p>Free and Safe blade collection and disposal, fully compliant.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -278,8 +279,8 @@
                 <div class="services-item">
                     <span style="top: 111.375px; left: -2.5px;"></span>
                     <i class="flaticon-machine"></i>
-                    <h4>Blade Life <br>Optimization</h4>
-                    <p>Expert consultation and technical support to extend blade performance.</p>
+                    <h4>Multi-Stage <br>Quality Control Process</h4>
+                    <p>Covering incoming checks, in-process monitoring, and final sharpness testing.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
@@ -287,8 +288,8 @@
                 <div class="services-item">
                     <span style="top: 106.375px; left: -15.5px;"></span>
                     <i class="flaticon-robot-arm"></i>
-                    <h4>Safety <br>Commitment</h4>
-                    <p>Free scrap knife disposal service, ensuring safe and eco-friendly handling.</p>
+                    <h4>Knife & Production <br> Support</h4>
+                    <p>Expert guidance to optimize blade performance and production efficiency.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>

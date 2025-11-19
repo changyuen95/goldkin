@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Home')
+@section('title', 'Goldken Sdn Bhd - Contact Us')
 
 @section('content')
 
@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row">
       <!-- FAQs -->
-      <div class="col-lg-6">
+      <div class="col-lg-6" style="background-color: #000000;background: rgba(0,0,0,0.7);" >
         <div class="faq">
           <div class="sec-title sec-title-home-2">
             <h2>FAQs</h2>

@@ -4,9 +4,12 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="logo">
-                    <img class="img-fluid" src="{{ asset('template/images/logo/logo_bg.png') }}" alt="Footer Logo">
-                    <p>Founded in 1993, Goldken Sdn Bhd is Malaysia’s trusted industrial knife partner—specializing in precision regrinding services and the supply of industrial knives & accessories. With advanced machinery and skilled technicians, we deliver cleaner cuts, reduced waste, and longer tool life across Non-Woven, Paper & Printing, Plastics & Rubber, Recycling & Waste, Steel & Metal, Semiconductor, and Wood Processing industries.</p>
-                    <a href="01_about.html" class="btn-1">Learn More About Us</a>
+                    {{-- <img class="img-fluid" src="{{ asset('template/images/logo/logo_bg.png') }}" alt="Footer Logo"> --}}
+                    <img class="img-fluid" src="assets/images/logo/goldken.png" alt="Footer Logo">
+
+                    {{-- <p>Founded in 1993, Goldken Sdn Bhd is Malaysia’s trusted industrial knife partner—specializing in precision regrinding services and the supply of industrial knives & accessories. With advanced machinery and skilled technicians, we deliver cleaner cuts, reduced waste, and longer tool life across Non-Woven, Paper & Printing, Plastics & Rubber, Recycling & Waste, Steel & Metal, Semiconductor, and Wood Processing industries.</p> --}}
+                    <p>Goldken Sdn Bhd — Your Trusted Industrial Knife Partner</p>
+                    <a href="/about-us" class="btn-1">Learn More About Us</a>
                 </div>
             </div>
 

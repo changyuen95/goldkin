@@ -3,8 +3,10 @@
         <div class="container">
             <div class="nav-top-box d-flex align-items-center justify-content-between">
                 <ul class="info">
-                    <li><span>Email :</span> Petrox@AR-Coder.com</li>
-                    <li><span>Phone :</span> +(002) 0121-2843-661</li>
+                    <li><span>Email :</span> sales@goldken.com.my</li>
+                    <li><span>Phone :</span> +(6016) 205 2950</li>
+                    <li><span>Phone :</span> +(6016) 661 2366</li>
+
                 </ul>
                 <ul class="icon-follow">
                     <li><a class="icon"><i class="fab fa-facebook-f"></i></a></li>
@@ -12,7 +14,7 @@
                     <li><a class="icon"><i class="fas fa-rss"></i></a></li>
                     <li><a class="icon open-search-box"><i class="fas fa-search"></i></a></li>
                     <li><a class="icon open-menu"><i class="fas fa-th"></i></a></li>
-                    <li><a class="btn-1 btn-2" href="02_contact.html">Contact Us</a></li>
+                    <li><a class="btn-1 btn-2" href="/contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -45,7 +47,7 @@
                             <i class="flaticon-call"></i>
                             <div class="contact-nav">
                                 <span>Call Us</span>
-                                <a href="tel:01068710594">+(002) 0106-8710-594</a>
+                                <a href="tel:60377826442">(603) 7782 6442</a>
                             </div>
                         </div>
                     </li>

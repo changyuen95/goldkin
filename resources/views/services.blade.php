@@ -1,7 +1,15 @@
 @extends('layouts.master')
 
-@section('content')
+@section('title', 'Goldken Sdn Bhd - Services & Products')
 
+@section('content')
+<style>
+  .fix-height {
+    max-height: 200px; 
+    width: auto;    
+    object-fit: contain; 
+  }
+</style>
 <!-- :: Breadcrumb Header -->
 <section class="breadcrumb-header" id="page" style="background-image: url('{{ asset('template/images/header/04_header.jpg') }}')">
     <div class="overlay"></div>
@@ -42,11 +50,11 @@
           Products
         </button>
       </li>
-      <li class="nav-item" role="presentation">
+      {{-- <li class="nav-item" role="presentation">
         <button class="nav-link" id="tab-pre-order" data-bs-toggle="pill"
                 data-bs-target="#pane-pre-order" type="button" role="tab">
           Pre-Order
-        </button>      </li>
+        </button>      </li> --}}
     </ul>
   </div>
 </section>
@@ -475,19 +483,21 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_151742.jpg" alt="Wafer Dicing">
+                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/top.jpg" alt="lithium-ion-slitter-top">
                     <div class="card-body">
-                      <h6 class="card-title mb-1">Wafer Dicing Blades</h6>
-                      <p class="card-text small text-muted">Precision cutting.</p>
+                      {{-- <h6 class="card-title mb-1">Wafer Dicing Blades</h6> --}}
+                      <h6 class="card-title mb-1">Top Lithium-Ion Battery Slitter Knife</h6>
+                      <p class="card-text small text-muted">Clean and consistent cutting.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_152904.jpg" alt="Film Slitter">
+                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/bottom.jpg" alt="lithium-ion-slitter-bottom">
                     <div class="card-body">
-                      <h6 class="card-title mb-1">Film Slitter Blades</h6>
-                      <p class="card-text small text-muted">Thin-film processing.</p>
+                      {{-- <h6 class="card-title mb-1">Film Slitter Blades</h6> --}}
+                      <h6 class="card-title mb-1">Bottom Lithium-Ion Battery Slitter Knife</h6>
+                      <p class="card-text small text-muted">Stable support and clean cuts.</p>
                     </div>
                   </div>
                 </div>
@@ -514,11 +524,20 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                {{-- <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
                     <img class="card-img-top" src="assets/images/photo/20200714_164329.jpg" alt="Trimmer/Cropper">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Trimmer / Cropper</h6>
+                      <p class="card-text small text-muted">Strip and coil finishing.</p>
+                    </div>
+                  </div>
+                </div> --}}
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100">
+                    <img class="card-img-top" style="width:auto; height:125px; object-fit:cover; overflow:hidden;" src="assets/images/knives/steelandmetal/top-blending-knife-2.jpg" alt="Trimmer/Cropper">
+                    <div class="card-body">
+                      <h6 class="card-title mb-1">Top Bending Knife</h6>
                       <p class="card-text small text-muted">Strip and coil finishing.</p>
                     </div>
                   </div>
@@ -555,6 +574,15 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100">
+                    <img class="card-img-top" style="width:auto; height:125px; object-fit:contain;" src="assets/images/knives/woodprocessing/saw-blade-1.jpg" alt="Chipper">
+                    <div class="card-body">
+                      <h6 class="card-title mb-1">Saw Blades</h6>
+                      <p class="card-text small text-muted">Smooth, efficient cuts with minimal vibration.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div class="mt-4">
@@ -586,8 +614,38 @@
                 Paper (Guillotine, Slitter, Trimmer, etc.) <i class="fas fa-angle-right"></i>
               </a>
             </li>
- 
             <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-recycling">
+                Recycling &amp; Waste Management <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-metal">
+                Steel &amp; Metal Processing <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-wood">
+                Wood Processing <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-plastic">
+                Plastic &amp; Rubber <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-semi">
+                Semiconductor <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#prod-cutting-accessories">
+                Cutting Accessories <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+ 
+            {{-- <li class="nav-item">
               <a class="nav-link" data-bs-toggle="tab" href="#prod-sticks">
                 Cutting Sticks <i class="fas fa-angle-right"></i>
               </a>
@@ -601,7 +659,8 @@
               <a class="nav-link" data-bs-toggle="tab" href="#prod-magnets">
                 Magnetic Strips <i class="fas fa-angle-right"></i>
               </a>
-            </li>
+            </li> --}}
+
           </ul>
         </div>
 
@@ -697,8 +756,286 @@
             </div>
           </div>
 
+          {{-- ================= RECYCLING & WASTE ================= --}}
+          <div class="tab-pane fade" id="prod-recycling">
+            <h3>Recycling &amp; Waste Management</h3>
+            <p class="text-muted">Heavy-duty blades for reduction, regrind and bale handling.</p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/recycleandwaste/shredder-cutter-2.jpg" alt="Shredder Knive">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Shredder Knives</h6>
+                    <p class="card-text small text-muted">High-torque material reduction.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/recycleandwaste/granulator-blades.jpg" alt="Granulator Blades">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Granulator Blades</h6>
+                    <p class="card-text small text-muted">Clean regrind with minimal dust.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/recycleandwaste/chopper-blades.jpg" alt="Chopper Blades">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Chopper Knives</h6>
+                    <p class="card-text small text-muted">Strip &amp; scrap chopping operations.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/recycleandwaste/bale-cutter.jpg" alt="Bale Cutter Blades">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Bale Cutter Blades</h6>
+                    <p class="card-text small text-muted">Bale cutting &amp; opening support.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
+            </div>
+          </div>
+
+          {{-- ================= STEEL & METAL ================= --}}
+          <div class="tab-pane fade" id="prod-metal">
+            <h3>Steel &amp; Metal Processing</h3>
+            <p class="text-muted">Precision slitting, shearing and coil/strip finishing.</p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/rotary-straight-shear-blades.jpg" alt="Rotary and Straight Shear Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Rotary &amp; Straight Shear Blades</h6>
+                <p class="card-text small text-muted">Accurate shearing performance.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/slitter-knives-1.jpg" alt="Slitter Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Slitter Blades</h6>
+                <p class="card-text small text-muted">Durable, accurate slitting lines.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/trimmer-knives-1.jpg" alt="Trimmer Blades">
+                <div class="card-body">
+                  <h6 class="card-title mb-1">Trimmer &amp; Cropper Knives</h6>
+                  <p class="card-text small text-muted">Strip &amp; coil finishing support.</p>
+                </div></div>
+              </div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/scrap-chopper-knife.jpg" alt="Scrap Chopper Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Scrap Chopper Blades</h6>
+                <p class="card-text small text-muted">Continuous scrap chopping.</p>
+              </div></div></div>
+            </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
+            </div>
+          </div>
+
+          {{-- ================= WOOD PROCESSING ================= --}}
+          <div class="tab-pane fade" id="prod-wood">
+            <h3>Wood Processing</h3>
+            <p class="text-muted">High-uptime blades for planing, chipping and veneer.</p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/planer-and-jointer-knives-2.jpg" alt="Planner and Jointer Knives">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Planer &amp; Jointer Knives</h6>
+                <p class="card-text small text-muted">Consistent finish &amp; flatness.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/chipper-blade-1.jpg" alt="Chipper Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Chipper Blades</h6>
+                <p class="card-text small text-muted">Reliable wood reduction.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/flaker-knife.jpg" alt="Flaker Knives">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Flaker Knives</h6>
+                <p class="card-text small text-muted">Uniform flake production.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/veneer-blades-2.jpg" alt="Veneer Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Veneer Blades</h6>
+                <p class="card-text small text-muted">Clean peeling and slicing.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/saw-blade-1.jpg" alt="Saw Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Saw Blades</h6>
+                <p class="card-text small text-muted">Smooth, efficient cuts with minimal vibration.</p>
+              </div></div></div>
+            </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
+            </div>
+          </div>
+
+          {{-- ================= PLASTIC & RUBBER ================= --}}
+          <div class="tab-pane fade" id="prod-plastic">
+            <h3>Plastic &amp; Rubber</h3>
+            <p class="text-muted">Blades for granulating, slitting, cutting and converting.</p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/granulator-crusher-stator-blades.jpg" alt="Granalator Blades">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Granulator &amp; Pelletizer Knives</h6>
+                    <p class="card-text small text-muted">Clean granulation &amp; pelletizing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/slitter-blades-1.jpg" alt="Slitter Blades">
+                  <div class="card-body">
+                <h6 class="card-title mb-1">Slitter Blades</h6>
+                <p class="card-text small text-muted">Film &amp; sheet slitting lines.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/guillotine-knives-1.jpg" alt="Guillotine Knives">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Guillotine Knives</h6>
+                <p class="card-text small text-muted">Trim, cross-cut &amp; converting.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/rottary-cutter-blades.jpg" alt="Rottary Cutter Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Rotary Cutters</h6>
+                <p class="card-text small text-muted">Rotary converting support.</p>
+              </div></div></div>
+            </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
+            </div>
+          </div>
+
+          {{-- ================= SEMICONDUCTOR ================= --}}
+          <div class="tab-pane fade" id="prod-semi">
+            <h3>Semiconductor</h3>
+            <p class="text-muted">Precision blades for wafer and film processes.</p>
+
+            {{-- <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body">
+                <h6 class="card-title mb-1">Wafer Dicing Blades</h6>
+                <p class="card-text small text-muted">Clean, accurate wafer singulation.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body">
+                <h6 class="card-title mb-1">Film Slitter Blades</h6>
+                <p class="card-text small text-muted">Thin-film processing lines.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100"><div class="card-body">
+                <h6 class="card-title mb-1">Die Attach Knives</h6>
+                <p class="card-text small text-muted">Assembly &amp; packaging support.</p>
+              </div></div></div>
+            </div> --}}
+            <div class="row g-3 mt-3">
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100">
+                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/top.jpg" alt="lithium-ion-slitter-top">
+                    <div class="card-body">
+                      {{-- <h6 class="card-title mb-1">Wafer Dicing Blades</h6> --}}
+                      <h6 class="card-title mb-1">Top Lithium-Ion Battery Slitter Knife</h6>
+                      <p class="card-text small text-muted">Clean and consistent cutting.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100">
+                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/bottom.jpg" alt="lithium-ion-slitter-bottom">
+                    <div class="card-body">
+                      {{-- <h6 class="card-title mb-1">Film Slitter Blades</h6> --}}
+                      <h6 class="card-title mb-1">Bottom Lithium-Ion Battery Slitter Knife</h6>
+                      <p class="card-text small text-muted">Stable support and clean cuts.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
+            </div>
+          </div>
+
+          {{-- ========== ACCESSORY: CUTTING ACCESSORIES ========== --}}
+          <div class="tab-pane fade" id="prod-cutting-accessories">
+            <h3>Cutting Accessories</h3>
+            <p>
+              Safety is our priority. Goldken Sdn Bhd promotes proper handling of industrial knives
+              and offers a free scrap blade collection and compliant disposal service to ensure worn
+              or damaged knives are removed safely and responsibly.
+            </p>
+
+            <div class="row g-3 mt-3">
+              
+              <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/photo/20200721_152904.jpg" alt="Cutting Sticks">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Cutting Sticks</h6>
+                    <p class="card-text small text-muted">Consistent performance and longer service life for clean cuts.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/photo/20200714_163725.jpg" alt="Knife Guards">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Knife Guards</h6>
+                    <p class="card-text small text-muted">Edge protection & safe handling during transport and storage.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/photo/20200714_163704.jpg" alt="Magnetic Strips">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Magnetic Strips</h6>
+                    <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/cuttingaccessories/cutting-stick-self-healing.png" alt="Cutting Sticks">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Safe Disposal & Handling Support</h6>
+                    <p class="card-text small text-muted">To support your workplace safety initiatives, we offer a free-of-charge scrap knife collection and disposal service, ensuring that worn or damaged blades are removed responsibly and in full compliance with health and safety regulations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
+              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
+            </div>
+          </div>
+
           {{-- ========== ACCESSORY: CUTTING STICKS ========== --}}
-          <div class="tab-pane fade" id="prod-sticks">
+          {{-- <div class="tab-pane fade" id="prod-sticks">
             <h3>Cutting Sticks</h3>
             <p>Durable sticks for guillotines & trimmers. Grade/colour options (UHMW, nylon, PVC) matched to your blade & machine.</p>
 
@@ -717,10 +1054,10 @@
             <div class="mt-4">
               <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
             </div>
-          </div>
+          </div> --}}
 
           {{-- ========== ACCESSORY: KNIFE GUARDS ========== --}}
-          <div class="tab-pane fade" id="prod-guards">
+          {{-- <div class="tab-pane fade" id="prod-guards">
             <h3>Knife Guards</h3>
             <p>Safety guards/holders for safe transport and handling of knives. Protect cutting edges and operators; sizes for common guillotines.</p>
 
@@ -739,10 +1076,10 @@
             <div class="mt-4">
               <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
             </div>
-          </div>
+          </div> --}}
 
           {{-- ========== ACCESSORY: MAGNETIC STRIPS ========== --}}
-          <div class="tab-pane fade" id="prod-magnets">
+          {{-- <div class="tab-pane fade" id="prod-magnets">
             <h3>Magnetic Strips</h3>
             <p>Reliable magnetic hold/positioning for setup and maintenance tasks — alignment, fixtures and line setup activities.</p>
 
@@ -761,7 +1098,7 @@
             <div class="mt-4">
               <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
             </div>
-          </div>
+          </div> --}}
 
         </div> {{-- /tab-content --}}
       </div>
