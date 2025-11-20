@@ -120,8 +120,8 @@
 
                     <div class="any-question" data-aos="fade-right" data-aos-delay="500">
                         Whatsapp us today: 
-                        <a href="tel:0162052950">+(6016) 205 2950</a> or 
-                        <a href="tel:0166612366">+(6016) 661 2366</a>
+                        <a href="tel:0162052950">(+60)16-205-2950</a> or 
+                        <a href="tel:0166612366">(+60)16-661-2366</a>
     
                     </div>
                     <a href="{{ url('about-us') }}" class="btn btn-primary mt-3">Learn More About Us</a>
@@ -509,7 +509,7 @@
                             </div>
                             <div class="info-down">
                                 <i class="flaticon-call"></i>
-                                <h5>+60 12-128-43661<br>+60 106-8710-594</h5>
+                                <h5>+(60)16-205-2950<br>+(60)16-661-2366</h5>
                             </div>
                         </div>
                     </div>

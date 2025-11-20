@@ -4,9 +4,8 @@
             <div class="nav-top-box d-flex align-items-center justify-content-between">
                 <ul class="info">
                     <li><span>Email :</span> sales@goldken.com.my</li>
-                    <li><span>Phone :</span> +(6016) 205 2950</li>
-                    <li><span>Phone :</span> +(6016) 661 2366</li>
-
+                    <li><span>Phone :</span> +(60)16-205-2950</li>
+                    <li><span>Phone :</span> +(60)16-661-2366</li>
                 </ul>
                 <ul class="icon-follow">
                     <li><a class="icon"><i class="fab fa-facebook-f"></i></a></li>
@@ -47,7 +46,7 @@
                             <i class="flaticon-call"></i>
                             <div class="contact-nav">
                                 <span>Call Us</span>
-                                <a href="tel:60377826442">(603) 7782 6442</a>
+                                <a href="tel:60377826442">+(60)3-7782-6442</a>
                             </div>
                         </div>
                     </li>

@@ -117,8 +117,8 @@
   <!-- CTA -->
   <div class="any-question" data-aos="fade-right" data-aos-delay="500">
     Whatsapp us today:
-    <a href="tel:01212843661">0121-2843-661</a> or
-    <a href="tel:01068710594">0106-8710-594</a>
+    <a href="tel:01212843661">(+60)16-661-2366</a> or
+    <a href="tel:01068710594">(+60)16-205-2950</a>
   </div>
   <a href="{{ url('contact') }}" class="btn btn-primary mt-3">Request A Quote</a>
 

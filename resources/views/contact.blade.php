@@ -114,8 +114,8 @@
               <div class="card card-body about-text">
                 <p style="color:#fff" class="mb-2">Talk to our team—share photos/specs for faster assistance.</p>
                 <div class="d-flex flex-wrap gap-2">
-                  <a href="tel:01212843661" class="btn btn-outline-warning btn-sm">Call 0121-2843-661</a>
-                  <a href="tel:01068710594" class="btn btn-outline-warning btn-sm">Call 0106-8710-594</a>
+                  <a href="tel:01212843661" class="btn btn-outline-warning btn-sm">Call (+60)16-661-2366</a>
+                  <a href="tel:01068710594" class="btn btn-outline-warning btn-sm">Call (+60)16-205-2950</a>
                   <a href="mailto:sales@goldken" class="btn btn-outline-warning btn-sm">Email sales@goldken</a>
                 </div>
               </div>
