@@ -9,15 +9,63 @@
     width: auto;    
     object-fit: contain; 
   }
+
+  /* Keep catalog sub-navs visually attached to the main catalog tabs */
+  /* Reduce top spacing for the panes that follow #catalog-tabs */
+  #catalog-tabs + .tab-content .single-services {
+    padding-top: 12px !important; /* pull content up so sub-nav sits close to main nav */
+    padding-bottom: 30px !important;
+  }
+
+  /* Slightly tighten sub-nav spacing */
+  .services-sub-nav, .products-sub-nav {
+    margin-top: 6px;
+    margin-bottom: 12px;
+  }
+
+  /* Dedicated customer - centered and sized (themed) */
+  .dedicated-customer.centered {
+    max-width: 880px;
+    margin: 24px auto;
+    padding: 22px 24px;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #fff7f0 0%, #ffffff 100%); /* subtle brand tint */
+    border: 1px solid rgba(231,100,31,0.06);
+    color: #111; /* ensure text is dark to match project theme */
+    box-shadow: 0 6px 18px rgba(21, 28, 36, 0.06);
+  }
+
+  /* Explicitly style inner typography to avoid inherited light colors */
+  .dedicated-customer.centered h5 {
+    color: #e7641f; /* brand accent */
+  }
+  .dedicated-customer.centered p {
+    color: #222;
+  }
+
+  /* Smaller screens: keep spacing comfortable */
+  @media (max-width: 767.98px) {
+    #catalog-tabs + .tab-content .single-services { padding-top: 8px !important; }
+    .services-sub-nav, .products-sub-nav { margin-top: 8px; margin-bottom: 10px; }
+    .dedicated-customer.centered { padding: 16px; margin: 16px auto; }
+  }
 </style>
 <!-- :: Breadcrumb Header -->
 <section class="breadcrumb-header" id="page" style="background-image: url('{{ asset('template/images/header/04_header.jpg') }}')">
     <div class="overlay"></div>
     <div style="margin-top:25px" class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 hero-content">
                 <div class="banner">
-                    <h1 style="text-align: center;margin-bottom:-20px">Services</h1>
+                    <div class="banner">
+                          <h1 style="text-align: center;margin-bottom:-20px" class="handline">Our Services & Products</h1>
+                          <p class="about-website">
+                          <span class="tagline">
+                              Trusted industrial services backed by experience, quality control, and technical expertise.
+                          </span>
+                          </p>
+                      </div>
                     <ul style="text-align:center">
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li><i class="fas fa-angle-right"></i></li>
@@ -63,52 +111,28 @@
   {{-- ===================== SERVICES PANE ===================== --}}
   <section class="single-services py-100-70 tab-pane fade show active" id="pane-services" role="tabpanel">
     <div class="container">
+      <!-- Sub-nav for Core Services (appears when Services tab is active) -->
+      <div class="services-sub-nav mb-4">
+        <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-center" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#svc-regrinding" type="button" role="tab">Industrial Knife Regrinding</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-support" type="button" role="tab">Technical Support</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-qc" type="button" role="tab">Quality Control & Reporting</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-scrap" type="button" role="tab">Scrap Knife Collection</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-safety" type="button" role="tab">Safety & Handling</button>
+          </li>
+        </ul>
+      </div>
       <div class="row">
-        {{-- ================== LEFT SIDEBAR ================== --}}
-        <aside class="col-lg-4">
-          <div class="single-services-list mr-20">
-            <h4>Our Services</h4>
-
-            {{-- Core Services --}}
-            <h6 class="mt-3 mb-2 text-muted">Core Services</h6>
-            <ul class="nav flex-column" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#svc-regrinding">Industrial Knife Regrinding <i class="fas fa-angle-right"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#svc-support">Technical Support <i class="fas fa-angle-right"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#svc-qc">Quality Control & Reporting <i class="fas fa-angle-right"></i></a>
-              </li>
-              {{-- <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#svc-safety">Safety & Handling <i class="fas fa-angle-right"></i></a>
-              </li> --}}
-            </ul>
-
-            {{-- Industry-specific --}}
-            <h6 class="mt-4 mb-2 text-muted">Industry-Specific Services</h6>
-            <ul class="nav flex-column" role="tablist">
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-nonwoven">Non-Woven <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-paper">Paper & Printing <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-plastics">Plastics & Rubber <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-recycling">Recycling & Waste <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-semi">Semiconductor <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-metal">Steel & Metal <i class="fas fa-angle-right"></i></a></li>
-              <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ind-wood">Wood Processing <i class="fas fa-angle-right"></i></a></li>
-            </ul>
-          </div>
-
-          {{-- Support card (kept from your theme) --}}
-          <div class="dedicated-customer mr-20 mt-4">
-            <h5>Dedicated Support Team</h5>
-            <p>Our team is committed to providing excellent customer support across all service areas.</p>
-            <a href="{{ url('/contact') }}" class="btn-1 btn-2">Request A Quote</a>
-          </div>
-        </aside>
-
-        {{-- ================== RIGHT CONTENT ================== --}}
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="tab-content" id="serviceTabsContent">
 
             <div class="tab-pane fade show active" id="svc-regrinding">
@@ -283,6 +307,29 @@
   </ul>
 </div>
 
+            {{-- ========== CORE: Scrap Knife Collection ========== --}}
+            <div class="tab-pane fade" id="svc-scrap">
+              <h3>Scrap Knife Collection</h3>
+              <p class="text-muted"><em>Responsible collection, safe handling, and sustainable disposal.</em></p>
+
+              <p>
+                Goldken offers a scrap knife collection service to help you remove end-of-life blades safely and
+                responsibly from your facility. We consolidate scrap knives, ensure correct handling and transport,
+                and route material to approved recyclers or disposal facilities in compliance with local regulations.
+              </p>
+
+              <h5 class="mt-3">Service Highlights</h5>
+              <ul class="mb-3">
+                <li>Scheduled scrap pickups or ad-hoc collection on request</li>
+                <li>Documentation and tracking for audit / environmental reporting</li>
+                <li>Safe packaging and transport to prevent injury and contamination</li>
+                <li>Partnerships with certified recyclers to maximise resource recovery</li>
+              </ul>
+
+              <div class="mt-3">
+                <a href="{{ url('/contact') }}" class="btn-1">Arrange Collection</a>
+              </div>
+            </div>
 
             {{-- ========== CORE: Safety & Handling ========== --}}
             <div class="tab-pane fade" id="svc-safety">
@@ -352,11 +399,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-              </div>
             </div>
 
             {{-- ================= PAPER & PRINTING ================== --}}
@@ -395,11 +437,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-              </div>
             </div>
 
             {{-- ================= PLASTICS & RUBBER ================= --}}
@@ -436,11 +473,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-              </div>
             </div>
 
             {{-- ================= RECYCLING & WASTE ================= --}}
@@ -467,11 +499,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
               </div>
             </div>
 
@@ -501,11 +528,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
               </div>
             </div>
 
@@ -543,11 +565,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-                <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-              </div>
             </div>
 
             {{-- ================== WOOD PROCESSING ================= --}}
@@ -584,10 +601,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="mt-4">
-                <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order Knives</a>
-              </div>
             </div>
 
           </div> {{-- /tab-content (right) --}}
@@ -601,79 +614,35 @@
 <section class="single-services py-100-70 tab-pane fade" id="pane-products" role="tabpanel">
   <div class="container">
     <div class="row">
-      {{-- ================== LEFT SIDEBAR ================== --}}
-      <aside class="col-lg-4">
-        <div class="single-services-list mr-20">
-          <h4>Our Products</h4>
-
-          {{-- Industrial Knives --}}
-          <h6 class="mt-3 mb-2 text-muted">Industrial Knives & Accessories</h6>
-          <ul class="nav flex-column" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" data-bs-toggle="tab" href="#prod-paper">
-                Paper (Guillotine, Slitter, Trimmer, etc.) <i class="fas fa-angle-right"></i>
-              </a>
+      <!-- Products sub-nav (replaces sidebar) -->
+      <div class="col-12">
+        <div class="products-sub-nav mb-4">
+          <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-center" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#prod-paper" type="button" role="tab">Paper</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-recycling">
-                Recycling &amp; Waste Management <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-metal">
-                Steel &amp; Metal Processing <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-metal" type="button" role="tab">Steel &amp; Metal</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-wood">
-                Wood Processing <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-wood" type="button" role="tab">Wood Processing</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-plastic">
-                Plastic &amp; Rubber <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-plastic" type="button" role="tab">Plastic &amp; Rubber</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-semi">
-                Semiconductor <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-semi" type="button" role="tab">Semiconductor</button>
             </li>
-              <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-cutting-accessories">
-                Cutting Accessories <i class="fas fa-angle-right"></i>
-              </a>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-cutting-accessories" type="button" role="tab">Cutting Accessories</button>
             </li>
- 
-            {{-- <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-sticks">
-                Cutting Sticks <i class="fas fa-angle-right"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-guards">
-                Knife Guards <i class="fas fa-angle-right"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#prod-magnets">
-                Magnetic Strips <i class="fas fa-angle-right"></i>
-              </a>
-            </li> --}}
-
           </ul>
         </div>
-
-        {{-- support card (same look/feel as services) --}}
-        <div class="dedicated-customer mr-20 mt-4">
-          <h5>Need Help Choosing?</h5>
-          <p>We’ll map blade specs to your machine (e.g., Polar, Wohlenberg, Horizon) and application.</p>
-          <a href="{{ url('/contact') }}" class="btn-1 btn-2">Request A Quote</a>
-        </div>
-      </aside>
-
-      {{-- ================== RIGHT CONTENT ================== --}}
-      <div class="col-lg-8">
+      </div>
+      <div class="col-lg-12">
         <div class="tab-content">
 
           {{-- ========== INDUSTRIAL KNIVES: PAPER ========== --}}
@@ -751,9 +720,6 @@
               </div>
             </div>
 
-            <div class="mt-4">
-              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-            </div>
           </div>
 
           {{-- ================= RECYCLING & WASTE ================= --}}
@@ -799,11 +765,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ================= STEEL & METAL ================= --}}
@@ -837,11 +798,6 @@
                 <h6 class="card-title mb-1">Scrap Chopper Blades</h6>
                 <p class="card-text small text-muted">Continuous scrap chopping.</p>
               </div></div></div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
             </div>
           </div>
 
@@ -882,11 +838,6 @@
                 <p class="card-text small text-muted">Smooth, efficient cuts with minimal vibration.</p>
               </div></div></div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ================= PLASTIC & RUBBER ================= --}}
@@ -923,11 +874,6 @@
                 <h6 class="card-title mb-1">Rotary Cutters</h6>
                 <p class="card-text small text-muted">Rotary converting support.</p>
               </div></div></div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
             </div>
           </div>
 
@@ -972,11 +918,6 @@
                   </div>
                 </div>
               </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ========== ACCESSORY: CUTTING ACCESSORIES ========== --}}
@@ -1026,11 +967,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
             </div>
           </div>
 
@@ -1175,11 +1111,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ================= STEEL & METAL ================= --}}
@@ -1204,11 +1135,6 @@
                 <h6 class="card-title mb-1">Scrap Chopper Blades</h6>
                 <p class="card-text small text-muted">Continuous scrap chopping.</p>
               </div></div></div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
             </div>
           </div>
 
@@ -1235,11 +1161,6 @@
                 <p class="card-text small text-muted">Clean peeling and slicing.</p>
               </div></div></div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ================= PLASTIC & RUBBER ================= --}}
@@ -1265,11 +1186,6 @@
                 <p class="card-text small text-muted">Rotary converting support.</p>
               </div></div></div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
           {{-- ================= SEMICONDUCTOR ================= --}}
@@ -1291,11 +1207,6 @@
                 <p class="card-text small text-muted">Assembly &amp; packaging support.</p>
               </div></div></div>
             </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/pre-order') }}" class="btn-1 btn-3 me-2">Pre-Order</a>
-              <a href="{{ url('/contact') }}" class="btn-1">Request Quote</a>
-            </div>
           </div>
 
         </div> {{-- /tab-content --}}
@@ -1311,13 +1222,12 @@
         </div>
     </div>
 </section>
-
 @endsection
 
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // Persist tab in URL (?tab=services|products|pre-order)
+  // Persist top-level tab in URL (?tab=services|products|pre-order)
   const navButtons = document.querySelectorAll('#catalog-tabs [data-bs-toggle="pill"]');
 
   navButtons.forEach(btn => {
@@ -1325,12 +1235,57 @@ document.addEventListener('DOMContentLoaded', function () {
       const id = e.target.id.replace('tab-', ''); // e.g. 'services'
       const url = new URL(window.location);
       url.searchParams.set('tab', id);
+      // clear any sub selection when switching top-level
+      url.searchParams.delete('sub');
       history.replaceState(null, '', url.toString());
     });
   });
 
+  // When a sub-tab (services or products) is requested, ensure the parent main tab is active first
+  const subButtons = document.querySelectorAll('.services-sub-nav [data-bs-toggle="tab"], .products-sub-nav [data-bs-toggle="tab"]');
+  subButtons.forEach(btn => {
+    btn.addEventListener('show.bs.tab', function (e) {
+      const target = ((btn.getAttribute('data-bs-target') || btn.getAttribute('href') || '') + '').replace('#','');
+      if (!target) return;
+
+      const isProduct = !!btn.closest('.products-sub-nav');
+
+      // Ensure parent top-level tab is active; if not, delay sub-tab until parent is shown
+      const parentBtn = document.getElementById(isProduct ? 'tab-products' : 'tab-services');
+      if (parentBtn && !parentBtn.classList.contains('active')) {
+        // cancel the current sub show, activate parent first, then show sub
+        e.preventDefault();
+        const p = new bootstrap.Tab(parentBtn);
+        // show parent, then show sub once parent is visible
+        const onParentShown = function () {
+          const s = new bootstrap.Tab(btn);
+          s.show();
+          parentBtn.removeEventListener('shown.bs.tab', onParentShown);
+
+          // persist both tab and sub in URL
+          const url = new URL(window.location);
+          url.searchParams.set('tab', isProduct ? 'products' : 'services');
+          url.searchParams.set('sub', target);
+          history.replaceState(null, '', url.toString());
+        };
+        parentBtn.addEventListener('shown.bs.tab', onParentShown);
+        p.show();
+        return;
+      }
+
+      // Parent already active - allow show, and persist URL
+      const url = new URL(window.location);
+      url.searchParams.set('tab', isProduct ? 'products' : 'services');
+      url.searchParams.set('sub', target);
+      history.replaceState(null, '', url.toString());
+    });
+  });
+
+  // On initial load, honor ?tab= and optional ?sub=
   const params = new URLSearchParams(window.location.search);
   const initial = params.get('tab'); // 'services' | 'products' | 'pre-order'
+  const initialSub = params.get('sub');
+
   if (initial) {
     const btn = document.getElementById('tab-' + initial);
     if (btn) {
@@ -1338,5 +1293,42 @@ document.addEventListener('DOMContentLoaded', function () {
       t.show();
     }
   }
+
+  if (initialSub) {
+    // find matching sub button by data-bs-target or href
+    const subBtn = document.querySelector(`[data-bs-target="#${initialSub}"], a[href="#${initialSub}"]`);
+    if (subBtn) {
+      // ensure parent tab is visible first, then show sub tab
+      setTimeout(() => {
+        const s = new bootstrap.Tab(subBtn);
+        s.show();
+      }, 50);
+    }
+  }
+
+  // Keep UI classes in sync for sidebar / sub-navs
+  document.addEventListener('shown.bs.tab', function (e) {
+    const target = e.target.getAttribute('data-bs-target') || e.target.getAttribute('href');
+    if (!target) return;
+
+    // Update left sidebar links (if any)
+    document.querySelectorAll('.single-services-list .nav a.nav-link').forEach(a => {
+      if (a.getAttribute('href') === target) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+
+    // Update services and products sub-nav buttons
+    document.querySelectorAll('.services-sub-nav .nav-link, .products-sub-nav .nav-link').forEach(btn => {
+      const t = (btn.getAttribute('data-bs-target') || btn.getAttribute('href') || '');
+      if (t === target) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  });
 });
 </script>

@@ -12,53 +12,26 @@
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8">
+                       <div class="col-lg-8 hero-content">
                             <div class="banner">
-                                <div class="headline-top">Quality & Integrity Service Agency</div>
-                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline">Your industrial knife partner, solution to your cutting needs</h1>
-                                <p class="about-website">Your industrial knife partner, solution to your cutting needs</p>
-                                <a class="btn-1 btn-2" href="/services">Our Services</a>
+                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline">
+                                Precision Cutting Blades<br>
+                                Safer Cutting Solutions
+                                </h1>
+
+                                <p class="about-website">
+                                <span class="tagline">
+                                    Your Industrial Knife Partner · Solutions for Precision Cutting
+                                </span>
+                                </p>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
-<!-- :: Features -->
-<section class="features features-home-2">
-    <div class="container">
-        <div class="features-owl-2 owl-carousel owl-theme">
-            <div class="features-item">
-                <i class="flaticon-gear"></i>
-                <h4>Professional &<br>Qualified</h4>
-            </div>
-            <div class="features-item">
-                <i class="flaticon-worker"></i>
-                <h4>Personalised<br>Solutions</h4>
-            </div>
-            <div class="features-item">
-                <i class="flaticon-statistics"></i>
-                <h4>Premium<br>Quality</h4>
-            </div>
-            <div class="features-item">
-                <i class="flaticon-monitor"></i>
-                <h4>100% Satisfaction<br>Guarantee</h4>
-            </div>
-            <div class="features-item">
-                <i class="flaticon-management"></i>
-                <h4>Accurate<br>Measuring</h4>
-            </div>
-            <div class="features-item">
-                <i class="flaticon-eco"></i>
-                <h4>Environmental<br>Sensitivity</h4>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="about-us py-100" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
@@ -133,6 +106,51 @@
     </div>
 </section>
 
+<!-- :: Features -->
+<section class="features features-home-2 ">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <!-- Left Column: Title -->
+      <div class="col-lg-3">
+        <div class="section-header text-lg-start text-center mb-5 mb-lg-0">
+          <h2 class="section-title">Why Choose Us?</h2>
+        </div>
+      </div>
+
+      <!-- Right Column: Carousel -->
+      <div class="col-lg-9">
+        <div class="features-owl-2 owl-carousel owl-theme">
+          <div class="features-item">
+            <i class="flaticon-gear"></i>
+            <h4>Professional &<br>Qualified</h4>
+          </div>
+          <div class="features-item">
+            <i class="flaticon-worker"></i>
+            <h4>Personalised<br>Solutions</h4>
+          </div>
+          <div class="features-item">
+            <i class="flaticon-statistics"></i>
+            <h4>Premium<br>Quality</h4>
+          </div>
+          <div class="features-item">
+            <i class="flaticon-monitor"></i>
+            <h4>100% Satisfaction<br>Guarantee</h4>
+          </div>
+          <div class="features-item">
+            <i class="flaticon-management"></i>
+            <h4>Accurate<br>Measuring</h4>
+          </div>
+          <div class="features-item">
+            <i class="flaticon-eco"></i>
+            <h4>Environmental<br>Sensitivity</h4>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
 
 <section class="industries py-100-70 work-home-2">
@@ -225,6 +243,76 @@
             </div>
         </div>
     </div>
+</section>
+<section class="industries py-100-70 work-home-2">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="sec-title text-center mb-5" data-aos="fade" data-aos-delay="100">
+      <h2>Safe Disposal & Handling Support</h2>
+      <h3>Prioritizing Safety in Every Blade We Handle</h3>
+      <p>
+        At Goldken Sdn Bhd, safety is our top priority — for both our team and our customers.
+        Industrial machine knives are extremely sharp and can be hazardous if not handled,
+        transported, or disposed of properly. That’s why we are committed to promoting safe
+        practices throughout every stage of the knife life cycle.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="row justify-content-center">
+
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card industry-card h-100" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="flaticon-recycle me-2"></i>
+              Free Scrap Knife Collection & Disposal
+            </h5>
+            <p class="card-text">
+              We provide a free-of-charge collection and disposal service, ensuring worn or
+              damaged blades are removed responsibly and in full compliance with health and
+              safety regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card industry-card h-100" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="flaticon-shield me-2"></i>
+              Regular Safety Monitoring
+            </h5>
+            <p class="card-text">
+              We monitor the condition of knife guards and provide replacement parts upon
+              request, helping you maintain a safe and compliant cutting environment.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card industry-card h-100" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="flaticon-worker me-2"></i>
+              Trained & Experienced Personnel
+            </h5>
+            <p class="card-text">
+              Our trained personnel are equipped to assist you, ensuring all blades are
+              handled with precision, care, and safety.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 
 <section class="services py-100-70 ">
@@ -432,7 +520,7 @@
 </section> --}}
 
 
-<section class="expert" style="margin-bottom: 70px;">
+<section class="expert">
     <div class="bg-section">
         <div class="overlay2"></div>
     </div>
@@ -446,51 +534,46 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-between">
-                <div class="statistic-owl owl-carousel owl-theme owl-loaded owl-drag">
-                    
-                    
-                    
+                <div class="statistic-owl owl-carousel owl-theme owl-loaded owl-drag">  
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1324px, 0px, 0px); transition: 1.5s; width: 2317px;">
-                  
-                    <div class="owl-item cloned" style="width: 316px; margin-right: 15px;">
-                            <div class="statistic-item">
-                                <i class="flaticon-worker"></i>
-                                <div class="content-box">
-                                    <span class="counter">32</span>
-                                    <div class="name-content">Years of Industry Expertise</div>
-                                </div>
+                <div class="owl-item cloned" style="width: 316px; margin-right: 15px;">
+                        <div class="statistic-item">
+                            <i class="flaticon-worker"></i>
+                            <div class="content-box">
+                                <span class="counter">32</span>
+                                <div class="name-content">Years of Industry Expertise</div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="owl-item" style="width: 316px; margin-right: 15px;">
-                            <div class="statistic-item">
-                                <i class="flaticon-globe"></i>
-                                <div class="content-box">
-                                    <span class="counter">7</span>
-                                    <div class="name-content">Industries Served Globally</div>
-                                </div>
+                    <div class="owl-item" style="width: 316px; margin-right: 15px;">
+                        <div class="statistic-item">
+                            <i class="flaticon-globe"></i>
+                            <div class="content-box">
+                                <span class="counter">7</span>
+                                <div class="name-content">Industries Served Globally</div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="owl-item" style="width: 316px; margin-right: 15px;">
-                            <div class="statistic-item">
-                                <i class="flaticon-worker-1"></i>
-                                <div class="content-box">
-                                    <span class="counter">4.5</span>
-                                    <div class="name-content">Meter Max Grinding Length Capacity</div>
-                                </div>
+                    <div class="owl-item" style="width: 316px; margin-right: 15px;">
+                        <div class="statistic-item">
+                            <i class="flaticon-worker-1"></i>
+                            <div class="content-box">
+                                <span class="counter">4.5</span>
+                                <div class="name-content">Meter Max Grinding Length Capacity</div>
                             </div>
                         </div>
-                    <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                    </div>
+                <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
             </div>
         </div>
       
     </div>
 
     <!-- :: Enquiry Form -->
-    <div class="quote">
+    <div class="quote mt-5 mb-5">
         <div class="container">
-            
             <div class="quote-box">
                 
                 <div class="row">
@@ -504,7 +587,7 @@
                                 </div>
                                 <div class="item">
                                     <h5>Quick Contact</h5>
-                                    <p>info@goldken.com<br>sales@goldken.com</p>
+                                    <p>info@goldken.com<br>sales@goldken.com.my.com</p>
                                 </div>
                             </div>
                             <div class="info-down">

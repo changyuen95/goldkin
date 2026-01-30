@@ -31,6 +31,14 @@
 
     @include('layouts.footer')
 
+    <!-- Floating Request A Quote button (fixed bottom-right); shown on Services page only -->
+    @if (Request::is('services*'))
+        <a href="{{ url('/contact') }}" class="floating-quote btn-1 request-a-quote" aria-label="Request A Quote">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <span class="floating-text">Request A Quote</span>
+        </a>
+    @endif
+
 <!-- AOS CDN and Initialization -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>

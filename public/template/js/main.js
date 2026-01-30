@@ -80,9 +80,18 @@
         e.stopPropagation();
     });
     
-    // :: Height Header Section
-    $('.header, .header .table-cell').height( $(window).height() + $('.nav-bar').height() + 86 );
-    $('.header.header-home-2, .header.header-home-2 .table-cell').height($(window).height() + $('navs-home-2').height() + 100);
+    // :: Height Header Section (smaller & responsive)
+    function setHeaderHeight() {
+        var desiredHeaderHeight = Math.max(500, Math.round($(window).height() * 0.75)); // 75% viewport, min 500px
+        var navH = $('.nav-bar').height() || 0;
+        var finalH = desiredHeaderHeight + navH + 20; // small offset for spacing
+        $('.header, .header .table-cell').height(finalH);
+        $('.header.header-home-2, .header.header-home-2 .table-cell').height(finalH);
+    }
+    setHeaderHeight();
+    $(window).on('resize', function () {
+        setHeaderHeight();
+    });
 
     // :: Animation Header
     $('.header-owl').on('translate.owl.carousel', function () {

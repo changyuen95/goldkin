@@ -1,3 +1,6 @@
+<link rel="shortcut icon" href="{{ asset('template/images/logo/logo.png') }}" type="image/png">
+<link rel="icon" type="image/png" href="{{ asset('template/images/logo/logo.png') }}">
+<link rel="apple-touch-icon" href="{{ asset('template/images/logo/logo.png') }}">
 <link rel="stylesheet" href="{{ asset('template/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Teko:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="{{ asset('template/fonts/fontawesome/css/all.min.css') }}">

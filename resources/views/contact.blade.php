@@ -9,9 +9,9 @@
     <div class="overlay"></div>
     <div style="margin-top:25px" class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 hero-content">
                 <div class="banner">
-                    <h1 style="text-align: center;margin-bottom:-20px">Contact Us</h1>
+                    <h1 style="text-align: center;margin-bottom:-20px " class="handline">Get in Touch with us</h1>
                     <ul style="text-align:center">
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li><i class="fas fa-angle-right"></i></li>
@@ -116,7 +116,7 @@
                 <div class="d-flex flex-wrap gap-2">
                   <a href="tel:01212843661" class="btn btn-outline-warning btn-sm">Call (+60)16-661-2366</a>
                   <a href="tel:01068710594" class="btn btn-outline-warning btn-sm">Call (+60)16-205-2950</a>
-                  <a href="mailto:sales@goldken" class="btn btn-outline-warning btn-sm">Email sales@goldken</a>
+                  <a href="mailto:sales@goldken.com.my" class="btn btn-outline-warning btn-sm">Email sales@goldken.com.my</a>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@
             <i class="fas fa-phone-alt"></i>
           </div>
 
-          <div class="quote-item">
+          <div class="quote-item mb-5">
             <label>Inquiry Type</label>
             <select name="inquiry_type">
               <option value="">Select one…</option>
@@ -184,15 +184,64 @@
   </div>
 </section>
 
+<section class="mt-5 mb-5 contact-section">
+  <div class="container">
 
-
-                <!-- :: Map -->
-        <div class="map-box">
-            <div class="container">
-                <iframe src="https://maps.google.com/maps?q=manhatan&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
-            </div>
+    <!-- Section Header -->
+    <div class="row mb-3">
+      <div class="col text-center">
+        <div class="sec-title">
+          <h2>Get in Touch</h2>
+          <h3>We’re Here to Support You</h3>
         </div>
+      </div>
+    </div>
 
+    <!-- Three Columns -->
+    <div class="row g-4 align-items-stretch">
 
+      <!-- Contact Info: Location + Business Hours (merged) -->
+      <div class="col-lg-4">
+        <div class="contact-box h-100">
+          <h4 class="fw-bold mb-3">Our Location</h4>
+          <p>
+            Selangor, Malaysia
+          </p>
+          <p class="mb-3">
+            Tel: +(60)3-7782-6442<br>
+            Email: info@goldken.com.my
+          </p>
+
+          <h4 class="fw-bold mb-3 mt-4">Business Hours</h4>
+          <p>
+            <strong>Monday – Friday</strong><br>
+            8:30 AM – 5:30 PM
+          </p>
+          <p>
+            <strong>Saturday</strong><br>
+            9:00 AM – 1:00 PM
+          </p>
+          <p class="mb-0">
+            Sunday & Public Holidays<br>
+            <strong>Closed</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- Map (wider to accommodate merged column) -->
+      <div class="col-lg-8">
+        <div class="contact-box h-100 p-0 overflow-hidden">
+          <iframe
+            src="https://maps.google.com/maps?q=petaling%20jaya&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            style="width:100%; height:100%; border:0; min-height:260px;"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 @endsection
 

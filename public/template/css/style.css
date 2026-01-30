@@ -694,21 +694,46 @@ p {
     border-bottom: 1px solid rgba(255,255,255,.15)
 }
 .nav-bar.active{
-    background-color: #FFF;
-    -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.07);
-            box-shadow: 0 3px 4px rgba(0,0,0,.07);
     position: fixed;
     top: 0;
     z-index: 1000;
     width: 100%;
-    border-bottom: none;
+
+    background: linear-gradient(
+        180deg,
+        rgba(45,45,45,0.98),
+        rgba(25,25,25,0.98)
+    );
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
 }
 .nav-bar .logo .logo-nav{
     display: block;
 }
 .nav-bar .logo .logo-nav img{
+    width: 160px; /* enlarged */
+    padding: 0; /* remove padding */
+    border-radius: 0;
+    border: none; /* removed white outline */
+    box-shadow: none;
+    display: block;
+    background: transparent;
+} 
+
+/* Keep logo a bit smaller on very small screens */
+@media (max-width: 767.98px) {
+  .nav-bar .logo .logo-nav img{
     width: 130px;
-}
+    padding: 0;
+    border-width: 0;
+    border: none;
+    box-shadow: none;
+  }
+} 
 .nav-bar .logo .logo-nav img.two,
 .nav-bar.active .logo .logo-nav img.one{
     display: none;
@@ -722,13 +747,21 @@ p {
 }
 .nav-bar .nav-bar-link ul li a{
     color: #FFF;
-    font-size: 16px;
+    font-size: 20px; /* larger */
     font-weight: 700;
-    padding: 30px 0;
-    margin: 0 20px 0 0px;
+    padding: 40px 0; /* increased vertical padding for a taller header */
+    margin: 0 10px 0 0px; /* reduced spacing between items */
     position: relative;
     display: block;
     text-transform: capitalize;
+}
+
+@media (max-width: 767.98px) {
+  .nav-bar .nav-bar-link ul li a{
+    font-size: 16px;
+    padding: 18px 0;
+    margin: 0 8px 0 0px;
+  }
 }
 .nav-bar .nav-bar-link ul li a:before{
     content: '';
@@ -747,7 +780,7 @@ p {
     width: 100%;
 }
 .nav-bar.active .nav-bar-link ul li a{
-    color: #0D1B2A;
+    color: #FFF; /* remain white when scrolled */
 }
 .nav-bar.active .nav-bar-link > ul ul li a{
     color: #9B9B9B;
@@ -837,6 +870,41 @@ p {
 .nav-bar .info-nav .item:last-of-type{
     margin-right: 0px;
 }
+/* Reduce gaps between logo, nav and Call Us ✅ */
+.nav-bar .logo {
+    margin-right: 30px; /* increased gap per request */
+    flex: 0 0 auto;
+}
+.nav-bar .nav-bar-link {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar .info-nav {
+    margin-left: 12px;
+    flex: 0 0 auto;
+}
+.nav-bar .nav-bar-link ul li a{
+    margin: 0 8px 0 0px; /* tightened spacing between nav items */
+}
+
+/* larger nav font */
+.nav-bar .nav-bar-link ul li a{
+    font-size: 22px;
+}
+@media (max-width: 767.98px) {
+  .nav-bar .nav-bar-link ul li a{
+    font-size: 18px;
+  }
+} 
+.nav-bar .info-nav .info-nav-contact .contact-nav{
+    padding-left: 12px; /* reduce gap between icon and text */
+}
+/* adjust for home-2 variant where padding was larger */
+.navs-home-2 .nav-bar .info-nav .info-nav-contact .contact-nav{
+    padding-left: 20px;
+}
+
 .nav-bar .info-nav .item i.icon{
     color: #FFF;
     font-size: 16px;
@@ -1226,11 +1294,12 @@ p {
 /* :: Header */
 .header,
 .header .header-owl .sec-hero{
-    min-height: 750px !important;
+    /* reduced header min-height for a smaller header */
+    min-height: 600px !important;
 }
 .header .header-owl{
     height: 100%;
-}
+} 
 .header .header-owl .sec-hero{
     background-position: center;
     background-repeat: no-repeat;
@@ -1388,10 +1457,13 @@ p {
 
 /* :: Features Home 2 */
 .features-home-2{
-    padding: 0 0 70px 0;
+    /* add top spacing so section sits below the header instead of overlapping */
+    padding: 60px 0 70px 0;
 }
+
 .features-home-2 .features-owl-2{
-    margin-top: calc( -203px / 2 );
+    /* remove negative margin that caused overlap with header */
+    margin-top: 0;
 }
 .features-home-2 .features-item{
     background-color: #FFF;
@@ -2400,9 +2472,23 @@ p {
     background-color: #F9F9F9;
 }
 .expert .bg-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url(../../assets/images/photo/20200721_151324.jpg);
-    height: calc(100% - 300px)
+    background-size: cover; /* ensures full coverage */
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
+/* make overlay sit on top of the bg and content above that */
+.expert .bg-section .overlay2{
+    position: absolute; inset: 0; background-color: rgba(0,0,0,0.55); z-index: 1;
+}
+/* ensure content is above the overlay */
+.expert .container, .expert .sec-title, .expert .statistic-owl{ position: relative; z-index: 2; }
 .expert .sec-title{
     margin-bottom: 0;
 }
@@ -2482,11 +2568,13 @@ p {
     margin-top: 100px;
 }
 .quote .quote-box{
-    background-color: #FFF;
-    -webkit-box-shadow: 0 1px 73px 0 rgb(11 12 38 / 0.07);
-            box-shadow: 0 1px 73px 0 rgb(11 12 38 / 0.07);
+    /* dark, header-matching background */
+    background: linear-gradient(180deg, rgba(45,45,45,0.98), rgba(25,25,25,0.98));
+    -webkit-box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.35);
     padding: 30px;
-    border-radius: 3px;
+    border-radius: 6px;
+    color: #F1F1F1;
 }
 .quote .quote-info{
     height: 100%;
@@ -2550,12 +2638,12 @@ p {
     margin-left: 8px;
 }
 .quote .text-box .sec-title h3{
-    color: #0D1B2A;
+    color: #F1F1F1; /* lighten heading for dark background */
     margin-bottom: 15px;
     font-size: 35px;
 }
 .quote .text-box .sec-title p{
-    color: #1b212c;
+    color: #D1D1D1; /* muted but readable */
 }
 .quote-item input,
 .quote-item textarea{
@@ -3100,8 +3188,14 @@ p {
 
 /* :: Footer */
 .footer{
-    background-color: #0D1B2A;
+    background: linear-gradient(
+        180deg,
+        rgba(45,45,45,0.98),
+        rgba(25,25,25,0.98)
+    );
+    border-top: 1px solid rgba(255,255,255,0.12);
     padding-top: 100px;
+    color: #F9F9F9;
 }
 .footer-home-2{
     /* padding-top: calc(100px + 90px); */
@@ -3170,7 +3264,7 @@ p {
     border: 1px solid rgb(204 204 204 / 0.1);
 }
 .footer .newsletter form input:focus{
-    border-color: #e7641f;
+    border-color: #e8631c;
 }
 .footer .newsletter form a{
     position: absolute;
@@ -3216,6 +3310,88 @@ p {
 .footer ul.icon li:hover a{
     background-color: #FFF;
     color: #e7641f;
+}
+
+/* Simple footer redesign */
+.footer .footer-inner{
+    padding: 40px 0;
+}
+.footer .footer-logo img{
+    width: 140px;
+}
+.footer .desc{
+    color: #DADADA;
+    font-size: 14px;
+    margin-top: 12px;
+    max-width: 360px;
+}
+.footer .links li a{
+    color: #DADADA;
+    font-size: 15px;
+}
+.footer .links li a:hover{ color: #e7641f; }
+.footer .contact{
+    color: #DADADA;
+    font-weight:600;
+}
+.footer .btn-1.request-a-quote{
+    background-color:#e7641f;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:3px;
+    display:inline-block;
+    margin-top:8px;
+}
+.footer .icon li a{
+    width:36px;height:36px;line-height:36px;margin-right:8px;border-radius:50%;background-color:transparent;border:1px solid rgba(255,255,255,0.06);color:#fff;
+}
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,0.06);
+    padding-top:18px;
+    margin-top:20px;
+    color:#BFBFBF;
+}
+@media (max-width:767.98px){
+  .footer .links{ padding-left:0;}
+  .footer .footer-logo img{ width:120px;}
+}
+
+/* Floating Request A Quote button (fixed) */
+.floating-quote{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1200;
+    background-color: #e7641f;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(13,27,42,0.12);
+    font-weight: 700;
+    text-decoration: none;
+    /* override .btn-1 fixed height/line-height and center text */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 44px;
+    line-height: normal;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.floating-quote i{
+    margin-right: 10px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1;
+}
+.floating-quote .floating-text{ display: inline-block; }
+.floating-quote:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(13,27,42,0.18);
+}
+@media (max-width: 767.98px){
+  .floating-quote{ right: 12px; bottom: 12px; padding: 10px 14px; font-size: 14px; min-height: 40px; }
+  .floating-quote i{ margin-right:8px; font-size:14px; }
 }
 
 .copyright{
@@ -4304,6 +4480,105 @@ p {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #f36f21;
+}
+
+/* Container over blade background */
+.hero-content {
+  position: relative;
+  padding: 48px;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.2)
+  );
+  backdrop-filter: blur(3px);
+}
+
+/* Vertical "cut line" accent */
+.hero-content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #ffb703,
+    transparent
+  );
+}
+
+/* Headline styling */
+.handline {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 24px;
+  text-shadow: 0 8px 30px rgba(0,0,0,0.6);
+}
+
+/* Tagline container */
+.about-website {
+  margin: 0;
+}
+
+/* Industrial tagline badge */
+.tagline {
+  display: inline-block;
+  padding: 10px 18px;
+  background: rgba(255,255,255,0.08);
+  border-left: 4px solid #ffb703;
+  color: #f1f1f1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+}
+
+/* Section Background: Grey Gradient */
+.features-home-2 {
+    /* border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(135deg, #0d0f25, #202025, #484857) 1; */
+    padding: 80px 0;
+}
+
+/* Left title styling */
+.section-header {
+  max-width: 100%;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #eb6e30;
+  margin-bottom: 15px;
+  /* text-shadow: 0 4px 20px rgba(0,0,0,0.5); */
+}
+.section-subtitle {
+  font-size: 1rem;
+  color: #f1f1f1;
+  opacity: 0.9;
+}
+
+/* Carousel Items */
+.features-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0a0505;
+  text-transform: uppercase;
+}
+.features-item i {
+  font-size: 2.5rem;
+  color: #b0b0b0; /* grey icon color */
+  margin-bottom: 15px;
 }
 
 @media (max-width: 767px) {

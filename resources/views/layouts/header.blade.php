@@ -1,9 +1,9 @@
 <div class="navs navs-home-2 fixed-top">
-    <div class="nav-top">
+    {{-- <div class="nav-top">
         <div class="container">
             <div class="nav-top-box d-flex align-items-center justify-content-between">
                 <ul class="info">
-                    <li><span>Email :</span> sales@goldken.com.my</li>
+                    <li><span>Email :</span> sales@goldken.com.my.com.my</li>
                     <li><span>Phone :</span> +(60)16-205-2950</li>
                     <li><span>Phone :</span> +(60)16-661-2366</li>
                 </ul>
@@ -17,7 +17,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <nav class="nav-bar nav-bar-home-2">
         <div class="container">
@@ -42,13 +42,7 @@
                 </div>
                 <ul class="info-nav d-flex align-items-center justify-content-between">
                     <li class="item">
-                        <div class="info-nav-contact">
-                            <i class="flaticon-call"></i>
-                            <div class="contact-nav">
-                                <span>Call Us</span>
-                                <a href="tel:60377826442">+(60)3-7782-6442</a>
-                            </div>
-                        </div>
+                        <a class="btn-1 request-a-quote" href="{{ url('/contact') }}">Request A Quote</a>
                     </li>
                 </ul>
             </div>
