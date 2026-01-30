@@ -58,7 +58,7 @@
 
 <div class="sec-title" data-aos="fade-right" data-aos-delay="200">
   <h2>Your Industrial Knife Partner, Solution To Your Industrial Needs.</h2>
-  <h3>Precision Sharpening. Trusted Quality. Since 1993.</h3>
+  <h3>About Goldken Sdn. Bhd.</h3>
 
   <p>
     <strong>Established in 1993</strong> as Goldken Trading and later rebranded as 
@@ -233,10 +233,10 @@
         </div>
       </div>
     </div>
-     <div class="row align-items-center">
+     <div class="row align-items-center mb-5">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ "https://www.tkmgroup.com/hubfs/%5Bv20%5D/Produkte/Mix_Schneidmesser_verbundstoffe.png"}}" class="img-fluid rounded shadow" alt="Industries We Serve">
+          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Industries We Serve">
         </div>
       </div>
       <div class="col-lg-6">
@@ -263,7 +263,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/semiconductor.jpg') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
@@ -292,7 +292,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/semiconductor.jpg') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6">
@@ -370,128 +370,90 @@
   </style>
 </section>
 
-<section class="company-history py-100-70 position-relative">
-  <div class="container">
-    <div class="text-center mb-3">
-    </div>
 
+<section class="py-100-50 position-relative mt-5" style="background-image: url('{{ asset('/template/images/repeat-bg.jpg') }}'); background-size: cover; background-position: center;">
+  <div class="container mt-5">
     <div class="row align-items-center">
       <div class="col-lg-12">
-        <h3 class="fw-bold text-center">Quality Control & Reporting (Upon Request)</h3>
-        <h4  class="text-center">Precision you can see. Confidence you can measure.</h4>
-        <p>
-          At <strong>Goldken Sdn Bhd</strong>, every blade undergoes a
-          <strong>strict quality control process</strong> to deliver
-          <strong>measurable performance</strong> and
-          <strong>reliable cutting quality</strong>.
-          Through <strong>detailed inspection and clear reporting</strong>,
-          we provide <strong>full visibility</strong> and
-          <strong>confidence</strong> in every blade we return.
-        </p>
+        <h3 class="fw-bold text-center mt-5 mb-5">QA Reporting (Upon Request) & Technical Support</h3>
       </div>
-      <div class="col-lg-6">
-        <div class="timeline-img">
-          <h3 class="fw-bold">Inspection Reports You Can Trust</h3>
-          <p>
-            Upon request, customers receive a <strong>comprehensive inspection report</strong>
-            with each batch of sharpened knives, providing clear documentation of blade
-            condition and performance.
-          </p>
-          <ul class="qc-report-list">
-            <li><strong>Blade condition</strong> (before and after sharpening)</li>
-            <li><strong>Tolerance & specification checks</strong> vs. OEM or customer requirements</li>
-            <li><strong>Service recommendations</strong> for future maintenance or replacement</li>
-          </ul>
-          <p>
-            These reports support <strong>traceability, compliance, and quality assurance</strong>,
-            especially for <strong>regulated industries</strong> such as food, pharmaceutical,
-            and semiconductor manufacturing.
-          </p>
+      <div class="features-owl-2 owl-carousel owl-theme">
+        <!-- QC REPORTS -->
+        <div class="features-item">
+          <div class="features-box">
+            <h3 class="fw-bold">Inspection Reports</h3>
+            <p>
+              Upon request, we provide clear inspection reports with each batch of blades.
+            </p>
+            <ul>
+              <li>Blade condition (before & after service)</li>
+              <li>Tolerance and specification checks</li>
+              <li>Maintenance or replacement recommendations</li>
+            </ul>
+            <p>
+              Ideal for regulated industries requiring <strong>traceability and compliance</strong>.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="timeline-img">
-          <h3 class="fw-bold">Our Quality Control Process</h3>
-          <p>
-            Our <strong>multi-stage QC workflow</strong> ensures every blade meets strict
-            performance and dimensional standards before return.
-          </p>
-          <ul class="qc-process-list">
-            <li>
-              <strong>Incoming Inspection:</strong>
-              Visual and dimensional checks to identify wear or damage.
-            </li>
-            <li>
-              <strong>In-Process Monitoring:</strong>
-              Continuous control of angles, straightness, and machine accuracy.
-            </li>
-            <li>
-              <strong>Final Inspection:</strong>
-              Verification of sharpness, dimensions, and surface finish.
-            </li>
-          </ul>
-          <p>
-            This approach reduces failure risk, improves consistency, and
-            supports <strong>preventive maintenance planning</strong>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-lg-12">
-        <h3 class="fw-bold text-center">Technical Support</h3>
-        <h4  class="text-center">Expertise that goes beyond sharpening</h4>
-        <p>
-          At <strong>Goldken Sdn Bhd</strong>, our expertise goes beyond sharpening.
-          We provide <strong>practical technical support</strong> to help customers
-          improve cutting performance, resolve blade issues, and extend tool life.
-        </p>
-      </div>
-      <div class="col-lg-6">
-  <div class="timeline-img">
-  <h3 class="fw-bold">What We Offer</h3>
-  <ul class="tech-support-list">
-    <li>
-      <strong>Knife Application Consultation:</strong>
-      Expert advice on knife materials, finish levels, and machine compatibility.
-    </li>
-    <li>
-      <strong>Tool Life Optimization:</strong>
-      Wear pattern analysis, regrinding interval planning, and handling best practices.
-    </li>
-    <li>
-      <strong>Troubleshooting & Analysis:</strong>
-      Identification of chipping, burrs, uneven cuts, or premature blade wear.
-    </li>
-  </ul>
-  <p>
-    *Support is available via <strong>on-site visits</strong> or
-    <strong>remote consultation</strong> to ensure fast and effective issue resolution.
-  </p>
-</div>
-</div>
 
-<div class="col-lg-6">
-  <div class="timeline-img">
-    <h3 class="fw-bold">Why Our Support Matters</h3>
-    <p>
-      We don’t offer generic advice. Every recommendation is based on
-      <strong>real production conditions</strong> and industry-specific experience.
-    </p>
-    <ul class="tech-support-benefits">
-      <li>Experienced technicians with deep application knowledge</li>
-      <li>Fast response and clear, practical communication</li>
-      <li>Solutions aligned with your production goals</li>
-    </ul>
-    <p>
-      By aligning technical insight with operational needs, we help
-      <strong>reduce downtime, control costs, and improve cutting efficiency</strong>.
-      Goldken is not just a service provider—we are your <strong>technical partner</strong>.
-    </p>
-  </div>
-</div>
-</div>
-    </div>
+        <!-- QC PROCESS -->
+        <div class="features-item">
+          <div class="features-box">
+            <h3 class="fw-bold">Our QC Process</h3>
+            <ul>
+              <li><strong>Incoming:</strong> Visual and dimensional inspection</li>
+              <li><strong>In-Process:</strong> Angle, straightness, and accuracy checks</li>
+              <li><strong>Final:</strong> Sharpness, dimensions, and finish verification</li>
+            </ul>
+            <p>
+              This process improves consistency and reduces failure risk.
+            </p>
+          </div>
+        </div>
+
+        <!-- TECH SUPPORT INTRO -->
+        <div class="features-item">
+          <div class="features-box text-center">
+            <h3 class="fw-bold">Technical Support</h3>
+            <h4>Expertise beyond sharpening</h4>
+            <p>
+              We help customers solve cutting issues, improve performance,
+              and extend blade life.
+            </p>
+          </div>
+        </div>
+
+        <!-- WHAT WE OFFER -->
+        <div class="features-item">
+          <div class="features-box">
+            <h3 class="fw-bold">What We Offer</h3>
+            <ul>
+              <li>Knife application and material consultation</li>
+              <li>Tool life and regrinding optimization</li>
+              <li>Cutting issue troubleshooting</li>
+            </ul>
+            <p>
+              Support is available <strong>on-site</strong> or <strong>remotely</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- WHY IT MATTERS -->
+        <div class="features-item">
+          <div class="features-box">
+            <h3 class="fw-bold">Why It Matters</h3>
+            <ul>
+              <li>Experienced technical specialists</li>
+              <li>Fast, practical recommendations</li>
+              <li>Solutions aligned with production goals</li>
+            </ul>
+            <p>
+              We help reduce downtime, control costs, and improve efficiency.
+            </p>
+          </div>
+        </div>
+
+      </div>
   </div>
 
   {{-- subtle center line, matching your previous style --}}

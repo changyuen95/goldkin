@@ -60,7 +60,7 @@
                 <div class="banner">
                     <div class="banner">
                           <h1 style="text-align: center;margin-bottom:-20px" class="handline">Our Services & Products</h1>
-                          <p class="about-website">
+                          <p class="about-website text-center">
                           <span class="tagline">
                               Trusted industrial services backed by experience, quality control, and technical expertise.
                           </span>
@@ -113,7 +113,7 @@
     <div class="container">
       <!-- Sub-nav for Core Services (appears when Services tab is active) -->
       <div class="services-sub-nav mb-4">
-        <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-center" role="tablist">
+        <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-start" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#svc-regrinding" type="button" role="tab">Industrial Knife Regrinding</button>
           </li>
@@ -617,7 +617,7 @@
       <!-- Products sub-nav (replaces sidebar) -->
       <div class="col-12">
         <div class="products-sub-nav mb-4">
-          <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-center" role="tablist">
+          <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-start" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#prod-paper" type="button" role="tab">Paper</button>
             </li>
