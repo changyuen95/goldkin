@@ -35,8 +35,7 @@
                     <div class="footer-title">
                         <h4>Get in touch</h4>
                     </div>
-                    <p class="contact">+(60)3-7782-6442<br><a href="mailto:sales@goldken.com.my.com.my">sales@goldken.com.my.com.my</a></p>
-                    <a href="{{ url('/contact') }}" class="btn-1 request-a-quote">Request A Quote</a>
+                    <h4>+(60)3-7782-6442</h4><br><a href="mailto:sales@goldken.com.my">sales@goldken.com.my</a></p>
                 </div>
 
             </div>
