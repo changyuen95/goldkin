@@ -373,7 +373,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_164329.jpg" alt="Slitter Knives">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_164329.jpg" alt="Slitter Knives">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Slitter Knives</h6>
                       <p class="card-text small text-muted">For clean longitudinal slitting of non-woven webs.</p>
@@ -382,7 +382,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_151742.jpg" alt="Trimmer Knives">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200721_151742.jpg" alt="Trimmer Knives">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Trimmer Knives</h6>
                       <p class="card-text small text-muted">Edge trimming without snagging or wrinkling.</p>
@@ -391,7 +391,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_152904.jpg" alt="Guillotine / Cross-cut">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200721_152904.jpg" alt="Guillotine / Cross-cut">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Guillotine / Cross-cut</h6>
                       <p class="card-text small text-muted">Square, burr-free cross-cuts for stacked materials.</p>
@@ -411,7 +411,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163704.jpg" alt="Slitter / Sheeter">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163704.jpg" alt="Slitter / Sheeter">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Slitter / Sheeter Knives</h6>
                       <p class="card-text small text-muted">Clean cuts for paper & tissue.</p>
@@ -420,7 +420,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163045.jpg" alt="Guillotine">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163045.jpg" alt="Guillotine">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Guillotine Knives</h6>
                       <p class="card-text small text-muted">Binding/cutting applications.</p>
@@ -429,7 +429,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163725.jpg" alt="Trim & Perforation">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163725.jpg" alt="Trim & Perforation">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Trim / Perforation Knives</h6>
                       <p class="card-text small text-muted">Consistent perforation lines.</p>
@@ -447,7 +447,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_152904.jpg" alt="Granulator Blades">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200721_152904.jpg" alt="Granulator Blades">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Granulator Blades</h6>
                       <p class="card-text small text-muted">Clean granulation without melt or dust.</p>
@@ -456,7 +456,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_164329.jpg" alt="Slitter Blades">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_164329.jpg" alt="Slitter Blades">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Slitter Blades</h6>
                       <p class="card-text small text-muted">Film & sheet slitting.</p>
@@ -465,7 +465,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_151742.jpg" alt="Guillotine / Rotary">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200721_151742.jpg" alt="Guillotine / Rotary">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Guillotine / Rotary Cutters</h6>
                       <p class="card-text small text-muted">Trim, cross-cut, pelletizer support.</p>
@@ -483,7 +483,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163704.jpg" alt="Shredder Knives">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163704.jpg" alt="Shredder Knives">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Shredder / Chopper Knives</h6>
                       <p class="card-text small text-muted">Heavy-duty reduction.</p>
@@ -492,7 +492,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163045.jpg" alt="Granulator">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163045.jpg" alt="Granulator">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Granulator Blades</h6>
                       <p class="card-text small text-muted">Clean regrind, less dust.</p>
@@ -539,7 +539,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163725.jpg" alt="Slitter / Shear">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163725.jpg" alt="Slitter / Shear">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Slitter & Shear Blades</h6>
                       <p class="card-text small text-muted">Durable, accurate slitting.</p>
@@ -548,7 +548,7 @@
                 </div>
                 {{-- <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_164329.jpg" alt="Trimmer/Cropper">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_164329.jpg" alt="Trimmer/Cropper">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Trimmer / Cropper</h6>
                       <p class="card-text small text-muted">Strip and coil finishing.</p>
@@ -557,7 +557,7 @@
                 </div> --}}
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" style="width:auto; height:125px; object-fit:cover; overflow:hidden;" src="assets/images/knives/steelandmetal/top-blending-knife-2.jpg" alt="Trimmer/Cropper">
+                    <img class="card-img-top fix-height" style="width:auto; height:125px; object-fit:cover; overflow:hidden;" src="assets/images/knives/steelandmetal/top-blending-knife-2.jpg" alt="Trimmer/Cropper">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Top Bending Knife</h6>
                       <p class="card-text small text-muted">Strip and coil finishing.</p>
@@ -575,7 +575,7 @@
               <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200721_151742.jpg" alt="Planer / Jointer">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200721_151742.jpg" alt="Planer / Jointer">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Planer & Jointer Knives</h6>
                       <p class="card-text small text-muted">Smooth, consistent planing.</p>
@@ -584,7 +584,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/photo/20200714_163725.jpg" alt="Chipper">
+                    <img class="card-img-top fix-height" src="assets/images/photo/20200714_163725.jpg" alt="Chipper">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Chipper / Veneer Blades</h6>
                       <p class="card-text small text-muted">High-uptime wood reduction.</p>
@@ -593,7 +593,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top" style="width:auto; height:125px; object-fit:contain;" src="assets/images/knives/woodprocessing/saw-blade-1.jpg" alt="Chipper">
+                    <img class="card-img-top fix-height" style="width:auto; height:125px; object-fit:contain;" src="assets/images/knives/woodprocessing/saw-blade-1.jpg" alt="Chipper">
                     <div class="card-body">
                       <h6 class="card-title mb-1">Saw Blades</h6>
                       <p class="card-text small text-muted">Smooth, efficient cuts with minimal vibration.</p>
@@ -620,6 +620,9 @@
           <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-start" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#prod-paper" type="button" role="tab">Paper</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#prod-nonwoven" type="button" role="tab">Non-woven</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
@@ -653,10 +656,32 @@
 
             {{-- e-commerce style cards --}}
             <div class="row g-3 mt-3">
-              {{-- Guillotine Knives --}}
-              <div class="col-md-6 col-lg-6">
+              {{-- Top & Bottom Slitter Knives --}}
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_163725.jpg" alt="Guillotine Knives">
+                  <img class="card-img-top" src="assets/images/service/top_slitter_knife.jpg" alt="Top Slitter Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Top Slitter Knives</h6>
+                    <p class="card-text small text-muted">High-accuracy paired slitters for clean slitting with minimal dust.</p>
+                  </div>
+                </div>
+              </div>
+
+              {{-- Top & Bottom Slitter Knives --}}
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/images/service/bottom_slitter.jpg" alt="Bottom Slitter Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Bottom Slitter Knives</h6>
+                    <p class="card-text small text-muted">High-accuracy paired slitters for clean slitting with minimal dust.</p>
+                  </div>
+                </div>
+              </div>
+
+              {{-- Guillotine Knives --}}
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/images/service/guillotine_knife.jpg" alt="Guillotine Knives">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Guillotine Knives</h6>
                     <p class="card-text small text-muted">Compatible with Polar, Wohlenberg, Horizon & more for clean stack cuts.</p>
@@ -664,32 +689,54 @@
                 </div>
               </div>
 
-              {{-- Top & Bottom Slitter Knives --}}
-              <div class="col-md-6 col-lg-6">
+              {{-- Guillotine Knives --}}
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200721_151742.jpg" alt="Top & Bottom Slitter Knives">
+                  <img class="card-img-top" src="assets/images/service/three_side_trimmer.jpg" alt="Three Sides Trimmer">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Top & Bottom Slitter Knives</h6>
-                    <p class="card-text small text-muted">High-accuracy paired slitters for clean slitting with minimal dust.</p>
+                    <h6 class="card-title mb-1">Three Sides Trimmer</h6>
+                    <p class="card-text small text-muted">Compatible with Polar, Wohlenberg, Horizon & more for clean stack cuts.</p>
                   </div>
                 </div>
               </div>
 
-              {{-- Trimmer Knives --}}
-              <div class="col-md-6 col-lg-6">
+              {{-- Circular Multiblock Knives --}}
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200721_152904.jpg" alt="Trimmer Knives">
+                  <img class="card-img-top" src="assets/images/service/circular_multiblock.jpg" alt="Circular Multiblock Knives">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Trimmer Knives</h6>
-                    <p class="card-text small text-muted">Consistent edges for high-speed 3-knife trimming & bindery lines.</p>
+                    <h6 class="card-title mb-1">Circular Multiblock</h6>
+                    <p class="card-text small text-muted">Compatible with Polar, Wohlenberg, Horizon & more for clean stack cuts.</p>
+                  </div>
+                </div>
+              </div>
+
+              {{-- Circular Multiblock Knives --}}
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/images/service/saddle_stitch_knives.jpg" alt="Saddle Stitch Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Saddle Stitch Knives</h6>
+                    <p class="card-text small text-muted">Compatible with Polar, Wohlenberg, Horizon & more for clean stack cuts.</p>
+                  </div>
+                </div>
+              </div>
+
+              {{-- Circular Multiblock Knives --}}
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/images/service/score_cutting_knives.jpg" alt="Score Cutting Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Score Cutting Knives</h6>
+                    <p class="card-text small text-muted">Compatible with Polar, Wohlenberg, Horizon & more for clean stack cuts.</p>
                   </div>
                 </div>
               </div>
 
               {{-- Sheeter Knives --}}
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_163704.jpg" alt="Sheeter Knives">
+                  <img class="card-img-top" src="assets/images/service/sheeter_knives.jpg" alt="Sheeter Knives">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Sheeter Knives</h6>
                     <p class="card-text small text-muted">Precision cutting for sheet lines; stable edges and clean output.</p>
@@ -698,28 +745,16 @@
               </div>
 
               {{-- Scraper / Doctor Blades --}}
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_164329.jpg" alt="Scraper / Doctor Blades">
+                  <img class="card-img-top" src="assets/images/service/scraper_doctor_blade.jpg" alt="Scraper / Doctor Blades">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Scraper / Doctor Blades</h6>
                     <p class="card-text small text-muted">Reliable metering and cleaning for paper finishing processes.</p>
                   </div>
                 </div>
               </div>
-
-              {{-- Score / Creasing Knives --}}
-              <div class="col-md-6 col-lg-6">
-                <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_163045.jpg" alt="Score / Creasing Knives">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Score / Creasing Knives</h6>
-                    <p class="card-text small text-muted">Crisp, accurate creases and scoring for converting and finishing.</p>
-                  </div>
-                </div>
-              </div>
             </div>
-
           </div>
 
           {{-- ================= RECYCLING & WASTE ================= --}}
@@ -748,7 +783,7 @@
               </div>
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/knives/recycleandwaste/chopper-blades.jpg" alt="Chopper Blades">
+                  <img class="card-img-top fix-height" src="assets/images/service/chopper_blades.jpg" alt="Chopper Blades">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Chopper Knives</h6>
                     <p class="card-text small text-muted">Strip &amp; scrap chopping operations.</p>
@@ -764,6 +799,15 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/service/rotary_pelletizer_knives.jpg" alt="Rotary Palletizer Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Rotary Palletizer Knives</h6>
+                    <p class="card-text small text-muted">Bale cutting &amp; opening support.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -774,9 +818,9 @@
 
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/rotary-straight-shear-blades.jpg" alt="Rotary and Straight Shear Blades">
+                <img class="card-img-top fix-height" src="assets/images/service/shear_blade.jpg" alt="Shear Blades">
                 <div class="card-body">
-                <h6 class="card-title mb-1">Rotary &amp; Straight Shear Blades</h6>
+                <h6 class="card-title mb-1">Shear Blades</h6>
                 <p class="card-text small text-muted">Accurate shearing performance.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
@@ -784,6 +828,18 @@
                 <div class="card-body">
                 <h6 class="card-title mb-1">Slitter Blades</h6>
                 <p class="card-text small text-muted">Durable, accurate slitting lines.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/service/bending_machine_blade.jpg" alt="Bending Machine Blade">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Bending Machine Blade</h6>
+                <p class="card-text small text-muted">Durable, accurate bending support.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/service/sheeter_knife.jpg" alt="Sheeter Knives">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Sheeter Knives</h6>
+                <p class="card-text small text-muted">Durable, accurate sheeter support.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
                 <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/trimmer-knives-1.jpg" alt="Trimmer Blades">
@@ -808,13 +864,19 @@
 
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/planer-and-jointer-knives-2.jpg" alt="Planner and Jointer Knives">
+                <img class="card-img-top fix-height" src="assets/images/service/planner_blade.jpg" alt="Planner and Jointer Knives">
                 <div class="card-body">
-                <h6 class="card-title mb-1">Planer &amp; Jointer Knives</h6>
+                <h6 class="card-title mb-1">Planer Blades</h6>
                 <p class="card-text small text-muted">Consistent finish &amp; flatness.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/woodprocessing/chipper-blade-1.jpg" alt="Chipper Blades">
+                <img class="card-img-top fix-height" src="assets/images/service/jointer_blade.jpg" alt="Jointer Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Jointer Blades</h6>
+                <p class="card-text small text-muted">Reliable wood reduction.</p>
+              </div></div></div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/service/chipper_blade.jpg" alt="Chipper Blades">
                 <div class="card-body">
                 <h6 class="card-title mb-1">Chipper Blades</h6>
                 <p class="card-text small text-muted">Reliable wood reduction.</p>
@@ -848,19 +910,42 @@
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/granulator-crusher-stator-blades.jpg" alt="Granalator Blades">
+                  <img class="card-img-top fix-height" src="assets/images/service/perforation_blade.jpg" alt="Perforation Blades">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Granulator &amp; Pelletizer Knives</h6>
+                    <h6 class="card-title mb-1">Perforation Blades</h6>
                     <p class="card-text small text-muted">Clean granulation &amp; pelletizing.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/slitter-blades-1.jpg" alt="Slitter Blades">
+                  <img class="card-img-top fix-height" src="assets/images/service/foil_cutter.jpg" alt="Foil Cutter (Zig-zag) Knives">
                   <div class="card-body">
+                    <h6 class="card-title mb-1">Foil Cutter (Zig-zag) Knives</h6>
+                    <p class="card-text small text-muted">Clean granulation &amp; pelletizing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/granulator-crusher-stator-blades.jpg" alt="Granalator Blades">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Granulator Knives</h6>
+                    <p class="card-text small text-muted">Clean granulation &amp; pelletizing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/slitter-knives-1.jpg" alt="Slitter Blades">
+                <div class="card-body">
                 <h6 class="card-title mb-1">Slitter Blades</h6>
-                <p class="card-text small text-muted">Film &amp; sheet slitting lines.</p>
+                <p class="card-text small text-muted">Durable, accurate slitting lines.</p>
+              </div></div></div>
+               <div class="col-md-6 col-lg-4"><div class="card h-100">
+                <img class="card-img-top fix-height" src="assets/images/service/planner_blade.jpg" alt="Planer Blades">
+                <div class="card-body">
+                <h6 class="card-title mb-1">Planer Blades</h6>
+                <p class="card-text small text-muted">Durable, accurate planing lines.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
                 <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/guillotine-knives-1.jpg" alt="Guillotine Knives">
@@ -869,9 +954,9 @@
                 <p class="card-text small text-muted">Trim, cross-cut &amp; converting.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/plasticandrubber/rottary-cutter-blades.jpg" alt="Rottary Cutter Blades">
+                <img class="card-img-top fix-height" src="assets/images/service/rotary_pelletizer_knives.jpg" alt="Rottary Cutter Blades">
                 <div class="card-body">
-                <h6 class="card-title mb-1">Rotary Cutters</h6>
+                <h6 class="card-title mb-1">Rotary Pelletizer Blades</h6>
                 <p class="card-text small text-muted">Rotary converting support.</p>
               </div></div></div>
             </div>
@@ -899,21 +984,31 @@
             <div class="row g-3 mt-3">
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/top.jpg" alt="lithium-ion-slitter-top">
+                    <img class="card-img-top fix-height" src="assets/images/service/carbide_top_slitter.jpg" alt="lithium-ion-slitter-top">
+                    <div class="card-body">
+                      {{-- <h6 class="card-title mb-1">Film Slitter Blades</h6> --}}
+                      <h6 class="card-title mb-1">Carbide Top Slitter</h6>
+                      <p class="card-text small text-muted">Stable support and clean cuts.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100">
+                    <img class="card-img-top fix-height" src="assets/images/service/carbide_bottom_slitter.jpg" alt="lithium-ion-slitter-top">
                     <div class="card-body">
                       {{-- <h6 class="card-title mb-1">Wafer Dicing Blades</h6> --}}
-                      <h6 class="card-title mb-1">Top Lithium-Ion Battery Slitter Knife</h6>
+                      <h6 class="card-title mb-1">Carbide Bottom Slitter</h6>
                       <p class="card-text small text-muted">Clean and consistent cutting.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="card h-100">
-                    <img class="card-img-top fix-height" src="assets/images/knives/semiconductor/lithium-ion/bottom.jpg" alt="lithium-ion-slitter-bottom">
+                    <img class="card-img-top fix-height" src="assets/images/service/carbide_flat_blade.jpg" alt="lithium-ion-flat-blade">
                     <div class="card-body">
-                      {{-- <h6 class="card-title mb-1">Film Slitter Blades</h6> --}}
-                      <h6 class="card-title mb-1">Bottom Lithium-Ion Battery Slitter Knife</h6>
-                      <p class="card-text small text-muted">Stable support and clean cuts.</p>
+                      {{-- <h6 class="card-title mb-1">Wafer Dicing Blades</h6> --}}
+                      <h6 class="card-title mb-1">Carbide Flat Blade</h6>
+                      <p class="card-text small text-muted">Clean and consistent cutting.</p>
                     </div>
                   </div>
                 </div>
@@ -928,114 +1023,112 @@
               and offers a free scrap blade collection and compliant disposal service to ensure worn
               or damaged knives are removed safely and responsibly.
             </p>
+            <div class="row align-items-stretch mb-5" id="safety-intro">
+              <div class="col d-flex">
+                  <img class="card-img-top w-100" 
+                      src="assets/images/knives/cuttingaccessories/cutting-stick-self-healing.png" 
+                      alt="Cutting Sticks"
+                      style="object-fit: cover;">
+              </div>
+              <div class="col d-flex">
+                  <p class="card-text small text-muted d-flex align-items-center justify-content-center text-center w-100">
+                      To support your workplace safety initiatives, we offer a free-of-charge scrap knife collection and disposal service, ensuring that worn or damaged blades are removed responsibly and in full compliance with health and safety regulations.
+                  </p>
+              </div>
+            </div>
+
 
             <div class="row g-3 mt-3">
-              
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/photo/20200721_152904.jpg" alt="Cutting Sticks">
+                  <img class="card-img-top fix-height" src="assets/images/service/cutting_stick.jpg" alt="Cutting Sticks">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Cutting Sticks</h6>
                     <p class="card-text small text-muted">Consistent performance and longer service life for clean cuts.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/photo/20200714_163725.jpg" alt="Knife Guards">
+                  <img class="card-img-top fix-height" src="assets/images/service/knife_guard.jpg" alt="Knife Guards">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Knife Guards</h6>
+                    <h6 class="card-title mb-1">Knife Guards with End Screw</h6>
                     <p class="card-text small text-muted">Edge protection & safe handling during transport and storage.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/photo/20200714_163704.jpg" alt="Magnetic Strips">
+                  <img class="card-img-top fix-height" src="assets\images\service\magnetic_clamp_pad.jpg" alt="Magnetic Strips">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Magnetic Strips</h6>
+                    <h6 class="card-title mb-1">Magnetic Clamp Pad</h6>
                     <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6">
+              
+            </div>
+          </div>
+
+           {{-- ========== ACCESSORY: CUTTING ACCESSORIES ========== --}}
+          <div class="tab-pane fade" id="prod-nonwoven">
+            <h3>Non-woven</h3>
+            <p>
+              Safety is our priority. Goldken Sdn Bhd promotes proper handling of industrial knives
+              and offers a free scrap blade collection and compliant disposal service to ensure worn
+              or damaged knives are removed safely and responsibly.
+            </p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/knives/cuttingaccessories/cutting-stick-self-healing.png" alt="Cutting Sticks">
+                  <img class="card-img-top fix-height" src="assets/images/service/top_slitter_knife.jpg" alt="Top Slitter">
                   <div class="card-body">
-                    <h6 class="card-title mb-1">Safe Disposal & Handling Support</h6>
-                    <p class="card-text small text-muted">To support your workplace safety initiatives, we offer a free-of-charge scrap knife collection and disposal service, ensuring that worn or damaged blades are removed responsibly and in full compliance with health and safety regulations.</p>
+                    <h6 class="card-title mb-1">Top Slitter</h6>
+                    <p class="card-text small text-muted">Consistent performance and longer service life for clean cuts.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/service/bottom_slitter.jpg" alt="Bottom Slitter">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Bottom Slitter</h6>
+                    <p class="card-text small text-muted">Edge protection & safe handling during transport and storage.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/service/sheeter_knives.jpg" alt="Sheeter Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Sheeter Knives</h6>
+                    <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/service/shear_blade.jpg" alt="Shear Knives">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Shear Knives</h6>
+                    <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
+                  </div>
+                </div>
+              </div>
+               <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="assets/images/service/circular_multiblock.jpg" alt="Circular Multiblock">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Circular Multiblock</h6>
+                    <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {{-- ========== ACCESSORY: CUTTING STICKS ========== --}}
-          {{-- <div class="tab-pane fade" id="prod-sticks">
-            <h3>Cutting Sticks</h3>
-            <p>Durable sticks for guillotines & trimmers. Grade/colour options (UHMW, nylon, PVC) matched to your blade & machine.</p>
-
-            <div class="row g-3 mt-3">
-              <div class="col-md-6 col-lg-6">
-                <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200721_152904.jpg" alt="Cutting Sticks">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Cutting Sticks</h6>
-                    <p class="card-text small text-muted">Consistent performance and longer service life for clean cuts.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-            </div>
-          </div> --}}
-
-          {{-- ========== ACCESSORY: KNIFE GUARDS ========== --}}
-          {{-- <div class="tab-pane fade" id="prod-guards">
-            <h3>Knife Guards</h3>
-            <p>Safety guards/holders for safe transport and handling of knives. Protect cutting edges and operators; sizes for common guillotines.</p>
-
-            <div class="row g-3 mt-3">
-              <div class="col-md-6 col-lg-6">
-                <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_163725.jpg" alt="Knife Guards">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Knife Guards</h6>
-                    <p class="card-text small text-muted">Edge protection & safe handling during transport and storage.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-            </div>
-          </div> --}}
-
-          {{-- ========== ACCESSORY: MAGNETIC STRIPS ========== --}}
-          {{-- <div class="tab-pane fade" id="prod-magnets">
-            <h3>Magnetic Strips</h3>
-            <p>Reliable magnetic hold/positioning for setup and maintenance tasks — alignment, fixtures and line setup activities.</p>
-
-            <div class="row g-3 mt-3">
-              <div class="col-md-6 col-lg-6">
-                <div class="card h-100">
-                  <img class="card-img-top" src="assets/images/photo/20200714_163704.jpg" alt="Magnetic Strips">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Magnetic Strips</h6>
-                    <p class="card-text small text-muted">Practical accessory for fixture alignment and machine setup.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <a href="{{ url('/contact') }}" class="btn-1">Request A Quote</a>
-            </div>
-          </div> --}}
-
+        
         </div> {{-- /tab-content --}}
       </div>
     </div>

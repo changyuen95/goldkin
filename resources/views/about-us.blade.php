@@ -129,7 +129,7 @@
     <div class="text-center mb-5">
     </div>
 
-    {{-- Block 1 — Technology & Craftsmanship --}}
+    {{-- Block 1 — Paper & Printing Industry Solutions --}}
 
     <div class="row align-items-center mb-5">
       <div class="col-lg-12">
@@ -139,7 +139,7 @@
       <div class="col-lg-6">
         <div class="timeline-img">  
           {{-- <img src="https://itbrief.com.au/uploads/story/2023/03/21/GettyImages-1408596915.webp" class="img-fluid rounded shadow" alt="Technology & Craftsmanship"> --}}
-          <img src="https://pcsman.com/wp-content/uploads/2016/05/3_Plate_Blanket_a-e1465418753969.jpg" style="height: 350px" class="img-fluid rounded shadow" alt="Paper & Printing Industry Solutions">
+          <img src="assets/images/aboutus/paper_industry.jpeg" style="height: 350px" class="img-fluid rounded shadow" alt="Paper & Printing Industry Solutions">
         </div>
       </div>
       <div class="col-lg-6">
@@ -173,7 +173,7 @@
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
           {{-- <img src="{{ asset('assets/images/photo/20200714_163704.jpg') }}" class="img-fluid rounded shadow" alt="Commitment to Quality & Service"> --}}
-          <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Main%20Header%20Fotos/Non-Woven-Slider_webp.webp" class="img-fluid rounded shadow" alt="Commitment to Quality & Service">
+          <img src="assets/images/aboutus/non_woven_industry.jpg" class="img-fluid rounded shadow" alt="Commitment to Quality & Service">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
@@ -206,7 +206,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ asset('assets/images/photo/20200714_163045.jpg') }}" class="img-fluid rounded shadow" alt="Sharpening Solutions">
+          <img src="assets/images/aboutus/steel_and_metal_industry.jpg" class="img-fluid rounded shadow" alt="Sharpening Solutions">
         </div>
       </div>
       <div class="col-lg-6">
@@ -234,12 +234,12 @@
       </div>
     </div>
      <div class="row align-items-center mb-5">
-      <div class="col-lg-6">
+      <div class="col-lg-6  order-lg-2">
         <div class="timeline-img">
-          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Industries We Serve">
+          <img src="assets/images/aboutus/wood_processing_industry.jpg" class="img-fluid rounded shadow" alt="Industries We Serve">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6  order-lg-1">
         <div class="timeline-content ps-lg-4">
           <h3 class="fw-bold">Wood Processing Industry</h3>
           <h4>Early 2000s — Expanded alongside metal processing applications.</h4>
@@ -261,12 +261,12 @@
     </div>
 
     <div class="row align-items-center mb-5">
-      <div class="col-lg-6 order-lg-2">
+      <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="assets/images/home/plastic_and_rubber.jpeg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
-      <div class="col-lg-6 order-lg-1">
+      <div class="col-lg-6">
         <div class="timeline-content pe-lg-4 text-lg-end">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Plastic & Rubber Manufacturing Solutions</h3>
@@ -290,12 +290,12 @@
     </div>
 
     <div class="row align-items-center mb-5">
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
-          <img src="{{ asset('/template/images/repeat-bg.png') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="assets/images/aboutus/recycle_and_waste_industry.jpg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-1">
         <div class="timeline-content pe-lg-4">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Recycling & Waste Management Solutions</h3>
@@ -321,12 +321,12 @@
 
     {{-- Block 4 — SemiConductor --}}
     <div class="row align-items-center">
-      <div class="col-lg-6 order-lg-2">
+      <div class="col-lg-6">
         <div class="timeline-img">
           <img src="{{ asset('assets/images/photo/semiconductor.jpg') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
-      <div class="col-lg-6 order-lg-1">
+      <div class="col-lg-6">
         <div class="timeline-content pe-lg-4 text-lg-end">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Semiconductor Industry Solutions</h3>

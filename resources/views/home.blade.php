@@ -12,17 +12,15 @@
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row">
-                       <div class="col-lg-8 hero-content">
+                       <div class="col-lg-8 hero-content d-flex align-items-center">
                             <div class="banner">
-                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline">
-                                Precision Cutting Blades<br>
-                                Safer Cutting Solutions
+                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline" style="font-size:clamp(30px,4vw,56px);line-height:1.05;margin-bottom:.35rem;color:#fff;">
+                                    <span class="d-block text-nowrap">Your Industrial Knife Partner</span>
+                                    <span class="d-block text-nowrap">Solutions for Precision Cutting</span>
                                 </h1>
 
-                                <p class="about-website">
-                                <span class="tagline">
-                                    Your Industrial Knife Partner · Solutions for Precision Cutting
-                                </span>
+                                <p class="about-website mb-0">
+                                    <span class="tagline text-white-50">Precision Cutting Blades · Safer Cutting Solutions</span>
                                 </p>
                             </div>
                         </div>
@@ -38,24 +36,77 @@
         <div class="row">
             
             <!-- Left side: Images -->
-            <div class="col-lg-6">
-                <div class="row img-box">
-                    <div class="col">
-                        <div class="one">
-                            <div class="about-img">
-                                <img class="img-fluid" src="assets/images/photo/20200703_152158.jpg" alt="Goldken Factory">
+            <div class="col-lg-4 order-lg-2">
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#e6f0fb;">
+                                <i class="flaticon-gear" style="font-size:28px;color:#2b6cb0"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Professional</h5>
+                                <p class="small text-muted mb-0">Qualified team & precise processes</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="two">
-                            <div class="about-img">
-                                <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="Goldken Workshop">
-                                <div class="experience-about">
-                                    <i class="flaticon-globe"></i>
-                                    <div class="counter">32</div>
-                                    <h5>Years of Expertise</h5>
-                                </div>
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#e6f9f0;">
+                                <i class="flaticon-globe" style="font-size:28px;color:#38a169"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Global Standards</h5>
+                                <p class="small text-muted mb-0">International machinery & quality</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#fff7e6;">
+                                <i class="flaticon-worker" style="font-size:28px;color:#d69e2e"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Experienced</h5>
+                                <p class="small text-muted mb-0">Skilled technicians since 1993</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0f4ff;">
+                                <!-- SVG fallback for shield -->
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3z" fill="#4c51bf" />
+                                </svg>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Safety</h5>
+                                <p class="small text-muted mb-0">Safe handling & disposal services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#fff4e6;">
+                                <i class="flaticon-management" style="font-size:28px;color:#ed8936"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Custom Solutions</h5>
+                                <p class="small text-muted mb-0">Tailored sharpening & regrinding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0fff4;">
+                                <!-- SVG fallback for clock -->
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 1a11 11 0 100 22 11 11 0 000-22zm1 6h-2v6l5 3 1-1-4-2V7z" fill="#2f855a"/>
+                                </svg>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Fast Turnaround</h5>
+                                <p class="small text-muted mb-0">Quick service to keep you running</p>
                             </div>
                         </div>
                     </div>
@@ -63,12 +114,12 @@
             </div>
 
             <!-- Right side: Text content -->
-            <div class="col-lg-6 d-flex align-items-center justify-content-between">
+            <div class="col-lg-8 order-lg-1 d-flex align-items-start">
                 <div class="text-box" data-aos="fade-right" data-aos-delay="100">
 
                     <div class="sec-title" data-aos="fade-right" data-aos-delay="200">
-                        <h2>Your Trusted Industrial Knife Partner</h2>
-                        <h3>Precision Sharpening. Trusted Quality. Since 1993.</h3>
+                        <h3>Your Trusted Industrial Knife Partner</h3>
+                        <h4>Precision Sharpening. Trusted Quality. Since 1993.</h4>
                         <p>
                             Founded in 1993, <strong>Goldken Sdn Bhd</strong> has grown into a leading specialist in 
                             <strong>industrial knives</strong> and <strong>precision regrinding services</strong>. 
@@ -101,6 +152,8 @@
 
                 </div>
             </div>
+
+
             
         </div>
     </div>
@@ -168,7 +221,7 @@
             <!-- Non-Woven -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Main%20Header%20Fotos/Non-Woven-Slider_webp.webp" class="card-img-top products-image" alt="Non-Woven">
+                    <img src="/assets/images/home/non_woven.png" class="card-img-top products-image" alt="Non-Woven">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Non-Woven</h5>
                         <p class="card-text">Knives for hygiene, medical, filtration, and automotive non-woven fabric production.</p>
@@ -179,7 +232,7 @@
             <!-- Paper & Printing -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/Industrien/Papierindustrie_Karoussel.jpg" class="card-img-top products-image" alt="Paper & Printing">
+                    <img src="/assets/images/home/paper_and_printing.jpg" class="card-img-top products-image" alt="Paper & Printing">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Paper & Printing</h5>
                         <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
@@ -190,7 +243,7 @@
             <!-- Plastics & Rubber -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://pcsman.com/wp-content/uploads/2016/05/MG_0583.jpg" class="card-img-top products-image" alt="Plastics & Rubber">
+                    <img src="/assets/images/home/plastic_and_rubber.jpeg" class="card-img-top products-image" alt="Plastics & Rubber">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Plastics & Rubber</h5>
                         <p class="card-text">Granulator and slitting blades engineered for plastics and rubber processing plants.</p>
@@ -201,7 +254,7 @@
             <!-- Recycling & Waste -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/allgemein/KGR_webp.webp" class="card-img-top products-image" alt="Recycling & Waste">
+                    <img src="/assets/images/home/recycle_and_waste.jpg" class="card-img-top products-image" alt="Recycling & Waste">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Recycling & Waste</h5>
                         <p class="card-text">Heavy-duty shredder, crusher, and chopper knives for waste management and recycling.</p>
@@ -212,7 +265,7 @@
             <!-- Semiconductor -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://electronicsemiconductor.com/wp-content/uploads/2018/01/what-is-semiconductor-electronics-semicon-devices-meaning-means.png" class="card-img-top products-image" alt="Semiconductor">
+                    <img src="/assets/images/home/semiconductor.jpeg" class="card-img-top products-image" alt="Semiconductor">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Semiconductor</h5>
                         <p class="card-text">Precision knives for wafer cutting, film slitting, and high-tech semiconductor processes.</p>
@@ -223,7 +276,7 @@
             <!-- Steel & Metal -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/Stahlcoil_web.png" class="card-img-top products-image" alt="Steel & Metal">
+                    <img  src="/assets/images/home/steel_and_metal.jpeg" class="card-img-top products-image" alt="Steel & Metal">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Steel & Metal</h5>
                         <p class="card-text">Slitter and shear blades designed for durability in metal processing and fabrication.</p>
@@ -234,7 +287,7 @@
             <!-- Wood Processing -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="https://www.tkmgroup.com/hubfs/%5Bv20%5D/allgemein/Holz.gif" class="card-img-top products-image" alt="Wood Processing">
+                    <img src="/assets/images/home/wood_processing.png" class="card-img-top products-image" alt="Wood Processing">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Wood Processing</h5>
                         <p class="card-text">Planer, chipper, veneer, and saw blades for efficient wood cutting and finishing.</p>
@@ -583,11 +636,11 @@
                             <div class="info-top mb-auto">
                                 <div class="item">
                                     <h5>Our Location</h5>
-                                    <p>Selangor, Malaysia</p>
+                                    <p>No. 9, Jalan 18/17,<br> Taman Kanagapuram, <br>46000, Selangor,<br> Malaysia</p>
                                 </div>
                                 <div class="item">
                                     <h5>Quick Contact</h5>
-                                    <p>info@goldken.com<br>sales@goldken.com.my.com</p>
+                                    <p>sales@goldken.com.my<br>info@goldken.com</p>
                                 </div>
                             </div>
                             <div class="info-down">

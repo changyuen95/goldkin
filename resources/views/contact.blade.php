@@ -205,25 +205,21 @@
         <div class="contact-box h-100">
           <h4 class="fw-bold mb-3">Our Location</h4>
           <p>
-            Selangor, Malaysia
+            No. 9, Jalan 18/17,<br> Taman Kanagapuram, <br>46000, Selangor,<br> Malaysia
           </p>
           <p class="mb-3">
             Tel: +(60)3-7782-6442<br>
-            Email: info@goldken.com.my
+            Email: sales@goldken.com.my
           </p>
 
           <h4 class="fw-bold mb-3 mt-4">Business Hours</h4>
           <p>
             <strong>Monday – Friday</strong><br>
-            8:30 AM – 5:30 PM
-          </p>
-          <p>
-            <strong>Saturday</strong><br>
-            9:00 AM – 1:00 PM
+            8:30 AM – 13:00 PM <br> 14:00 PM – 18:00 PM
           </p>
           <p class="mb-0">
-            Sunday & Public Holidays<br>
-            <strong>Closed</strong>
+            <strong>Saturday & Sunday</strong><br>
+            Closed
           </p>
         </div>
       </div>
@@ -232,9 +228,13 @@
       <div class="col-lg-8">
         <div class="contact-box h-100 p-0 overflow-hidden">
           <iframe
-            src="https://maps.google.com/maps?q=petaling%20jaya&t=&z=14&ie=UTF8&iwloc=&output=embed"
-            style="width:100%; height:100%; border:0; min-height:260px;"
-            loading="lazy">
+            width="100%"
+            height="400"
+            frameborder="0"
+            style="border:0"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Goldken%20Sdn%20Bhd&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen>
           </iframe>
         </div>
       </div>
