@@ -123,7 +123,7 @@
             <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-support" type="button" role="tab">Technical Support</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-qc" type="button" role="tab">Quality Control & Reporting</button>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-qc" type="button" role="tab">Quality Control & Reporting (Upon Request)</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-scrap" type="button" role="tab">Scrap Knife Collection</button>
@@ -266,7 +266,7 @@
                 <section class="service-section">
                   <div class="container">
 
-                    <h3 class="service-title fw-bold">Quality Control & Reporting</h3>
+                    <h3 class="service-title fw-bold">Quality Control & Reporting (Upon Request)</h3>
                     <p class="service-subtitle"><em>Precision you can see. Confidence you can measure.</em></p>
                     <div class="divider-line"></div>
 
