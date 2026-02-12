@@ -4581,6 +4581,85 @@ p {
   margin-bottom: 15px;
 }
 
+.service-section {
+    padding: 70px 0;
+}
+
+.service-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.service-subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.service-icon {
+    font-size: 30px;
+    color: #1f3c88;
+    margin-bottom: 20px;
+}
+
+.service-highlight {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.divider-line {
+    width: 60px;
+    height: 3px;
+    background: #1f3c88;
+    margin: 15px auto 40px;
+}
+
+.safety-section {
+    padding: 60px 0;
+}
+
+.safety-section .icon-box {
+    padding: 30px 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.safety-section .icon-box:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+}
+
+.safety-section i {
+    margin-bottom: 15px;
+    color: #1f3c88; /* Corporate Steel Blue */
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #1f3c88;
+    margin: 15px auto 30px;
+}
+
 @media (max-width: 767px) {
    .company-history::before {
     opacity: 0 !important;
