@@ -89,13 +89,13 @@
   <div class="container">
     <ul class="nav nav-pills gap-2" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="tab-services" data-bs-toggle="pill"
+        <button class="nav-link active fw-bold" id="tab-services" data-bs-toggle="pill"
                 data-bs-target="#pane-services" type="button" role="tab">
           Services
         </button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="tab-products" data-bs-toggle="pill"
+        <button class="nav-link fw-bold" id="tab-products" data-bs-toggle="pill"
                 data-bs-target="#pane-products" type="button" role="tab">
           Products
         </button>
@@ -117,19 +117,19 @@
       <div class="services-sub-nav mb-4">
         <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-start" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#svc-regrinding" type="button" role="tab">Industrial Knife Regrinding</button>
+            <button class="nav-link active fw-bold" data-bs-toggle="tab" data-bs-target="#svc-regrinding" type="button" role="tab">Industrial Knife Regrinding</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-support" type="button" role="tab">Technical Support</button>
+            <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#svc-support" type="button" role="tab">Technical Support</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-qc" type="button" role="tab">Quality Control & Reporting (Upon Request)</button>
+            <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#svc-qc" type="button" role="tab">Quality Control & Reporting (Upon Request)</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-scrap" type="button" role="tab">Scrap Knife Collection</button>
+            <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#svc-scrap" type="button" role="tab">Scrap Knife Collection</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#svc-safety" type="button" role="tab">Safety & Handling</button>
+            <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#svc-safety" type="button" role="tab">Safety & Handling</button>
           </li>
         </ul>
       </div>
@@ -469,28 +469,28 @@
         <div class="products-sub-nav mb-4">
           <ul class="nav nav-pills gap-2 flex-nowrap overflow-auto justify-content-start" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#prod-paper" type="button" role="tab">Paper & Printing</button>
+              <button class="nav-link active fw-bold" data-bs-toggle="tab" data-bs-target="#prod-paper" type="button" role="tab">Paper & Printing</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-nonwoven" type="button" role="tab">Non-woven</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-nonwoven" type="button" role="tab">Non-woven</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-metal" type="button" role="tab">Steel &amp; Metal</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-metal" type="button" role="tab">Steel &amp; Metal</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-wood" type="button" role="tab">Wood Processing</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-wood" type="button" role="tab">Wood Processing</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-plastic" type="button" role="tab">Plastic &amp; Rubber</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-plastic" type="button" role="tab">Plastic &amp; Rubber</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-semi" type="button" role="tab">Semiconductor</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-semi" type="button" role="tab">Semiconductor</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#prod-cutting-accessories" type="button" role="tab">Cutting Accessories</button>
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-cutting-accessories" type="button" role="tab">Cutting Accessories</button>
             </li>
           </ul>
         </div>
@@ -564,7 +564,7 @@
               {{-- Circular Multiblock Knives --}}
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/service/saddle_stitch_knives.jpg" alt="Saddle Stitch Knives">
+                  <img class="card-img-top fix-height" src="assets/images/service/saddle_stitch_binding.jpg" alt="Saddle Stitch Knives">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Saddle Stitch Knives</h6>
                     <p class="card-text small text-muted">Specialized trimming knives designed for precise edge finishing in saddle stitch bookbinding operations.</p>
@@ -597,7 +597,7 @@
               {{-- Scraper / Doctor Blades --}}
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/service/scraper_doctor_blade.jpg" alt="Scraper / Doctor Blades">
+                  <img class="card-img-top fix-height" src="assets/images/service/scapper_doctor_blades.png" alt="Scraper / Doctor Blades">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Scraper / Doctor Blades</h6>
                     <p class="card-text small text-muted">Thin, precision-engineered blades designed to control, spread, and remove excess material in printing and coating applications.</p>
@@ -868,26 +868,35 @@
           {{-- ========== ACCESSORY: CUTTING ACCESSORIES ========== --}}
           <div class="tab-pane fade" id="prod-cutting-accessories">
             <h3>Cutting Accessories</h3>
-            <p>
-              Safety is our priority. Goldken Sdn Bhd promotes proper handling of industrial knives
-              and offers a free scrap blade collection and compliant disposal service to ensure worn
-              or damaged knives are removed safely and responsibly.
-            </p>
-            <div class="row align-items-stretch mb-5" id="safety-intro">
-              <div class="col d-flex">
-                  <img class="card-img-top w-100" 
-                      src="assets/images/knives/cuttingaccessories/cutting-stick-self-healing.png" 
-                      alt="Cutting Sticks"
-                      style="object-fit: cover;">
+
+            <!-- High-Performance Cutting Sticks Section -->
+            <div class="row align-items-center mb-5">
+              <div class="col-lg-6">
+                <img class="img-fluid rounded shadow-sm" 
+                     src="assets/images/service/self_healing.png" 
+                     alt="Self-Healing Polymer Structure"
+                     style="max-height: 300px; object-fit: contain;">
               </div>
-              <div class="col d-flex">
-                  <p class="card-text small text-muted d-flex align-items-center justify-content-center text-center w-100">
-                      To support your workplace safety initiatives, we offer a free-of-charge scrap knife collection and disposal service, ensuring that worn or damaged blades are removed responsibly and in full compliance with health and safety regulations.
-                  </p>
+              <div class="col-lg-6 ps-lg-4">
+                <h4 class="fw-bold">High-Performance Cutting Sticks</h4>
+                <p class="text-muted">Engineered for durability, precision, and extended blade life.</p>
+                
+                <h6 class="fw-bold mt-4">Self-Healing Surface Technology</h6>
+                <p>Our cutting sticks are manufactured with high-density engineered polymers designed to:</p>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Absorb blade impact</strong></li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Minimize edge wear</strong></li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Reduce micro-chipping</strong></li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Extend blade life</strong></li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Maintain consistent cutting depth</strong></li>
+                </ul>
+                <p class="text-muted small mt-3">This makes them ideal for high-precision industrial cutting applications.</p>
               </div>
             </div>
 
-
+            <!-- Knife Handling & Machine Accessories Section -->
+            <h4 class="fw-bold mb-4 mt-5">Knife Handling & Machine Accessories</h4>
+            
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">

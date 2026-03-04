@@ -263,7 +263,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-lg-6">
         <div class="timeline-img">
-          <img src="assets/images/home/plastic_and_rubber.jpeg" class="img-fluid rounded shadow" alt="Safety & Handling">
+          <img src="assets/images/aboutus/plastic_and_rubber_ind.jpg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6">
@@ -375,7 +375,7 @@
   <div class="container mt-5">
     <div class="row align-items-center">
       <div class="col-lg-12">
-        <h3 class="fw-bold text-center mt-5 mb-5">QA Reporting (Upon Request) & Technical Support</h3>
+        <h3 class="fw-bold text-center mt-5 mb-5">QA Reporting (Value-added services) & Technical Support</h3>
       </div>
       <div class="features-owl-2 owl-carousel owl-theme">
         <!-- QC REPORTS -->

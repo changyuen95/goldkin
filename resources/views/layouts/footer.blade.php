@@ -3,7 +3,7 @@
         <div class="footer-inner">
             <div class="row align-items-start">
                 <div class="col-12 col-md-4 mb-4">
-                    <a href="{{ url('/') }}" class="footer-logo"><img class="img-fluid" src="{{ asset('template/images/logo/logo.png') }}" alt="Goldken"></a>
+                    <a href="{{ url('/') }}" class="footer-logo"><img class="img-fluid" src="{{ asset('template/images/logo/logo.jpg') }}" alt="Goldken"></a>
                     <p class="desc">Goldken Sdn Bhd — Malaysia’s trusted industrial knife partner since 1993. Precision regrinding & supply of industrial knives across multiple industries.</p>
                     <ul class="icon mt-3">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>

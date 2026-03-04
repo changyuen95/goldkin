@@ -7,14 +7,14 @@
 <!-- :: Header Home 2 -->
 <header class="header header-home-2" id="page">
     <div class="header-owl owl-carousel owl-theme">
-        <div class="sec-hero display-table" style="background-image: url({{ asset('template/images/header/04_header.jpg') }})">
+        <div class="sec-hero display-table" style="background-image: url({{ asset('template/images/header/04_header.jpg') }}); min-height: 900px;">
             <div class="table-cell">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row">
-                       <div class="col-lg-8 hero-content d-flex align-items-center">
+                       <div class="col-lg hero-content d-flex align-items-center">
                             <div class="banner">
-                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline" style="font-size:clamp(30px,4vw,56px);line-height:1.05;margin-bottom:.35rem;color:#fff;">
+                                <h1 data-aos="fade-right" data-aos-delay="200" class="handline" style="font-size:clamp(40px,7vw,90px);line-height:1.05;margin-bottom:.35rem;color:#fff;">
                                     <span class="d-block text-nowrap">Your Industrial Knife Partner</span>
                                     <span class="d-block text-nowrap">Solutions for Precision Cutting</span>
                                 </h1>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="mb-1">Professional</h5>
-                                <p class="small text-muted mb-0">Qualified team & precise processes</p>
+                                <p class="small text-muted mb-0">Qualified team and precise processes</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="mb-1">Global Standards</h5>
-                                <p class="small text-muted mb-0">International machinery & quality</p>
+                                <p class="small text-muted mb-0">International machinery and quality <b>standards</b></p>
                             </div>
                         </div>
                     </div>
@@ -74,14 +74,14 @@
                     <div class="col-12 mb-2">
                         <div class="d-flex align-items-start">
                             <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0f4ff;">
-                                <!-- SVG fallback for shield -->
+                                <!-- SVG fallback for plus -->
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 2L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3z" fill="#4c51bf" />
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" fill="#4c51bf" />
                                 </svg>
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="mb-1">Safety</h5>
-                                <p class="small text-muted mb-0">Safe handling & disposal services</p>
+                                <p class="small text-muted mb-0">Safe handling and disposal services</p>
                             </div>
                         </div>
                     </div>
@@ -92,16 +92,16 @@
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="mb-1">Custom Solutions</h5>
-                                <p class="small text-muted mb-0">Tailored sharpening & regrinding</p>
+                                <p class="small text-muted mb-0">Tailored sharpening and regrinding services</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
                         <div class="d-flex align-items-start">
                             <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0fff4;">
-                                <!-- SVG fallback for clock -->
+                                <!-- Clock icon -->
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 1a11 11 0 100 22 11 11 0 000-22zm1 6h-2v6l5 3 1-1-4-2V7z" fill="#2f855a"/>
+                                    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7V7z" fill="#2f855a"/>
                                 </svg>
                             </div>
                             <div class="flex-grow-1">
@@ -124,13 +124,13 @@
                             Founded in 1993, <strong>Goldken Sdn Bhd</strong> has grown into a leading specialist in 
                             <strong>industrial knives</strong> and <strong>precision regrinding services</strong>. 
                             With advanced global machinery and skilled technicians, we deliver 
-                            cleaner cuts, reduced waste, and longer tool life across multiple industries. 
+                            cleaner cuts, reduced waste, and longer blade life across multiple industries. 
                         </p>
                     </div>
 
                     <p data-aos="fade-right" data-aos-delay="300">
-                        We serve diverse sectors including <em>paper & printing, plastics, recycling, semiconductor, 
-                        metal, wood processing,</em> and more — providing sharpening solutions that keep 
+                        We serve diverse sectors, including <em>paper & printing, plastics, recycling, semiconductor, 
+                        metal, and wood processing</em> — providing sharpening solutions that keep 
                         production lines efficient and reliable.
                     </p>
 
@@ -139,7 +139,7 @@
                         <li>Surface finishes: Standard, Super, and Mirror</li>
                         <li>Advanced grinding capability up to 4.5m length and 400mm OD</li>
                         <li>Technical consultation and blade life optimization</li>
-                        <li>Commitment to safety with free scrap knife disposal service</li>
+                        <li>Commitment to safety with complimentary scrap knife disposal service</li>
                     </ul>
 
                     <div class="any-question" data-aos="fade-right" data-aos-delay="500">
@@ -368,7 +368,7 @@
   </div>
 </section>
 
-<section class="services py-100-70 ">
+<section class="services py-100-70" style="background-color: #f5f5f5;">
     <div class="container">
         <div class="sec-title">
             <div class="row">
@@ -390,54 +390,54 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span></span>
-                    <i class="flaticon-mechanism"></i>
+                    <i class="flaticon-globe"></i>
                     <h4>OEM-LEVEL <br>Sharpness</h4>
                     <p>Superior cutting performance ensuring cleaner cuts and longer tool life.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span></span>
-                    <i class="flaticon-tank"></i>
+                    <i class="flaticon-gear"></i>
                     <h4>Advanced <br>Grinding</h4>
                     <p>Capability up to 4.5m length and 400mm OD with precision accuracy.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span></span>
-                    <i class="flaticon-chemical"></i>
+                    <i class="flaticon-eco"></i>
                     <h4>Scrap Knife <br>Disposal Service</h4>
                     <p>Free and Safe blade collection and disposal, fully compliant.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span style="top: 111.375px; left: -2.5px;"></span>
-                    <i class="flaticon-machine"></i>
+                    <i class="flaticon-statistics"></i>
                     <h4>Multi-Stage <br>Quality Control Process</h4>
                     <p>Covering incoming checks, in-process monitoring, and final sharpness testing.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span style="top: 106.375px; left: -15.5px;"></span>
-                    <i class="flaticon-robot-arm"></i>
+                    <i class="flaticon-worker"></i>
                     <h4>Knife & Production <br> Support</h4>
                     <p>Expert guidance to optimize blade performance and production efficiency.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="services-item">
+                <div class="services-item" style="background-color: #6c757d;">
                     <span></span>
-                    <i class="flaticon-manufacturing-plant"></i>
+                    <i class="flaticon-management"></i>
                     <h4>Custom <br>Solutions</h4>
                     <p>Tailored sharpening services designed for specific industries and production needs.</p>
                     <a class="more" href="/petrox/01_services">read more</a>
@@ -446,135 +446,8 @@
         </div>
     </div>
 </section>
-{{-- <section class="work py-100-70 work-home-2">
-    <div class="container">
-        <div class="sec-title">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2>we work with global Industries!</h2>
-                    <h3 data-aos="fade" data-aos-delay="100">Goldken completed some project for our foreign clients</h3>
-                </div>
-                <div class="col-lg-5 col-md-8 d-flex align-items-center">
-                    <p data-aos="fade" data-aos-delay="100">Goldken Are A Professional Industry and Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry and any Industrial related business field.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
-                    <a class="btn-1 btn-3" href="/petrox/01_work">All Works</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span style="top: 411.609px; left: 159.5px;"></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200714_164329.jpg" alt="01 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200721_151742.jpg" alt="02 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200721_152904.jpg" alt="03 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span style="top: 401.438px; left: 159.5px;"></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200714_163704.jpg" alt="04 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200714_163045.jpg" alt="05 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="item-work">
-                    <span></span>
-                    <div class="img-box">
-                        <img class="img-fluid gallery-item-img" src="assets/images/photo/20200714_163725.jpg" alt="06 Work">
-                    </div>
-                    <div class="hover-box">
-                        <a class="open-item-work" href="/petrox/01_work"><i class="fas fa-arrow-right"></i></a>
-                        <div class="text-box">
-                            <div class="tags"><a href="/petrox/01_work">Title</a></div>
-                            <h4><a href="/petrox/01_work">View More</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-{{-- <section class="contact py-100">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <div class="sec-title text-center">
-                    <h3>Are You Looking For a Industry!</h3>
-                    <p>Stop Worrying about problems. let us provide the support you deserve.</p>
-                    <a class="btn-1" href="/petrox/01_contact">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-
 <section class="expert">
-    <div class="bg-section">
+    <div class="bg-section" style="background-image: url({{ asset('assets/images/contact/contact_us_bg.png') }}); background-size: cover; background-position: center;">
         <div class="overlay2"></div>
     </div>
     <div class="container">
@@ -640,12 +513,11 @@
                                 </div>
                                 <div class="item">
                                     <h5>Quick Contact</h5>
-                                    <p>sales@goldken.com.my<br>info@goldken.com</p>
+                                    <p><strong>Email:</strong><br>sales@goldken.com.my</p><br>
+                                    <p><strong>Office Number:</strong><br>+603-77826442</p><br>
+                                    <p><strong>Mobile/WhatsApp:</strong><br>+6016-2052950<br>
+                                    +6016-6612366</p><br>
                                 </div>
-                            </div>
-                            <div class="info-down">
-                                <i class="flaticon-call"></i>
-                                <h5>+(60)16-205-2950<br>+(60)16-661-2366</h5>
                             </div>
                         </div>
                     </div>
