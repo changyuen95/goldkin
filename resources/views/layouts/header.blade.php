@@ -24,8 +24,8 @@
             <div class="box-content d-flex align-items-center justify-content-between">
                 <div class="logo">
                     <a href="{{ url('/') }}" class="logo-nav">
-                        <img class="img-fluid one" src="{{ asset('template/images/logo/logo.jpg') }}" alt="Logo">
-                        <img class="img-fluid two" src="{{ asset('template/images/logo/logo.jpg') }}" alt="Logo">
+                        <img class="img-fluid one" src="{{ asset('template/images/logo/logo.png') }}" alt="Logo">
+                        <img class="img-fluid two" src="{{ asset('template/images/logo/logo.png') }}" alt="Logo">
                     </a>
                     <a href="#open-nav-bar-menu" class="open-nav-bar">
                         <span></span><span></span><span></span>
