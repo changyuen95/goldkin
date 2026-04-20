@@ -11,6 +11,6 @@
 <link rel="stylesheet" href="{{ asset('template/css/lity.min.css') }}">
 <link rel="stylesheet" href="{{ asset('template/css/nice-select.css') }}">
 <link rel="stylesheet" href="{{ asset('template/css/style.css') }}?v=1.0.6">
-<link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}?v=1.0.4">
+<link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}?v=1.0.5">
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
