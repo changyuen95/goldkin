@@ -215,7 +215,7 @@
           <h4 class="fw-bold mb-3 mt-4">Business Hours</h4>
           <p>
             <strong>Monday – Friday</strong><br>
-            8:30 AM – 13:00 PM <br> 14:00 PM – 18:00 PM
+            8:30 AM – 1:00 PM <br> 2:00 PM – 6:00 PM
           </p>
           <p class="mb-0">
             <strong>Saturday & Sunday</strong><br>
