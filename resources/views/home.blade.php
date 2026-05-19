@@ -15,8 +15,8 @@
                        <div class="col-lg hero-content d-flex align-items-center">
                             <div class="banner">
                                 <h1 data-aos="fade-right" data-aos-delay="200" class="handline" style="font-size:clamp(40px,7vw,90px);line-height:1.05;margin-bottom:.35rem;color:#fff;">
-                                    <span class="d-block text-nowrap">Your Industrial Knife Partner</span>
-                                    <span class="d-block text-nowrap">Solutions for Precision Cutting</span>
+                                    <span class="d-block">Your Industrial Knife Partner</span>
+                                    <span class="d-block">Solutions for Precision Cutting</span>
                                 </h1>
 
                                 <p class="about-website mb-0">
