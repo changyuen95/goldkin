@@ -413,7 +413,7 @@
 
         <!-- TECH SUPPORT INTRO -->
         <div class="features-item">
-          <div class="features-box text-center">
+          <div class="features-box">
             <h3 class="fw-bold">Technical Support</h3>
             <h4>Expertise beyond sharpening</h4>
             <p>

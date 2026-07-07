@@ -4,6 +4,113 @@
 
 @section('content')
 
+<style>
+    .home-intro-section {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+
+    .home-intro-section .text-box {
+        width: 100%;
+        max-width: 760px;
+    }
+
+    .home-intro-section .sec-title h3 {
+        font-family: 'Teko', sans-serif;
+        font-size: clamp(2.75rem, 4vw, 4.5rem);
+        line-height: 0.95;
+        margin-bottom: 12px;
+        letter-spacing: -0.02em;
+        text-transform: none;
+    }
+
+    .home-intro-section .sec-title h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: clamp(1.2rem, 1.3vw, 1.45rem);
+        line-height: 1.35;
+        margin-bottom: 18px;
+        color: #1b212c;
+    }
+
+    .home-intro-section .text-box p,
+    .home-intro-section .text-box li,
+    .home-intro-section .text-box .any-question {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.05rem;
+        line-height: 1.75;
+        text-transform: none;
+    }
+
+    .home-intro-section .home-intro-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px 28px;
+        margin: 24px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .home-intro-section .home-intro-list li {
+        width: auto;
+        float: none;
+        min-width: 0;
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+
+    .home-intro-section .home-intro-highlights .d-flex {
+        gap: 16px;
+    }
+
+    .home-intro-section .home-intro-highlights h5 {
+        font-family: 'Teko', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1;
+        margin-bottom: 4px;
+        text-transform: none;
+    }
+
+    .home-intro-section .home-intro-highlights p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.98rem;
+        line-height: 1.55;
+    }
+
+    @media (max-width: 1199.98px) {
+        .home-intro-section .text-box {
+            max-width: none;
+        }
+
+        .home-intro-section .home-intro-list {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        .home-intro-section .home-intro-highlights {
+            margin-bottom: 32px;
+        }
+
+        .home-intro-section .sec-title h3 {
+            font-size: clamp(2.35rem, 7vw, 3.4rem);
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .home-intro-section .text-box p,
+        .home-intro-section .text-box li,
+        .home-intro-section .text-box .any-question {
+            font-size: 1rem;
+            line-height: 1.65;
+        }
+
+        .home-intro-section .home-intro-highlights h5 {
+            font-size: 1.45rem;
+        }
+    }
+</style>
+
 <!-- :: Header Home 2 -->
 <header class="header header-home-2" id="page">
     <div class="header-owl owl-carousel owl-theme">
@@ -31,12 +138,12 @@
     </div>
 </header>
 
-<section class="about-us py-100" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
+<section class="about-us py-100 home-intro-section" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
         <div class="row">
             
             <!-- Left side: Images -->
-            <div class="col-lg-4 order-lg-2">
+            <div class="col-lg-4 order-lg-2 home-intro-highlights">
                 <div class="row">
                     <div class="col-12 mb-2">
                         <div class="d-flex align-items-start">
@@ -134,7 +241,7 @@
                         production lines efficient and reliable.
                     </p>
 
-                    <ul data-aos="fade-right" data-aos-delay="400">
+                    <ul class="home-intro-list" data-aos="fade-right" data-aos-delay="400">
                         <li>OEM-level sharpness and superior cutting performance</li>
                         <li>Surface finishes: Standard, Super, and Mirror</li>
                         <li>Advanced grinding capability up to 4.5m length and 400mm OD</li>
@@ -221,7 +328,7 @@
             <!-- Non-Woven -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="/assets/images/home/non_woven.png" class="card-img-top products-image" alt="Non-Woven">
+                    <img src="/assets/images/nonwoven.jpeg" class="card-img-top products-image" alt="Non-Woven">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Non-Woven</h5>
                         <p class="card-text">Knives for hygiene, medical, filtration, and automotive non-woven fabric production.</p>
@@ -384,7 +491,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-end button-sec">
-                    <a class="btn-1 btn-3" href="/petrox/01_services">All Services</a>
+                    <a class="btn-1 btn-3" href="{{ url('/services') }}">All Services</a>
                 </div>
             </div>
         </div>
@@ -395,7 +502,6 @@
                     <i class="flaticon-globe"></i>
                     <h4>OEM-LEVEL <br>Sharpness</h4>
                     <p>Superior cutting performance ensuring cleaner cuts and longer tool life.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -404,7 +510,6 @@
                     <i class="flaticon-gear"></i>
                     <h4>Advanced <br>Grinding</h4>
                     <p>Capability up to 4.5m length and 400mm OD with precision accuracy.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -413,7 +518,6 @@
                     <i class="flaticon-eco"></i>
                     <h4>Scrap Knife <br>Disposal Service</h4>
                     <p>Free and Safe blade collection and disposal, fully compliant.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -422,7 +526,6 @@
                     <i class="flaticon-statistics"></i>
                     <h4>Multi-Stage <br>Quality Control Process</h4>
                     <p>Covering incoming checks, in-process monitoring, and final sharpness testing.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -431,7 +534,6 @@
                     <i class="flaticon-worker"></i>
                     <h4>Knife & Production <br> Support</h4>
                     <p>Expert guidance to optimize blade performance and production efficiency.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -440,7 +542,6 @@
                     <i class="flaticon-management"></i>
                     <h4>Custom <br>Solutions</h4>
                     <p>Tailored sharpening services designed for specific industries and production needs.</p>
-                    <a class="more" href="/petrox/01_services">read more</a>
                 </div>
             </div>
         </div>
@@ -460,38 +561,36 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-between">
-                <div class="statistic-owl owl-carousel owl-theme owl-loaded owl-drag">  
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1324px, 0px, 0px); transition: 1.5s; width: 2317px;">
-                <div class="owl-item cloned" style="width: 316px; margin-right: 15px;">
-                        <div class="statistic-item">
-                            <i class="flaticon-worker"></i>
-                            <div class="content-box">
-                                <span class="counter">32</span>
-                                <div class="name-content">Years of Industry Expertise</div>
-                            </div>
+                <div class="statistic-owl owl-carousel owl-theme">
+                    <div class="statistic-item">
+                        <i class="flaticon-worker"></i>
+                        <div class="content-box">
+                            <span class="counter">32</span>
+                            <div class="name-content">Years of Industry Expertise</div>
                         </div>
                     </div>
-
-                    <div class="owl-item" style="width: 316px; margin-right: 15px;">
-                        <div class="statistic-item">
-                            <i class="flaticon-globe"></i>
-                            <div class="content-box">
-                                <span class="counter">7</span>
-                                <div class="name-content">Industries Served Globally</div>
-                            </div>
+                    <div class="statistic-item">
+                        <i class="flaticon-globe"></i>
+                        <div class="content-box">
+                            <span class="counter">7</span>
+                            <div class="name-content">Industries Served Globally</div>
                         </div>
                     </div>
-
-                    <div class="owl-item" style="width: 316px; margin-right: 15px;">
-                        <div class="statistic-item">
-                            <i class="flaticon-worker-1"></i>
-                            <div class="content-box">
-                                <span class="counter">4.5</span>
-                                <div class="name-content">Meter Max Grinding Length Capacity</div>
-                            </div>
+                    <div class="statistic-item">
+                        <i class="flaticon-worker-1"></i>
+                        <div class="content-box">
+                            <span class="counter">4.5</span>
+                            <div class="name-content">Meter Max Grinding Length Capacity</div>
                         </div>
                     </div>
-                <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                    <div class="statistic-item">
+                        <i class="flaticon-management"></i>
+                        <div class="content-box">
+                            <span class="counter">400</span>
+                            <div class="name-content">MM OD Circular Grinding Capacity</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       

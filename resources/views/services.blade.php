@@ -674,7 +674,7 @@
                 <p class="card-text small text-muted">High-strength industrial blades designed for precise and powerful shearing of metal and heavy-duty materials.</p>
               </div></div></div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/slitter-knives-1.jpg" alt="Slitter Blades">
+                <img class="card-img-top fix-height" src="assets/images/slitter.jpeg" alt="Slitter Blades">
                 <div class="card-body">
                 <h6 class="card-title mb-1">Slitter Blades</h6>
                 <p class="card-text small text-muted">Precision-engineered blades designed for clean and consistent slitting across a wide range of industrial materials.</p>
@@ -691,13 +691,6 @@
                 <h6 class="card-title mb-1">Sheeter Knives</h6>
                 <p class="card-text small text-muted">High-precision straight blades designed for accurate cross-cutting of paper, board, and sheet materials.</p>
               </div></div></div>
-              <div class="col-md-6 col-lg-4"><div class="card h-100">
-                <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/trimmer-knives-1.jpg" alt="Trimmer Blades">
-                <div class="card-body">
-                  <h6 class="card-title mb-1">Trimmer &amp; Cropper Knives</h6>
-                  <p class="card-text small text-muted">Precision cutting blades designed for clean trimming and cropping in printing, packaging, and converting applications.</p>
-                </div></div>
-              </div>
               <div class="col-md-6 col-lg-4"><div class="card h-100">
                 <img class="card-img-top fix-height" src="assets/images/knives/steelandmetal/scrap-chopper-knife.jpg" alt="Scrap Chopper Blades">
                 <div class="card-body">
@@ -755,7 +748,7 @@
           {{-- ================= PLASTIC & RUBBER ================= --}}
           <div class="tab-pane fade" id="prod-plastic">
             <h3>Plastic &amp; Rubber</h3>
-            <p class="text-muted">Blades for granulating, slitting, cutting and converting.</p>
+            <p class="text-muted">Blades for granulating, slitting, guillotine cutting and converting.</p>
 
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4">
@@ -953,33 +946,6 @@
                   <div class="card-body">
                     <h6 class="card-title mb-1">Bottom Slitter</h6>
                     <p class="card-text small text-muted">Durable circular blade designed to work with top slitters for precise and consistent cutting performance.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/service/sheeter_knives.jpg" alt="Sheeter Knives">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Sheeter Knives</h6>
-                    <p class="card-text small text-muted">High-precision straight blades designed for accurate cross-cutting of paper, board, and sheet materials.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/service/shear_blade.jpg" alt="Shear Knives">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Shear Knives</h6>
-                    <p class="card-text small text-muted">High-strength industrial knives designed for precise and powerful shearing of metal and heavy-duty materials.</p>
-                  </div>
-                </div>
-              </div>
-               <div class="col-md-6 col-lg-4">
-                <div class="card h-100">
-                  <img class="card-img-top fix-height" src="assets/images/service/circular_multiblock.jpg" alt="Circular Multiblock">
-                  <div class="card-body">
-                    <h6 class="card-title mb-1">Circular Multiblock</h6>
-                    <p class="card-text small text-muted">High-performance circular tooling system designed for efficient multi-knife slitting in demanding industrial applications..</p>
                   </div>
                 </div>
               </div>

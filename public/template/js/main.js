@@ -194,8 +194,9 @@
     $('.statistic-owl').owlCarousel({
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
-        smartSpeed: 1500,
+        autoplayTimeout: 3800,
+        autoplaySpeed: 900,
+        smartSpeed: 900,
         margin: 15,
         autoplayHoverPause: true,
         mouseDrag: true,
