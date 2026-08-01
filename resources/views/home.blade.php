@@ -62,6 +62,31 @@
         gap: 16px;
     }
 
+    .home-intro-section .home-intro-highlights .highlight-item {
+        align-items: center !important;
+    }
+
+    .home-intro-section .home-intro-highlights .icon-circle {
+        width: 64px;
+        height: 64px;
+        min-width: 64px;
+        flex: 0 0 64px;
+        border-radius: 50%;
+    }
+
+    .home-intro-section .home-intro-highlights .icon-circle i,
+    .home-intro-section .home-intro-highlights .icon-circle svg {
+        display: block;
+        width: 28px;
+        height: 28px;
+        line-height: 1;
+        flex-shrink: 0;
+    }
+
+    .home-intro-section .home-intro-highlights .highlight-copy {
+        min-width: 0;
+    }
+
     .home-intro-section .home-intro-highlights h5 {
         font-family: 'Teko', sans-serif;
         font-size: 1.7rem;
@@ -98,6 +123,10 @@
     }
 
     @media (max-width: 575.98px) {
+        .home-intro-section .home-intro-highlights .highlight-item {
+            align-items: flex-start !important;
+        }
+
         .home-intro-section .text-box p,
         .home-intro-section .text-box li,
         .home-intro-section .text-box .any-question {
@@ -146,72 +175,72 @@
             <div class="col-lg-4 order-lg-2 home-intro-highlights">
                 <div class="row">
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#e6f0fb;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#e6f0fb;">
                                 <i class="flaticon-gear" style="font-size:28px;color:#2b6cb0"></i>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Professional</h5>
                                 <p class="small text-muted mb-0">Qualified team and precise processes</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#e6f9f0;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#e6f9f0;">
                                 <i class="flaticon-globe" style="font-size:28px;color:#38a169"></i>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Global Standards</h5>
                                 <p class="small text-muted mb-0">International machinery and quality <b>standards</b></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#fff7e6;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#fff7e6;">
                                 <i class="flaticon-worker" style="font-size:28px;color:#d69e2e"></i>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Experienced</h5>
                                 <p class="small text-muted mb-0">Skilled technicians since 1993</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0f4ff;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#f0f4ff;">
                                 <!-- SVG fallback for plus -->
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" fill="#4c51bf" />
                                 </svg>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Safety</h5>
                                 <p class="small text-muted mb-0">Safe handling and disposal services</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#fff4e6;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#fff4e6;">
                                 <i class="flaticon-management" style="font-size:28px;color:#ed8936"></i>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Custom Solutions</h5>
                                 <p class="small text-muted mb-0">Tailored sharpening and regrinding services</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 mb-2">
-                        <div class="d-flex align-items-start">
-                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="width:64px;height:64px;border-radius:50%;background:#f0fff4;">
+                        <div class="highlight-item d-flex align-items-start">
+                            <div class="icon-circle d-flex align-items-center justify-content-center me-3" style="background:#f0fff4;">
                                 <!-- Clock icon -->
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7V7z" fill="#2f855a"/>
                                 </svg>
                             </div>
-                            <div class="flex-grow-1">
+                            <div class="highlight-copy flex-grow-1">
                                 <h5 class="mb-1">Fast Turnaround</h5>
                                 <p class="small text-muted mb-0">Quick service to keep you running</p>
                             </div>

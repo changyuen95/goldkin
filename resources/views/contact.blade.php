@@ -4,6 +4,17 @@
 
 @section('content')
 
+<style>
+  .contact-section .contact-box .contact-whatsapp a {
+    color: #222222;
+    font-weight: 600;
+  }
+
+  .contact-section .contact-box .contact-whatsapp a:hover {
+    color: #e11d07;
+  }
+</style>
+
 <!-- :: Breadcrumb Header -->
 <section class="breadcrumb-header" id="page" style="background-image: url('{{ asset('template/images/header/04_header.jpg') }}')">
     <div class="overlay"></div>
@@ -213,9 +224,10 @@
           </p>
 
           <h4 class="fw-bold mb-3 mt-4">WhatsApp</h4>
-          <p class="mb-3">
+          <p class="mb-3 contact-whatsapp">
             <a href="https://wa.me/60162052950" target="_blank" rel="noopener">(+60)16-205-2950</a><br>
-            <a href="https://wa.me/60166612366" target="_blank" rel="noopener">(+60)16-661-2366</a>
+            <a href="https://wa.me/60166612366" target="_blank" rel="noopener">(+60)16-661-2366</a><br>
+            <a href="tel:0377848351">03-7784 8351</a>
           </p>
 
           <h4 class="fw-bold mb-3 mt-4">Business Hours</h4>
