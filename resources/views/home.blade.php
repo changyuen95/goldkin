@@ -181,7 +181,7 @@
     </div>
 </header>
 
-<section class="about-us py-100 home-intro-section" id="about-us-section" style="background-size:auto;background-image: url({{ asset('template/images/event-bg.jpg') }})">
+<section class="about-us py-100 home-intro-section" id="about-us-section" style="background-size:cover;background-image: url({{ asset('template/images/event-bg.jpg') }})">
     <div class="container">
         <div class="row">
             
