@@ -63,10 +63,16 @@
     }
 
     .home-intro-section .home-intro-highlights .highlight-item {
-        align-items: center !important;
+        display: flex;
+        align-items: flex-start !important;
+        gap: 16px;
     }
 
     .home-intro-section .home-intro-highlights .icon-circle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
         width: 64px;
         height: 64px;
         min-width: 64px;
@@ -85,6 +91,7 @@
 
     .home-intro-section .home-intro-highlights .highlight-copy {
         min-width: 0;
+        padding-top: 2px;
     }
 
     .home-intro-section .home-intro-highlights h5 {
@@ -125,6 +132,13 @@
     @media (max-width: 575.98px) {
         .home-intro-section .home-intro-highlights .highlight-item {
             align-items: flex-start !important;
+        }
+
+        .home-intro-section .home-intro-highlights .icon-circle {
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            flex-basis: 60px;
         }
 
         .home-intro-section .text-box p,

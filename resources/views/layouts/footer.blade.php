@@ -38,7 +38,10 @@
                     <div class="footer-contact">
                         <h4 class="mb-2">+(60)3-7782-6442</h4>
                         <h4 class="mb-3">03-7784 8351</h4>
-                        <p class="mb-2"><strong>WhatsApp</strong></p>
+                        <p class="mb-2" style="color:#ffffff;font-weight:700;display:flex;align-items:center;gap:8px;">
+                            <i class="fab fa-whatsapp" style="color:#25d366;font-size:18px;"></i>
+                            <span>WhatsApp</span>
+                        </p>
                         <p class="mb-3">
                             <a href="https://wa.me/60162052950" target="_blank" rel="noopener">(+60)16-205-2950</a><br>
                             <a href="https://wa.me/60166612366" target="_blank" rel="noopener">(+60)16-661-2366</a>
