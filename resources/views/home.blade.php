@@ -50,9 +50,7 @@
         list-style: none;
     }
 
-    .home-intro-section .home-intro-list li {
-        width: auto;
-        float: none;
+    .home-intro-section.about-us .text-box ul.home-intro-list li {
         min-width: 0;
         margin-bottom: 0;
         padding-right: 0;
@@ -115,6 +113,13 @@
 
         .home-intro-section .home-intro-list {
             gap: 16px 36px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .home-intro-section.about-us .text-box ul.home-intro-list li {
+            width: 100%;
+            float: none;
         }
     }
 
