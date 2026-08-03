@@ -50,7 +50,7 @@
         list-style: none;
     }
 
-    .home-intro-section.about-us .text-box ul.home-intro-list li {
+    .home-intro-section .text-box ul.home-intro-list li {
         min-width: 0;
         margin-bottom: 0;
         padding-right: 0;
@@ -117,9 +117,10 @@
     }
 
     @media (min-width: 992px) {
-        .home-intro-section.about-us .text-box ul.home-intro-list li {
-            width: 100%;
-            float: none;
+        .home-intro-section .text-box ul.home-intro-list > li {
+            width: 100% !important;
+            float: none !important;
+            padding-right: 0 !important;
         }
     }
 
