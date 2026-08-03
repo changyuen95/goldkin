@@ -108,6 +108,16 @@
         line-height: 1.55;
     }
 
+    @media (min-width: 1200px) {
+        .home-intro-section .text-box {
+            max-width: 920px;
+        }
+
+        .home-intro-section .home-intro-list {
+            gap: 16px 36px;
+        }
+    }
+
     @media (max-width: 1199.98px) {
         .home-intro-section .text-box {
             max-width: none;
@@ -186,7 +196,7 @@
         <div class="row">
             
             <!-- Left side: Images -->
-            <div class="col-lg-4 order-lg-2 home-intro-highlights">
+            <div class="col-xl-3 col-lg-4 order-lg-2 home-intro-highlights">
                 <div class="row">
                     <div class="col-12 mb-2">
                         <div class="highlight-item d-flex align-items-start">
@@ -264,7 +274,7 @@
             </div>
 
             <!-- Right side: Text content -->
-            <div class="col-lg-8 order-lg-1 d-flex align-items-start">
+            <div class="col-xl-9 col-lg-8 order-lg-1 d-flex align-items-start">
                 <div class="text-box" data-aos="fade-right" data-aos-delay="100">
 
                     <div class="sec-title" data-aos="fade-right" data-aos-delay="200">
