@@ -225,9 +225,9 @@
 
           <h4 class="fw-bold mb-3 mt-4">WhatsApp</h4>
           <p class="mb-3 contact-whatsapp">
+            <a href="tel:0377848351">+(60)3-7784 8351</a>
             <a href="https://wa.me/60162052950" target="_blank" rel="noopener">(+60)16-205-2950</a><br>
             <a href="https://wa.me/60166612366" target="_blank" rel="noopener">(+60)16-661-2366</a><br>
-            <a href="tel:0377848351">03-7784 8351</a>
           </p>
 
           <h4 class="fw-bold mb-3 mt-4">Business Hours</h4>
