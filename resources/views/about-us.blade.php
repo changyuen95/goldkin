@@ -4,6 +4,8 @@
 
 @section('content')
 
+@php($yearsOfExperience = now()->year - 1998)
+
 <!-- :: Breadcrumb Header -->
 <section class="breadcrumb-header" id="page" style="background-image: url('{{ asset('template/images/header/04_header.jpg') }}')">
     <div class="overlay"></div>
@@ -43,7 +45,7 @@
                                 <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="Goldken Workshop">
                                 <div class="experience-about">
                                     <i class="flaticon-globe"></i>
-                                    <div class="counter">32</div>
+                                  <div class="counter">{{ $yearsOfExperience }}</div>
                                     <h5>Years of Expertise</h5>
                                 </div>
                             </div>
@@ -64,7 +66,7 @@
     <strong>Established in 1993</strong> as Goldken Trading and later rebranded as 
     <strong>Goldken Sdn Bhd</strong>, we are a 
     <strong>leading specialist in industrial knives and precision grinding services</strong>.
-    With over <strong>32 years of industry experience</strong>, we serve a wide range of sectors
+    With over <strong>{{ $yearsOfExperience }} years of industry experience</strong>, we serve a wide range of sectors
     by delivering <strong>high-performance cutting solutions</strong> tailored to modern
     industrial demands.
   </p>

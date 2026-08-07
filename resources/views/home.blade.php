@@ -4,6 +4,8 @@
 
 @section('content')
 
+@php($yearsOfExperience = now()->year - 1998)
+
 <style>
     .home-intro-section {
         -webkit-text-size-adjust: 100%;
@@ -377,7 +379,7 @@
         <div data-aos="fade" data-aos-delay="100" class="sec-title text-center mb-5">
             <h2>Industries We Serve</h2>
             <h3>Trusted Solutions Across Multiple Sectors</h3>
-            <p>For over 32 years, <strong>Goldken Sdn Bhd</strong> has delivered industrial knives and precision regrinding solutions tailored to the unique needs of multiple industries — ensuring performance, efficiency, and durability.</p>
+            <p>For over {{ $yearsOfExperience }} years, <strong>Goldken Sdn Bhd</strong> has delivered industrial knives and precision regrinding solutions tailored to the unique needs of multiple industries — ensuring performance, efficiency, and durability.</p>
             <div class="align-items-center justify-content-end button-sec">
                 <a class="btn-1 btn-3" style="margin-top:10px" href="/services">View All Products</a>
             </div>
@@ -624,14 +626,14 @@
                     <div class="statistic-item">
                         <i class="flaticon-worker"></i>
                         <div class="content-box">
-                            <span class="counter">32</span>
+                            <span class="counter">{{ $yearsOfExperience }}</span>
                             <div class="name-content">Years of Industry Expertise</div>
                         </div>
                     </div>
                     <div class="statistic-item">
                         <i class="flaticon-globe"></i>
                         <div class="content-box">
-                            <span class="counter">7</span>
+                            <span class="counter">8</span>
                             <div class="name-content">Industries Served Globally</div>
                         </div>
                     </div>
