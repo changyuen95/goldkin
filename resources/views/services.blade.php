@@ -36,6 +36,11 @@
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
   }
 
+  .services-watermark-frame.services-watermark-contrast::after {
+    color: rgba(85, 85, 85, 0.28);
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.18);
+  }
+
   .services-watermark-frame > img {
     position: relative;
     z-index: 1;
@@ -1009,6 +1014,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const wrapper = document.createElement('div');
     wrapper.className = 'services-watermark-frame';
+
+    const contrastWatermarkAlts = ['Ra 0.5 Standard', 'Ra 0.2 Super', 'Ra 0.05 Mirror'];
+    if (contrastWatermarkAlts.includes((img.alt || '').trim())) {
+      wrapper.classList.add('services-watermark-contrast');
+    }
 
     if (img.classList.contains('card-img-top')) {
       wrapper.classList.add('services-watermark-card');
