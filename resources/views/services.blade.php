@@ -12,6 +12,41 @@
     object-fit: contain; 
   }
 
+  .services-watermark-frame {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .services-watermark-frame::after {
+    content: "GOLDKEN SDN BHD";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    color: rgba(255, 255, 255, 0.34);
+    font-size: clamp(16px, 1.6vw, 26px);
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 2;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+  }
+
+  .services-watermark-frame > img {
+    position: relative;
+    z-index: 1;
+  }
+
+  .services-watermark-card {
+    min-height: 200px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+
   /* Keep catalog sub-navs visually attached to the main catalog tabs */
   /* Reduce top spacing for the panes that follow #catalog-tabs */
   #catalog-tabs + .tab-content .single-services {
@@ -969,6 +1004,20 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('#pane-services img, #pane-products img').forEach(img => {
+    if (img.closest('.services-watermark-frame')) return;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'services-watermark-frame';
+
+    if (img.classList.contains('card-img-top')) {
+      wrapper.classList.add('services-watermark-card');
+    }
+
+    img.parentNode.insertBefore(wrapper, img);
+    wrapper.appendChild(img);
+  });
+
   // Persist top-level tab in URL (?tab=services|products|pre-order)
   const navButtons = document.querySelectorAll('#catalog-tabs [data-bs-toggle="pill"]');
 
