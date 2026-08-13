@@ -462,6 +462,17 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Tape & Labelling -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="/assets/images/tape_and_labelling.png" class="card-img-top products-image" alt="Tape & Labelling">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Tape & Labelling</h5>
+                        <p class="card-text">Precision blades for tape converting, label slitting, and adhesive material processing applications.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

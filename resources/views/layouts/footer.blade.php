@@ -37,7 +37,7 @@
                     </div>
                     <div class="footer-contact">
                         <h4 class="mb-2">+(60)3-7782-6442</h4>
-                        <h4 class="mb-3">+(60)3-7784 8351</h4>
+                        <h4 class="mb-3">+(60)3-7784-8351</h4>
                         <p class="mb-2" style="color:#ffffff;font-weight:700;display:flex;align-items:center;gap:8px;">
                             <i class="fab fa-whatsapp" style="color:#25d366;font-size:18px;"></i>
                             <span>WhatsApp</span>
