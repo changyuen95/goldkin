@@ -515,9 +515,6 @@
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-nonwoven" type="button" role="tab">Non-woven</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
-            </li>
-            <li class="nav-item" role="presentation">
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-metal" type="button" role="tab">Steel &amp; Metal</button>
             </li>
             <li class="nav-item" role="presentation">
@@ -525,6 +522,9 @@
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-plastic" type="button" role="tab">Plastic &amp; Rubber</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-recycling" type="button" role="tab">Recycling &amp; Waste</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-semi" type="button" role="tab">Semiconductor</button>

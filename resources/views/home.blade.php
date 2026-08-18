@@ -386,6 +386,17 @@
         </div>
 
         <div class="row">
+            <!-- Paper & Printing -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="/assets/images/home/paper_and_printing.jpg" class="card-img-top products-image" alt="Paper & Printing">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Paper & Printing</h5>
+                        <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Non-Woven -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
@@ -397,13 +408,24 @@
                 </div>
             </div>
 
-            <!-- Paper & Printing -->
+            <!-- Steel & Metal -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card industry-card h-100">
-                    <img src="/assets/images/home/paper_and_printing.jpg" class="card-img-top products-image" alt="Paper & Printing">
+                    <img  src="/assets/images/home/steel_and_metal.jpeg" class="card-img-top products-image" alt="Steel & Metal">
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
-                        <h5 class="card-title">Paper & Printing</h5>
-                        <p class="card-text">Slitter, trimmer, and guillotine knives delivering clean cuts in paper & tissue production.</p>
+                        <h5 class="card-title">Steel & Metal</h5>
+                        <p class="card-text">Slitter and shear blades designed for durability in metal processing and fabrication.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wood Processing -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card industry-card h-100">
+                    <img src="/assets/images/home/wood_processing.png" class="card-img-top products-image" alt="Wood Processing">
+                    <div data-aos="fade" data-aos-delay="100" class="card-body">
+                        <h5 class="card-title">Wood Processing</h5>
+                        <p class="card-text">Planer, chipper, veneer, and saw blades for efficient wood cutting and finishing.</p>
                     </div>
                 </div>
             </div>
@@ -437,28 +459,6 @@
                     <div data-aos="fade" data-aos-delay="100" class="card-body">
                         <h5 class="card-title">Semiconductor</h5>
                         <p class="card-text">Precision knives for wafer cutting, film slitting, and high-tech semiconductor processes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Steel & Metal -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card industry-card h-100">
-                    <img  src="/assets/images/home/steel_and_metal.jpeg" class="card-img-top products-image" alt="Steel & Metal">
-                    <div data-aos="fade" data-aos-delay="100" class="card-body">
-                        <h5 class="card-title">Steel & Metal</h5>
-                        <p class="card-text">Slitter and shear blades designed for durability in metal processing and fabrication.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Wood Processing -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card industry-card h-100">
-                    <img src="/assets/images/home/wood_processing.png" class="card-img-top products-image" alt="Wood Processing">
-                    <div data-aos="fade" data-aos-delay="100" class="card-body">
-                        <h5 class="card-title">Wood Processing</h5>
-                        <p class="card-text">Planer, chipper, veneer, and saw blades for efficient wood cutting and finishing.</p>
                     </div>
                 </div>
             </div>
