@@ -100,8 +100,8 @@
   <li>Wood Processing Industry</li>
   <li>Plastic & Rubber Manufacturing</li>
   <li>Recycling & Waste Management</li>
-  <li>Tape & Labelling Solutions</li>
   <li>Semiconductor Industry Solutions</li>
+  <li>Tape & Labelling Solutions</li>
 </ul>
 </div>
 
@@ -325,34 +325,6 @@
       </div>
     </div>
 
-    <div class="row align-items-center mb-5">
-      <div class="col-lg-6">
-        <div class="timeline-img">
-          <img src="{{ asset('assets/images/tape_and_labelling.png') }}" class="img-fluid rounded shadow" alt="Tape & Labelling Solutions">
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="timeline-content pe-lg-4 text-lg-end">
-          <h3 class="fw-bold">Tape & Labelling Solutions</h3>
-          <h4>Precision support for high-speed converting and slitting applications.</h4>
-          <p>
-            Tape &amp; Labelling faces challenges such as adhesive buildup, inconsistent cutting, material deformation,
-            and premature blade wear during high-speed converting and slitting operations. Goldken delivers precise,
-            durable, and stable blade performance for demanding tape, label, and adhesive material applications.
-          </p>
-          <h4 class="fw-bold">Our Expertise</h4>
-          <ul class="list-unstyled mb-0">
-            <li>Precision grinding for clean, accurate cutting edges</li>
-            <li>Adhesive-resistant finishing to minimize glue buildup</li>
-            <li>Heat-controlled grinding to prevent blade distortion</li>
-            <li>Precision balancing for stable, vibration-free operation</li>
-            <li>Optimized edge geometry for smooth, consistent cuts</li>
-            <li>Longer blade life, cleaner cuts, reduced downtime, and higher production efficiency</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     {{-- Block 4 — SemiConductor --}}
     <div class="row align-items-center">
       <div class="col-lg-6">
@@ -381,6 +353,34 @@
             <li>Material-specific grinding for carbide, ceramic, and tool steel blades</li>
             <li>Precision balancing for stable high-RPM cutting</li>
             <li>Higher yield, cleaner cuts, longer blade life, and reduced downtime</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center mb-5 mt-5">
+      <div class="col-lg-6 order-lg-2">
+        <div class="timeline-img">
+          <img src="{{ asset('assets/images/tape_and_labelling.png') }}" class="img-fluid rounded shadow" alt="Tape & Labelling Solutions">
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-1">
+        <div class="timeline-content pe-lg-4">
+          <h3 class="fw-bold">Tape & Labelling Solutions</h3>
+          <h4>Precision support for high-speed converting and slitting applications.</h4>
+          <p>
+            Tape &amp; Labelling faces challenges such as adhesive buildup, inconsistent cutting, material deformation,
+            and premature blade wear during high-speed converting and slitting operations. Goldken delivers precise,
+            durable, and stable blade performance for demanding tape, label, and adhesive material applications.
+          </p>
+          <h4 class="fw-bold">Our Expertise</h4>
+          <ul class="list-unstyled mb-0">
+            <li>Precision grinding for clean, accurate cutting edges</li>
+            <li>Adhesive-resistant finishing to minimize glue buildup</li>
+            <li>Heat-controlled grinding to prevent blade distortion</li>
+            <li>Precision balancing for stable, vibration-free operation</li>
+            <li>Optimized edge geometry for smooth, consistent cuts</li>
+            <li>Longer blade life, cleaner cuts, reduced downtime, and higher production efficiency</li>
           </ul>
         </div>
       </div>
