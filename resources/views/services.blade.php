@@ -65,6 +65,25 @@
     margin-bottom: 12px;
   }
 
+  .services-sub-nav .nav,
+  .products-sub-nav .nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    padding-bottom: 6px;
+  }
+
+  .services-sub-nav .nav-item,
+  .products-sub-nav .nav-item {
+    flex: 0 0 auto;
+  }
+
+  .services-sub-nav .nav-link,
+  .products-sub-nav .nav-link {
+    white-space: nowrap;
+  }
+
   /* Dedicated customer - centered and sized (themed) */
   .dedicated-customer.centered {
     max-width: 880px;
