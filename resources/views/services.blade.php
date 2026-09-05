@@ -530,6 +530,9 @@
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-semi" type="button" role="tab">Semiconductor</button>
             </li>
             <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-taper" type="button" role="tab">Taper</button>
+            </li>
+            <li class="nav-item" role="presentation">
               <button class="nav-link fw-bold" data-bs-toggle="tab" data-bs-target="#prod-cutting-accessories" type="button" role="tab">Cutting Accessories</button>
             </li>
           </ul>
@@ -892,6 +895,33 @@
                     {{-- <h6 class="card-title mb-1">Wafer Dicing Blades</h6> --}}
                     <h6 class="card-title mb-1">Carbide Flat Blade</h6>
                     <p class="card-text small text-muted">High-strength carbide flat blades designed for precision cutting and extended wear life in demanding applications.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {{-- ================= TAPER ================= --}}
+          <div class="tab-pane fade" id="prod-taper">
+            <h3>Taper Blades</h3>
+            <p class="text-muted">Precision taper tooling for slitting, converting, and label-finishing applications that demand smooth, stable cuts.</p>
+
+            <div class="row g-3 mt-3">
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="{{ asset('assets/images/carbide_taper.jpg') }}" alt="Carbide Taper Blade">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Carbide Taper Blade</h6>
+                    <p class="card-text small text-muted">High-wear carbide taper blade designed for accurate slitting, cleaner edges, and longer running life in demanding converting lines.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="{{ asset('assets/images/taper.jpg') }}" alt="Taper Blade">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Taper Blade</h6>
+                    <p class="card-text small text-muted">Versatile taper blade for tape, label, and adhesive material processing where consistent cut quality and reduced downtime matter.</p>
                   </div>
                 </div>
               </div>
