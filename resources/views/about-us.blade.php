@@ -14,15 +14,38 @@
 
   .about-us .img-box .about-img.about-watermarked .about-watermark {
     position: absolute;
-    right: 14px;
-    bottom: 16px;
-    width: min(44%, 132px);
-    aspect-ratio: 160 / 71;
-    background: url('{{ asset('template/images/logo/logo.png') }}') center/contain no-repeat;
-    opacity: 0.16;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: min(64%, 200px);
+    padding: 14px 16px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(2px);
     pointer-events: none;
     z-index: 1;
-    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.18));
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .about-us .img-box .about-img.about-watermarked .about-watermark-logo {
+    width: min(62%, 108px);
+    opacity: 0.2;
+    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.14));
+  }
+
+  .about-us .img-box .about-img.about-watermarked .about-watermark-text {
+    font-family: 'Teko', sans-serif;
+    font-size: clamp(1.15rem, 1.5vw, 1.55rem);
+    line-height: 0.95;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
   }
 
   .about-us .img-box .about-img.about-watermarked .experience-about {
@@ -31,10 +54,17 @@
 
   @media (max-width: 767.98px) {
     .about-us .img-box .about-img.about-watermarked .about-watermark {
-      right: 10px;
-      bottom: 12px;
-      width: min(38%, 110px);
-      opacity: 0.14;
+      width: min(58%, 160px);
+      padding: 10px 12px;
+      gap: 6px;
+    }
+
+    .about-us .img-box .about-img.about-watermarked .about-watermark-logo {
+      width: min(56%, 88px);
+    }
+
+    .about-us .img-box .about-img.about-watermarked .about-watermark-text {
+      font-size: 1rem;
     }
   }
 </style>
@@ -69,7 +99,10 @@
                         <div class="one">
                         <div class="about-img about-watermarked">
                                 <img class="img-fluid" src="assets/images/photo/20200703_152158.jpg" alt="Goldken Factory">
-                          <div class="about-watermark" aria-hidden="true"></div>
+                          <div class="about-watermark" aria-hidden="true">
+                            <img class="about-watermark-logo" src="{{ asset('template/images/logo/logo.png') }}" alt="">
+                            <div class="about-watermark-text">Goldken Sdn. Bhd.</div>
+                          </div>
                             </div>
                         </div>
                     </div>
@@ -77,7 +110,10 @@
                         <div class="two">
                         <div class="about-img about-watermarked">
                                 <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="Goldken Workshop">
-                          <div class="about-watermark" aria-hidden="true"></div>
+                          <div class="about-watermark" aria-hidden="true">
+                            <img class="about-watermark-logo" src="{{ asset('template/images/logo/logo.png') }}" alt="">
+                            <div class="about-watermark-text">Goldken Sdn. Bhd.</div>
+                          </div>
                                 <div class="experience-about">
                                     <i class="flaticon-globe"></i>
                                   <div class="counter">{{ $yearsOfExperience }}</div>
