@@ -6,6 +6,39 @@
 
 @php($yearsOfExperience = now()->year - 1993)
 
+<style>
+  .about-us .img-box .about-img.about-watermarked {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-us .img-box .about-img.about-watermarked .about-watermark {
+    position: absolute;
+    right: 14px;
+    bottom: 16px;
+    width: min(44%, 132px);
+    aspect-ratio: 160 / 71;
+    background: url('{{ asset('template/images/logo/logo.png') }}') center/contain no-repeat;
+    opacity: 0.16;
+    pointer-events: none;
+    z-index: 1;
+    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.18));
+  }
+
+  .about-us .img-box .about-img.about-watermarked .experience-about {
+    z-index: 2;
+  }
+
+  @media (max-width: 767.98px) {
+    .about-us .img-box .about-img.about-watermarked .about-watermark {
+      right: 10px;
+      bottom: 12px;
+      width: min(38%, 110px);
+      opacity: 0.14;
+    }
+  }
+</style>
+
 <!-- :: Breadcrumb Header -->
 <section class="breadcrumb-header" id="page" style="background-image: url('{{ asset('template/images/header/04_header.jpg') }}')">
     <div class="overlay"></div>
@@ -34,15 +67,17 @@
                 <div class="row img-box">
                     <div class="col">
                         <div class="one">
-                            <div class="about-img">
+                        <div class="about-img about-watermarked">
                                 <img class="img-fluid" src="assets/images/photo/20200703_152158.jpg" alt="Goldken Factory">
+                          <div class="about-watermark" aria-hidden="true"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="two">
-                            <div class="about-img">
+                        <div class="about-img about-watermarked">
                                 <img class="img-fluid" src="assets/images/photo/20200703_152238.jpg" alt="Goldken Workshop">
+                          <div class="about-watermark" aria-hidden="true"></div>
                                 <div class="experience-about">
                                     <i class="flaticon-globe"></i>
                                   <div class="counter">{{ $yearsOfExperience }}</div>
@@ -367,7 +402,7 @@
       <div class="col-lg-6 order-lg-1">
         <div class="timeline-content pe-lg-4">
           <h3 class="fw-bold">Tape & Labelling Solutions</h3>
-          <h4>Precision support for high-speed converting and slitting applications.</h4>
+          <h4>2018 — Precision support for high-speed converting and slitting applications.</h4>
           <p>
             Tape &amp; Labelling faces challenges such as adhesive buildup, inconsistent cutting, material deformation,
             and premature blade wear during high-speed converting and slitting operations. Goldken delivers precise,
