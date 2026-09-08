@@ -298,7 +298,7 @@
 
                     <p data-aos="fade-right" data-aos-delay="300">
                         We serve diverse sectors, including <em>paper & printing, plastics, recycling, semiconductor, 
-                        metal, and wood processing</em> — providing sharpening solutions that keep 
+                        metal, tape & labelling and wood processing</em> — providing sharpening solutions that keep 
                         production lines efficient and reliable.
                     </p>
 
