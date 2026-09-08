@@ -944,6 +944,15 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                  <img class="card-img-top fix-height" src="{{ asset('assets/images/cross_cutter.jpg') }}" alt="Cross Cutter Blade">
+                  <div class="card-body">
+                    <h6 class="card-title mb-1">Cross Cutter Blade</h6>
+                    <p class="card-text small text-muted">Precision cross cutter blade designed for clean transverse cuts, stable tracking, and dependable performance in converting, sheet-cutting, and high-speed production lines.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 

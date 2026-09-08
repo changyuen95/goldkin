@@ -629,7 +629,7 @@
                 <div class="sec-title">
                     <h2>Professional Work & Agile Services</h2>
                     <h3>Expert Workers Delivering Precision Sharpening & Industrial Solutions</h3>
-                    <p>At <strong>Goldken Sdn Bhd</strong>, we specialize in industrial knives and precision regrinding services, delivering cleaner cuts, reduced waste, and longer tool life. Our solutions support diverse industries including paper, plastics, recycling, metal, wood, and semiconductor sectors.</p>
+                    <p>At <strong>Goldken Sdn Bhd</strong>, we specialize in industrial knives and precision regrinding services, delivering cleaner cuts, reduced waste, and longer tool life. Our solutions support diverse industries including paper, plastics, recycling, metal, wood, semiconductor, and tape & labelling sectors.</p>
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-between">

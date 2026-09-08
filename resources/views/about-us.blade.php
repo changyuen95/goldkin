@@ -50,6 +50,83 @@
       letter-spacing: 0.14em;
     }
   }
+
+  .company-history {
+    position: relative;
+  }
+
+  .company-history::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: #e0e0e0;
+    opacity: .5;
+    z-index: 0;
+  }
+
+  .company-history .industry-row {
+    margin-bottom: 3rem;
+  }
+
+  .company-history .timeline-img {
+    position: relative;
+    z-index: 1;
+  }
+
+  .company-history .timeline-img img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .company-history .timeline-content {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .company-history .industry-row .timeline-content {
+    padding-left: 1.5rem;
+  }
+
+  .company-history .industry-row.industry-row-reverse .timeline-content {
+    padding-left: 0;
+    padding-right: 1.5rem;
+  }
+
+  .company-history .timeline-content h3,
+  .company-history .timeline-content h4,
+  .company-history .timeline-content p,
+  .company-history .timeline-content ul {
+    text-align: left;
+  }
+
+  .company-history .timeline-content ul li {
+    margin-bottom: .4rem;
+  }
+
+  @media (max-width: 991.98px) {
+    .company-history::before {
+      display: none;
+    }
+
+    .company-history .timeline-img img {
+      height: auto;
+      max-height: 340px;
+    }
+
+    .company-history .industry-row .timeline-content,
+    .company-history .industry-row.industry-row-reverse .timeline-content {
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 1.25rem;
+    }
+  }
 </style>
 
 <!-- :: Breadcrumb Header -->
@@ -188,7 +265,7 @@
 
     {{-- Block 1 — Paper & Printing Industry Solutions --}}
 
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row">
       <div class="col-lg-12">
         <h3 class="fw-bold text-center mb-5">Supporting Industries Since 1993</h3>
 
@@ -200,7 +277,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="timeline-content ps-lg-4">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Technology & Craftsmanship</h3> --}}
           <h3 class="fw-bold">Paper & Printing Industry Solutions</h3>
           <h4>1993 — Our first industry served and the foundation of our precision expertise.</h4>          <p>
@@ -226,7 +303,7 @@
     </div>
 
     {{-- Block 2 — Commitment to Quality & Service --}}
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row industry-row-reverse">
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
           {{-- <img src="{{ asset('assets/images/photo/20200714_163704.jpg') }}" class="img-fluid rounded shadow" alt="Commitment to Quality & Service"> --}}
@@ -234,7 +311,7 @@
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
-        <div class="timeline-content pe-lg-4 text-lg-end">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Commitment to Quality &amp; Service</h3> --}}
           <h3 class="fw-bold">Non-Woven Industry Solutions</h3>
           <h4>Mid–1990s — Expanded into non-woven cutting solutions.</h4>
@@ -260,14 +337,14 @@
     </div>
 
     {{-- Block 3 — Sharpening Solutions --}}
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row">
       <div class="col-lg-6">
         <div class="timeline-img">
           <img src="assets/images/aboutus/steel_and_metal_industry.jpg" class="img-fluid rounded shadow" alt="Sharpening Solutions">
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="timeline-content ps-lg-4">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Sharpening Solutions</h3> --}}
           <h3 class="fw-bold">Steel & Metal Processing Solutions</h3>
           <h4>Early 2000s — Our first diversification into heavy-duty cutting industries.</h4>          <p>
@@ -290,14 +367,14 @@
         </div>
       </div>
     </div>
-     <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row industry-row-reverse">
       <div class="col-lg-6  order-lg-2">
         <div class="timeline-img">
           <img src="assets/images/aboutus/wood_processing_industry.jpg" class="img-fluid rounded shadow" alt="Industries We Serve">
         </div>
       </div>
       <div class="col-lg-6  order-lg-1">
-        <div class="timeline-content ps-lg-4">
+        <div class="timeline-content">
           <h3 class="fw-bold">Wood Processing Industry</h3>
           <h4>Early 2000s — Expanded alongside metal processing applications.</h4>
           <p class="mb-2">
@@ -318,14 +395,14 @@
       </div>
     </div>
 
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row">
       <div class="col-lg-6">
         <div class="timeline-img">
           <img src="assets/images/aboutus/plastic_and_rubber_ind.jpg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="timeline-content pe-lg-4 text-lg-end">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Plastic & Rubber Manufacturing Solutions</h3>
           <h4>2001 — Our first major market diversification.</h4>
@@ -347,14 +424,14 @@
       </div>
     </div>
 
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center industry-row industry-row-reverse">
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
           <img src="assets/images/aboutus/recycle_and_waste_industry.jpg" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
-        <div class="timeline-content pe-lg-4">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Recycling & Waste Management Solutions</h3>
           <h4>2008 — Second diversification into high-wear cutting environments.</h4>
@@ -378,14 +455,14 @@
     </div>
 
     {{-- Block 4 — SemiConductor --}}
-    <div class="row align-items-center">
+    <div class="row align-items-center industry-row">
       <div class="col-lg-6">
         <div class="timeline-img">
           <img src="{{ asset('assets/images/photo/semiconductor.jpg') }}" class="img-fluid rounded shadow" alt="Safety & Handling">
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="timeline-content pe-lg-4 text-lg-end">
+        <div class="timeline-content">
           {{-- <h3 class="fw-bold">Safety &amp; Handling</h3> --}}
           <h3 class="fw-bold">Semiconductor Industry Solutions</h3>
           <h4>2012 — Our latest industry sector with over 10 years of experience.</h4>          
@@ -410,14 +487,14 @@
       </div>
     </div>
 
-    <div class="row align-items-center mb-5 mt-5">
+    <div class="row align-items-center industry-row industry-row-reverse mt-5">
       <div class="col-lg-6 order-lg-2">
         <div class="timeline-img">
           <img src="{{ asset('assets/images/tape_and_labelling.png') }}" class="img-fluid rounded shadow" alt="Tape & Labelling Solutions">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
-        <div class="timeline-content pe-lg-4">
+        <div class="timeline-content">
           <h3 class="fw-bold">Tape & Labelling Solutions</h3>
           <h4>2018 — Precision support for high-speed converting and slitting applications.</h4>
           <p>
@@ -439,21 +516,6 @@
     </div>
   </div>
 
-  {{-- subtle center line, matching your previous style --}}
-  <style>
-    .timeline-img img{width:100%;height:auto;object-fit:cover}
-    .company-history .timeline-content ul li{margin-bottom:.4rem}
-    @media (min-width:992px){
-      .company-history .timeline-content{text-align:left}
-      .company-history .text-lg-end{text-align:right!important}
-    }
-    .company-history{position:relative}
-    .company-history::before{
-      content:'';
-      position:absolute;left:50%;top:0;transform:translateX(-50%);
-      width:4px;height:100%;background:#e0e0e0;opacity:.5;z-index:0
-    }
-  </style>
 </section>
 
 
@@ -541,22 +603,6 @@
 
       </div>
   </div>
-
-  {{-- subtle center line, matching your previous style --}}
-  <style>
-    .timeline-img img{width:100%;height:auto;object-fit:cover}
-    .company-history .timeline-content ul li{margin-bottom:.4rem}
-    @media (min-width:992px){
-      .company-history .timeline-content{text-align:left}
-      .company-history .text-lg-end{text-align:right!important}
-    }
-    .company-history{position:relative}
-    .company-history::before{
-      content:'';
-      position:absolute;left:50%;top:0;transform:translateX(-50%);
-      width:4px;height:100%;background:#e0e0e0;opacity:.5;z-index:0
-    }
-  </style>
 </section>
 
 @endsection
