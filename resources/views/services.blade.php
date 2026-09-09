@@ -937,7 +937,7 @@
               </div>
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="{{ asset('assets/images/taper.jpg') }}" alt="Taper Blade">
+                  <img class="card-img-top fix-height" src="{{ asset('assets/images/taper-transparent.png') }}" alt="Taper Blade">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Taper Blade</h6>
                     <p class="card-text small text-muted">Versatile taper blade for tape, label, and adhesive material processing where consistent cut quality and reduced downtime matter.</p>
