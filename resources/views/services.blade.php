@@ -928,7 +928,7 @@
             <div class="row g-3 mt-3">
               <div class="col-md-6 col-lg-4">
                 <div class="card h-100">
-                  <img class="card-img-top fix-height" src="{{ asset('assets/images/carbide_taper.jpg') }}" alt="Carbide Taper Blade">
+                  <img class="card-img-top fix-height" src="{{ asset('assets/images/taper.png') }}" alt="Carbide Taper Blade">
                   <div class="card-body">
                     <h6 class="card-title mb-1">Carbide Taper Blade</h6>
                     <p class="card-text small text-muted">High-wear carbide taper blade designed for accurate slitting, cleaner edges, and longer running life in demanding converting lines.</p>
