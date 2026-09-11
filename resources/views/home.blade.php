@@ -700,41 +700,56 @@
                                 <h3>Send Us an Enquiry</h3>
                                 <p>Have a question or need a quotation? Fill in the form below and our team will respond promptly.</p>
                             </div>
-                            <form action="/enquiry/submit" method="POST">
+                            @if (session('enquiry_success'))
+                                <div class="alert alert-success mb-4">{{ session('enquiry_success') }}</div>
+                            @endif
+
+                            @if (session('enquiry_error'))
+                                <div class="alert alert-danger mb-4">{{ session('enquiry_error') }}</div>
+                            @endif
+
+                            @if ($errors->any())
+                                <div class="alert alert-danger mb-4">
+                                    Please check the form fields and try again.
+                                </div>
+                            @endif
+
+                            <form action="{{ route('enquiry.submit') }}" method="POST">
                                 @csrf
+                                <input type="hidden" name="source" value="home">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="quote-item">
-                                            <input type="text" name="name" placeholder="Your Name" required>
+                                            <input type="text" name="name" value="{{ old('name') }}" placeholder="Your Name" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="quote-item">
-                                            <input type="email" name="email" placeholder="Your Email" required>
+                                            <input type="email" name="email" value="{{ old('email') }}" placeholder="Your Email" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="quote-item">
-                                            <input type="text" name="subject" placeholder="Subject" required>
+                                            <input type="text" name="subject" value="{{ old('subject') }}" placeholder="Subject" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="quote-item">
                                             <select name="industry" required>
                                                 <option value="">Select your industry</option>
-                                                <option value="nonwoven">Non-Woven</option>
-                                                <option value="paper-printing">Paper & Printing</option>
-                                                <option value="plastics-rubber">Plastics & Rubber</option>
-                                                <option value="recycling-waste">Recycling & Waste</option>
-                                                <option value="semiconductor">Semiconductor</option>
-                                                <option value="steel-metal">Steel & Metal</option>
-                                                <option value="wood-processing">Wood Processing</option>
+                                                <option value="nonwoven" @selected(old('industry') === 'nonwoven')>Non-Woven</option>
+                                                <option value="paper-printing" @selected(old('industry') === 'paper-printing')>Paper & Printing</option>
+                                                <option value="plastics-rubber" @selected(old('industry') === 'plastics-rubber')>Plastics & Rubber</option>
+                                                <option value="recycling-waste" @selected(old('industry') === 'recycling-waste')>Recycling & Waste</option>
+                                                <option value="semiconductor" @selected(old('industry') === 'semiconductor')>Semiconductor</option>
+                                                <option value="steel-metal" @selected(old('industry') === 'steel-metal')>Steel & Metal</option>
+                                                <option value="wood-processing" @selected(old('industry') === 'wood-processing')>Wood Processing</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="quote-item">
-                                            <textarea name="message" placeholder="Leave Your Message Here..." required></textarea>
+                                            <textarea name="message" placeholder="Leave Your Message Here..." required>{{ old('message') }}</textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12">

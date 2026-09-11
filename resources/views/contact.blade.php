@@ -13,6 +13,10 @@
   .contact-section .contact-box .contact-whatsapp a:hover {
     color: #e11d07;
   }
+
+  .enquiry-feedback {
+    margin-bottom: 24px;
+  }
 </style>
 
 <!-- :: Breadcrumb Header -->
@@ -142,52 +146,68 @@
           <div class="sec-title">
             <h3>Request a Quote / Inquiry</h3>
           </div>
+          @if (session('enquiry_success'))
+            <div class="alert alert-success enquiry-feedback">{{ session('enquiry_success') }}</div>
+          @endif
 
-          <div class="quote-item">
-            <label>Your Full Name</label>
-            <input type="text" name="name" placeholder="Enter Your Full Name">
-            <i class="fas fa-user-alt"></i>
-          </div>
+          @if (session('enquiry_error'))
+            <div class="alert alert-danger enquiry-feedback">{{ session('enquiry_error') }}</div>
+          @endif
 
-          <div class="quote-item">
-            <label>Your Email</label>
-            <input type="email" name="email" placeholder="Enter Your Email Address">
-            <i class="far fa-envelope"></i>
-          </div>
+          @if ($errors->any())
+            <div class="alert alert-danger enquiry-feedback">Please check the form fields and try again.</div>
+          @endif
 
-          <div class="quote-item">
-            <label>Phone / WhatsApp</label>
-            <input type="text" name="phone" placeholder="e.g. 0121-2843-661">
-            <i class="fas fa-phone-alt"></i>
-          </div>
+          <form action="{{ route('enquiry.submit') }}" method="POST">
+            @csrf
+            <input type="hidden" name="source" value="contact">
 
-          <div class="quote-item mb-5">
-            <label>Inquiry Type</label>
-            <select name="inquiry_type">
-              <option value="">Select one…</option>
-              <option value="service">Service</option>
-              <option value="product">Product</option>
-              <option value="preorder">Pre-Order</option>
-              <option value="support">Technical Support</option>
-            </select>
-            <i class="fas fa-list"></i>
-          </div>
+            <div class="quote-item">
+              <label>Your Full Name</label>
+              <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter Your Full Name" required>
+              <i class="fas fa-user-alt"></i>
+            </div>
 
-          <div class="quote-item">
-            <label>Your Subject</label>
-            <input type="text" name="subject" placeholder="Enter Your Subject">
-            <i class="fas fa-download"></i>
-          </div>
+            <div class="quote-item">
+              <label>Your Email</label>
+              <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter Your Email Address" required>
+              <i class="far fa-envelope"></i>
+            </div>
 
-          <div class="quote-item">
-            <label>Your Message</label>
-            <textarea name="message" placeholder="Enter Your Message (machine model, blade size/specs, quantity, etc.)"></textarea>
-            <i class="far fa-edit"></i>
-          </div>
+            <div class="quote-item">
+              <label>Phone / WhatsApp</label>
+              <input type="text" name="phone" value="{{ old('phone') }}" placeholder="e.g. 0121-2843-661">
+              <i class="fas fa-phone-alt"></i>
+            </div>
 
-          <div class="quote-item">
-            <a class="btn-1 btn-3">Submit</a>
-          </div>
+            <div class="quote-item mb-5">
+              <label>Inquiry Type</label>
+              <select name="inquiry_type" required>
+                <option value="">Select one…</option>
+                <option value="service" @selected(old('inquiry_type') === 'service')>Service</option>
+                <option value="product" @selected(old('inquiry_type') === 'product')>Product</option>
+                <option value="preorder" @selected(old('inquiry_type') === 'preorder')>Pre-Order</option>
+                <option value="support" @selected(old('inquiry_type') === 'support')>Technical Support</option>
+              </select>
+              <i class="fas fa-list"></i>
+            </div>
+
+            <div class="quote-item">
+              <label>Your Subject</label>
+              <input type="text" name="subject" value="{{ old('subject') }}" placeholder="Enter Your Subject" required>
+              <i class="fas fa-download"></i>
+            </div>
+
+            <div class="quote-item">
+              <label>Your Message</label>
+              <textarea name="message" placeholder="Enter Your Message (machine model, blade size/specs, quantity, etc.)" required>{{ old('message') }}</textarea>
+              <i class="far fa-edit"></i>
+            </div>
+
+            <div class="quote-item">
+              <button type="submit" class="btn-1 btn-3">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EnquiryController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +18,5 @@ Route::get('/about-us', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::post('/enquiry/submit', [EnquiryController::class, 'store'])->name('enquiry.submit');

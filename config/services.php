@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'contact_form' => [
+        'recipient' => env('CONTACT_FORM_TO', 'sales@goldken.com.my'),
+    ],
+
 ];
