@@ -714,7 +714,7 @@
                                 </div>
                             @endif
 
-                            <form action="{{ route('enquiry.submit') }}" method="POST">
+                            <form action="{{ url('/enquiry/submit') }}" method="POST">
                                 @csrf
                                 <input type="hidden" name="source" value="home">
                                 <div class="row">

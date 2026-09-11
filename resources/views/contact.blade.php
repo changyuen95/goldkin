@@ -158,7 +158,7 @@
             <div class="alert alert-danger enquiry-feedback">Please check the form fields and try again.</div>
           @endif
 
-          <form action="{{ route('enquiry.submit') }}" method="POST">
+          <form action="{{ url('/enquiry/submit') }}" method="POST">
             @csrf
             <input type="hidden" name="source" value="contact">
 
